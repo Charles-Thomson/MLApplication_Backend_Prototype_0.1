@@ -2,7 +2,7 @@
 import numpy as np
 
 from gym import Env
-from Environment.environment_sightdata import check_sight_lines
+from Environment.environment_sightdata import collect_observation_data
 
 
 ENV_MAP = [
@@ -19,14 +19,15 @@ ENV_MAP = [
 class MazeEnvironment(Env):
     """Generate a new environment"""
 
-    def __init__(self):
+    def __init__(self, max_steps: int):
         self.environment_map: np.array = np.array(ENV_MAP)
 
         self.nrow, self.ncol = self.environment_map.shape
 
         # keep track of the max call for no of steps
         # Doesnt allow for starting on a lower num of steps and increasing
-
+        self.max_steps = max_steps
+        self.step_count = 0
         self.environment_start_state = 13
         self.states_visited: list[int] = []  # acts as path ?
         self.agent_state = self.environment_start_state
@@ -35,17 +36,13 @@ class MazeEnvironment(Env):
         self.to_state = setup_to_state(self.ncol)
         self.get_location_value = setup_get_location_value(self.environment_map)
 
-    # Is this needed ?
-    def reset_environment(self) -> None:
-        """Reset The Environment"""
-
     def render(self) -> None:
         pass
 
     def get_environemnt_observation(self) -> np.array:
         """Returns a sight observation from the environment beased on the agent location"""
-        observation_data = check_sight_lines(
-            self.agent_state, self.nrow, self.ncol, self.environment_map
+        observation_data = collect_observation_data(
+            self.agent_state, self.ncol, self.environment_map
         )
         return observation_data
 
@@ -59,11 +56,15 @@ class MazeEnvironment(Env):
 
         self.states_visited.append(self.agent_state)
         self.agent_state = new_state
+        self.step_count += 1
 
         return new_state, termination, reward, l_list
 
     def termination_check(self, new_state: int) -> bool:
         """Check for termination"""
+
+        if self.step_count >= self.max_steps:
+            return True
 
         if self.get_location_value(self.to_coords(new_state)) == 2:
             return True
@@ -84,7 +85,8 @@ class MazeEnvironment(Env):
 
         match value_at_new_state:
             case 1:  # Open Tile
-                return 0.1 + self.episode_length / 100
+                # return 0.1 + self.episode_length / 100
+                return 0.15
 
             case 2:  # Obstical
                 return 0

@@ -1,12 +1,11 @@
 """Maze agent creation and action process"""
-from Environment.environemnt_main import MazeEnvironment
 
 
-class MazeAent:
+class MazeAgent:
     """Maze agent instance"""
 
     def __init__(self, enviroment: object, agent_brain: object):
-        self.environment: MazeEnvironment = enviroment
+        self.environment: object = enviroment
         self.brain: object = agent_brain
 
     def run_agent(self) -> tuple:
@@ -17,7 +16,7 @@ class MazeAent:
 
         while termination is False:
             observation_data = self.environment.get_environemnt_observation()
-            action = self.brain.detemin_action(observation_data)
+            action = self.brain.determin_action(observation_data)
 
             n_s, ter, rew, _ = self.environment.step(action)
 
@@ -26,4 +25,8 @@ class MazeAent:
             fitness += rew
 
         # May move fit and path inside of the brain
-        return self.brain, fitness, path
+
+        self.brain.fitness = fitness
+        self.brain.traversed_path = path
+
+        return self.brain
