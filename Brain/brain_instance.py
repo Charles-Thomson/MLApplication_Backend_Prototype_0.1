@@ -37,8 +37,9 @@ class BrainInstance(Base):
 
     def get_attributes_from_bytes(self) -> None:
         """Convert the weights from bytes to np.arrays"""
-        self.hidden_weights = np.frombuffer(self.hidden_weights)
-        self.output_weights = np.frombuffer(self.output_weights)
+        # Reshape needed - from bytes flatens np.array
+        self.hidden_weights = np.frombuffer(self.hidden_weights).reshape(24, -1)
+        self.output_weights = np.frombuffer(self.output_weights).reshape(9, -1)
         self.traversed_path = list(self.traversed_path)
 
     def determin_action(self, sight_data: np.array) -> int:

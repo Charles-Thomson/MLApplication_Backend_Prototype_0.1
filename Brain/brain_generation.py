@@ -13,63 +13,26 @@ INPUT_TO_HIDDEN_CONNECTIONS: final = (24, 9)
 HIDDEN_TO_OUTPUT_CONNECTIONS: final = (9, 9)
 
 
-# Convert to generator ?
-def setup_generate_generational_brain(
-    parents: list[BrainInstance], generation_num: int
-):
-    """Curry the parents and generation num for this generation"""
-
-    def generate_generational_brain() -> BrainInstance:
-        """Generate a Brain Isnatnce with weights based on given parents"""
-        hidden_weights, output_weights = weights_crossover(parents)
-        brain_id = generate_brain_id()
-        this_generation_num = generation_num
-        new_brain = BrainInstance(
-            brain_id, this_generation_num, hidden_weights, output_weights
-        )
-
-        return new_brain
-
-    return generate_generational_brain
-
-
-# convert into generator ?
-def generate_generation_zero(generation_size: int) -> list[BrainInstance]:
-    """Generate the zero generation with random weights"""
-    generation_zero: list[BrainInstance] = []
-
-    for _ in generation_size:
-        hidden_weights: np.array = generate_rand_weights(
-            INPUT_LAYER_SIZE, INPUT_TO_HIDDEN_CONNECTIONS
-        )
-        ouput_weights: np.array = generate_rand_weights(
-            INPUT_LAYER_SIZE, HIDDEN_TO_OUTPUT_CONNECTIONS
-        )
-        brain_id = generate_brain_id()
-        generation_no = 0
-        new_brain = BrainInstance(
-            brain_id, generation_no, hidden_weights, ouput_weights
-        )
-
-        generation_zero.append(new_brain)
-
-    return generation_zero
-
-
-def gen_zero_generator(generation_size: int) -> BrainInstance:
-    """Generator for the creation of zeor generaion brain instances"""
+def new_brain_generator(
+    parents: list[BrainInstance], generation_num: int, generation_size: int
+) -> BrainInstance:
+    """Generator for the creation of new brain instances - generation 0 has random weights"""
 
     for _ in range(generation_size):
-        hidden_weights: np.array = generate_rand_weights(
-            INPUT_LAYER_SIZE, INPUT_TO_HIDDEN_CONNECTIONS
-        )
-        ouput_weights: np.array = generate_rand_weights(
-            INPUT_LAYER_SIZE, HIDDEN_TO_OUTPUT_CONNECTIONS
-        )
-        brain_id = generate_brain_id()
-        generation_no = 0
-        new_brain = BrainInstance(
-            brain_id, generation_no, hidden_weights, ouput_weights
+        if generation_num == 0:
+            hidden_weights: np.array = generate_rand_weights(
+                INPUT_LAYER_SIZE, INPUT_TO_HIDDEN_CONNECTIONS
+            )
+            output_weights: np.array = generate_rand_weights(
+                INPUT_LAYER_SIZE, HIDDEN_TO_OUTPUT_CONNECTIONS
+            )
+        else:
+            hidden_weights, output_weights = weights_crossover(parents)
+
+        brain_id: str = generate_brain_id()
+
+        new_brain: BrainInstance = BrainInstance(
+            brain_id, generation_num, hidden_weights, output_weights
         )
 
         yield new_brain

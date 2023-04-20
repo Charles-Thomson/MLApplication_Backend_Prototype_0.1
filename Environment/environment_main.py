@@ -7,13 +7,13 @@ from Environment.environment_sightdata import collect_observation_data
 
 ENV_MAP = [
     [2, 2, 2, 2, 2, 2],
-    [2, 1, 3, 1, 3, 2],
+    [2, 1, 1, 1, 3, 2],
     [2, 1, 1, 1, 1, 2],
-    [2, 2, 2, 2, 1, 2],
-    [2, 3, 1, 1, 3, 2],
+    [2, 2, 1, 2, 1, 2],
+    [2, 1, 1, 1, 3, 2],
     [2, 2, 2, 2, 2, 2],
 ]
-# goals on 8, 10 ,22,  28
+# goals on 8, 10 , 28
 
 
 class MazeEnvironment(Env):
@@ -28,7 +28,7 @@ class MazeEnvironment(Env):
         # Doesnt allow for starting on a lower num of steps and increasing
         self.max_steps = max_steps
         self.step_count = 0
-        self.environment_start_state = 13
+        self.environment_start_state = 25
         self.states_visited: list[int] = []  # acts as path ?
         self.agent_state = self.environment_start_state
 

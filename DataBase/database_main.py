@@ -7,7 +7,7 @@ from Brain.brain_instance import BrainInstance
 
 Base = declarative_base()
 
-engine = create_engine("sqlite:///GenerationsDB.db", echo=True)
+engine = create_engine("sqlite:///GenerationsDB.db", echo=False)
 
 meta = MetaData()
 
@@ -35,36 +35,29 @@ def save_brain_instance(brain: BrainInstance):
     this_session = Session()
 
     brain.set_attributes_to_bytes()  # convert the weights to bytes from np.array
-    print(f"Saving: {brain.brain_id}")
+    # print(f"Saving: {brain.brain_id}")
     this_session.add(brain)
     this_session.commit()
 
 
-# def create_new_table(table_name: str) -> None:
-#     """Create a for the new generation in the DB"""
-
-#     GenerationsTable(
-#         table_name,
-#         meta,
-#         Column("brain_key", CHAR, primary_key=True),
-#         Column("hidden_weights", CHAR),
-#         Column("output_weights", CHAR),
-#         Column("fitness", FLOAT),
-#     )
+# YH need to do this to clear the DB tble for each new map
+def clear_DB() -> None:
+    """Clear the DB"""
 
 
-#     Base.metadata.create_all(bind=engine)
+def get_and_format_db_data(generation_num: int) -> list[BrainInstance]:
+    """Pull and format the relervent Brain instnce generation from the database"""
+    brain_instances: list[BrainInstance] = []
+    data = get_db_data(generation_num)
+    for instance in data:
+        instance.get_attributes_from_bytes()
+        brain_instances.append(instance)
 
+    ordered_brian_instances: list[BrainInstance] = sorted(
+        brain_instances, key=lambda x: x.fitness, reverse=True
+    )
 
-# def save_brain_instance(brain: BrainInstance):
-#     """Save a given set of data to the DB as a brain instance"""
-
-#     this_session = Session()
-
-#     brain.set_attributes_to_bytes()  # convert the weights to bytes from np.array
-#     print(f"Saving: {brain.brain_id}")
-#     this_session.add(brain)
-#     this_session.commit()
+    return ordered_brian_instances
 
 
 # this works
@@ -74,8 +67,7 @@ def get_db_data(generation_num: int) -> object:
     data = session.query(BrainInstance).filter(
         BrainInstance.generation_num == generation_num
     )
+    session.expunge_all()
+    session.close()
+
     return data
-
-
-# if __name__ == "__main__":
-#     create_new_table("test_table")

@@ -4,109 +4,106 @@ from copy import deepcopy
 from typing import Generator, final
 from Environment.environment_main import MazeEnvironment
 from Agent.maze_agent import MazeAgent
-from Brain.brain_generation import gen_zero_generator, setup_generate_generational_brain
+from Brain.brain_generation import new_brain_generator
 from Brain.brain_instance import BrainInstance
-from DataBase.database_main import save_brain_instance, get_db_data
-from Logging.loggin_decorator import with_generation_zero_logging
+from DataBase.database_main import save_brain_instance, get_and_format_db_data
+
+from Logging.loggin_decorator import with_generation_logging
 
 
-MAX_GENERATION_SIZE: final = 50
+MAX_GENERATION_SIZE: final = 500
 MAX_EPISODE_DURATION: final = 40
 
 
-def generation_zero() -> list:
-    """Generate the first generation data"""
-    print("Starting generation Zero")
-
-    fitness_threshold: float = 1.0
-    fit_agents: int = 0
-    desiered_fit_generation_size: int = 4
-
-    environment: MazeEnvironment = MazeEnvironment(MAX_EPISODE_DURATION)
-    brains: Generator = gen_zero_generator(MAX_GENERATION_SIZE)
-    fit_brains: list[BrainInstance] = []
-
-    while fit_agents < desiered_fit_generation_size:
-        environment_instance: MazeEnvironment = deepcopy(environment)
-        brain: BrainInstance = next(brains)
-
-        agent_instance: MazeAgent = MazeAgent(
-            enviroment=environment_instance, agent_brain=brain
-        )
-        returned_brain: BrainInstance = agent_instance.run_agent()
-
-        if returned_brain.fitness > fitness_threshold:
-            # save_brain_instance(returned_brain)  # save to the db
-            fit_agents += 1
-            fit_brains.append(returned_brain)
-            save_brain_instance(returned_brain)
-
-    # return is need for the decorator
-    return fit_brains
-
-
+@with_generation_logging
 def new_generation(generation_num: int) -> list:
     """New generation"""
 
-    parents: list[BrainInstance] = db_data_formatting(generation_num=generation_num - 1)
-    print(parents)
-    fitness_threshold: float = calculate_new_fitnees_threshold(parents)
-    print(fitness_threshold)
-    fit_agents: int = 0
-    desiered_fit_generation_size: int = 4
+    generation_status: bool = True
+    fitness_threshold: float = 3.0
+    current_generation_size: int = 0
+    parents: list[BrainInstance] = []
+    desiered_fit_generation_size: int = 10
 
-    environment: MazeEnvironment = MazeEnvironment(MAX_EPISODE_DURATION)
-    new_brain = setup_generate_generational_brain(
-        parents=parents, generation_num=generation_num
+    # For logging purposes
+    fit_brains: list[BrainInstance] = []
+    all_brains: list[BrainInstance] = []
+
+    if generation_num > 0:
+        parents: list[BrainInstance] = get_and_format_db_data(generation_num - 1)
+        fitness_threshold: float = calculate_new_fitnees_threshold(parents)
+
+    brain_generator: Generator = new_brain_generator(
+        parents=parents,
+        generation_num=generation_num,
+        generation_size=MAX_GENERATION_SIZE,
     )
 
-    fit_brains: list[BrainInstance]
+    while len(fit_brains) < desiered_fit_generation_size:
+        current_generation_size += 1
 
-    while fit_agents < desiered_fit_generation_size:
-        environment_instance: MazeEnvironment = deepcopy(environment)
-        brain: BrainInstance = new_brain()
+        # Basic Guard
+        if current_generation_size >= MAX_GENERATION_SIZE:
+            generation_status = False
+            break
+
         agent_instance: MazeAgent = MazeAgent(
-            enviroment=environment_instance, agent_brain=brain
+            enviroment=MazeEnvironment(MAX_EPISODE_DURATION),
+            agent_brain=next(brain_generator),
         )
 
-        returned_brain: BrainInstance = agent_instance.run_agent()
+        brain = agent_instance.run_agent()
 
-        if returned_brain.fitness > fitness_threshold:
-            print(f"New fit brain instance => {returned_brain.brain_id}")
-            fit_agents += 1
-            fit_brains.append(returned_brain)
-            save_brain_instance(returned_brain)
+        if brain.fitness > fitness_threshold:
+            ret_brain = deepcopy(brain)
+            fit_brains.append(brain)
+            save_brain_instance(ret_brain)
+
+        all_brains.append(brain)
+    print(
+        f"Generation Complete - Fit agents: {len(fit_brains)} - Genertion size: {current_generation_size} Generation No*: {generation_num} Fitness Threshold: {fitness_threshold}"
+    )
+    return fit_brains, all_brains, generation_status
 
 
+def main(number_of_generations: int) -> None:
+    """Main handling"""
+
+    for gen_num in range(0, number_of_generations):
+        fit_gen, all_gen, generation_status = new_generation(gen_num)
+        if generation_status is False:  # The new generation has failed
+            print(f"SYSTEM => The genration has failed {gen_num}")
+            break
+    print("SYSTEM => Completed Main Function ")
+
+
+def get_selected_generations(selected_generations: list[int]) -> list[BrainInstance]:
+    """Pull the highest fitness brain from the given generations"""
+    data: list[BrainInstance] = []
+    for gen in selected_generations:
+        generation_data = get_and_format_db_data(gen)
+        data.append(generation_data[0])  # take the highest fitness
+
+    return data
+
+
+# Needs to be refactored out
 def calculate_new_fitnees_threshold(parents: list[BrainInstance]) -> float:
     """Return a fitness threshold 10% higher then given pervious generation threshold"""
     total_fitness = sum(instance.fitness for instance in parents)
     average_fitness = total_fitness / len(parents)
-    new_threshold = average_fitness + ((average_fitness / 100) * 10)
+    new_threshold = average_fitness + ((average_fitness / 100) * 5)
 
     return new_threshold
 
 
-def db_data_formatting(generation_num: int) -> list[BrainInstance]:
-    """Pull and format the relervent Brain instnce generation from the database"""
-    brain_instances: list[BrainInstance] = []
-    data = get_db_data(generation_num)
-    for instance in data:
-        instance.get_attributes_from_bytes()
-        brain_instances.append(instance)
-
-    ordered_brian_instances: list[BrainInstance] = sorted(
-        brain_instances, key=lambda x: x.fitness, reverse=True
-    )
-
-    return ordered_brian_instances
+def print_data(data: list[BrainInstance]):
+    """debug data print"""
+    for i in data:
+        print(i.fitness)
 
 
 if __name__ == "__main__":
-    new_generation_number: int = 2
-    data = db_data_formatting(1)
-    holder = data[0]
-    print(holder.hidden_weights.shape)
-    # holder = generation_zero()
-    # db_data = get_db_data()
-    # new_generation(new_generation_number)
+    main(10)
+    data = get_selected_generations([1])
+    print_data(data)
