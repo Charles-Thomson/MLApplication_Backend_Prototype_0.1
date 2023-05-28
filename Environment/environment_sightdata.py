@@ -38,6 +38,7 @@ def collect_observation_data(agent_state: int, ncol: int, env_map: np.array):
     ]
 
     observation_data = list(map(check_sight_line, sight_lines))
+    print(observation_data)
     observation_data = list(chain(*observation_data))
     return observation_data
 
@@ -49,11 +50,12 @@ def check_sight_line(sight_line: list) -> list[float, float, float]:
             return [round(0.1 * distance, 3), 1 / (distance + 1), 0.0]
         if value == 3:
             return [round(0.1 * distance, 3), 0.0, 1 / (distance + 1)]
+        else:  # sticky tap fix atm
+            return [0.0, 0.0, 0.0]
 
-    return ValueError("No boundry on sightline")
+    return [0.0, 0.0, 0.0]  # ValueError("No boundry on sightline")
 
 
 def to_coords(state: int, ncol: int) -> tuple:
     """Convert state to coords"""
     return divmod(state, ncol)
-

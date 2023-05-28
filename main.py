@@ -1,5 +1,5 @@
 """Main File"""
-
+import numpy as np
 from copy import deepcopy
 from typing import Generator, final
 from Environment.environment_main import MazeEnvironment
@@ -16,7 +16,7 @@ MAX_EPISODE_DURATION: final = 40
 
 
 @with_generation_logging
-def new_generation(generation_num: int) -> list:
+def new_generation(generation_num: int, env_map: np.array) -> list:
     """New generation"""
 
     generation_status: bool = True
@@ -48,7 +48,7 @@ def new_generation(generation_num: int) -> list:
             break
 
         agent_instance: MazeAgent = MazeAgent(
-            enviroment=MazeEnvironment(MAX_EPISODE_DURATION),
+            enviroment=MazeEnvironment(MAX_EPISODE_DURATION, env_map),
             agent_brain=next(brain_generator),
         )
 
@@ -66,11 +66,11 @@ def new_generation(generation_num: int) -> list:
     return fit_brains, all_brains, generation_status
 
 
-def main(number_of_generations: int) -> None:
+def main_system(number_of_generations: int, env_map: np.array) -> None:
     """Main handling"""
 
     for gen_num in range(0, number_of_generations):
-        fit_gen, all_gen, generation_status = new_generation(gen_num)
+        fit_gen, all_gen, generation_status = new_generation(gen_num, env_map)
         if generation_status is False:  # The new generation has failed
             print(f"SYSTEM => The genration has failed {gen_num}")
             break
@@ -104,6 +104,6 @@ def print_data(data: list[BrainInstance]):
 
 
 if __name__ == "__main__":
-    main(10)
+    main_system(10)
     data = get_selected_generations([1])
     print_data(data)

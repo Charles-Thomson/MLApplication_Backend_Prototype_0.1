@@ -19,8 +19,9 @@ ENV_MAP = [
 class MazeEnvironment(Env):
     """Generate a new environment"""
 
-    def __init__(self, max_steps: int):
-        self.environment_map: np.array = np.array(ENV_MAP)
+    def __init__(self, max_steps: int, env_map: np.array):
+        self.environment_map: np.array = env_map
+        print(env_map.shape)
 
         self.nrow, self.ncol = self.environment_map.shape
 
@@ -28,7 +29,9 @@ class MazeEnvironment(Env):
         # Doesnt allow for starting on a lower num of steps and increasing
         self.max_steps = max_steps
         self.step_count = 0
-        self.environment_start_state = 25
+        self.environment_start_state = (
+            4  # hard coded for testing need to sort the starting node and intergrate
+        )
         self.states_visited: list[int] = []  # acts as path ?
         self.agent_state = self.environment_start_state
 
