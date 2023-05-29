@@ -11,8 +11,8 @@ from DataBase.database_main import save_brain_instance, get_and_format_db_data
 from Logging.loggin_decorator import with_generation_logging
 
 
-MAX_GENERATION_SIZE: final = 500
-MAX_EPISODE_DURATION: final = 40
+MAX_GENERATION_SIZE: final = 1000
+MAX_EPISODE_DURATION: final = 10
 
 
 @with_generation_logging
@@ -104,6 +104,14 @@ def print_data(data: list[BrainInstance]):
 
 
 if __name__ == "__main__":
-    main_system(10)
-    data = get_selected_generations([1])
-    print_data(data)
+    ENV_TEST_MAP = [
+        [1, 1, 1, 1, 3, 2],
+        [1, 1, 1, 1, 3, 1],
+        [1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 2, 1, 3],
+        [2, 1, 1, 1, 1, 1],
+        [2, 2, 3, 1, 3, 2],
+    ]
+    main_system(10, ENV_TEST_MAP)
+    # data = get_selected_generations([1])
+    # print_data(data)

@@ -1,0 +1,1559 @@
+INFO :: wrapper :: Brain: 3d0efc00-8 - Generation: 0 Path: [29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: b50d1186-a - Generation: 0 Path: [33, 26, 33, 26, 33, 26, 33, 26, 33, 26, 26] Fitness: 0.3
+INFO :: wrapper :: Brain: 68cf58b7-9 - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 140f86f0-9 - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6733c4a3-c - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2dbd26e2-f - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5dacd335-c - Generation: 0 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: adf9d6e1-9 - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fbec4aab-1 - Generation: 0 Path: [33, 34, 33, 34, 33, 34, 33, 34, 33, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 6ad66f66-c - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 715ee6fe-0 - Generation: 0 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: d745650b-f - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e8bab191-9 - Generation: 0 Path: [29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 4643d050-b - Generation: 0 Path: [28, 22, 16, 10, 3, 3] Fitness: 3.75
+INFO :: wrapper :: Brain: d8970da1-6 - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0ba77fcc-b - Generation: 0 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 40c81001-9 - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2c0efab3-2 - Generation: 0 Path: [29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 5f0f4165-d - Generation: 0 Path: [27, 34, 27, 34, 27, 34, 27, 34, 27, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: a59aad19-e - Generation: 0 Path: [28, 22, 16, 10, 17, 16, 10, 17, 16, 10, 10] Fitness: 3.6
+INFO :: wrapper :: Brain: 055aaca6-7 - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 29597e35-4 - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6515f796-3 - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f10b40a3-e - Generation: 0 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 886b85da-e - Generation: 0 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 849c82ad-f - Generation: 0 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 337ae9a4-f - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a8b825d4-7 - Generation: 0 Path: [29, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23] Fitness: 3.3
+INFO :: wrapper :: Brain: 15b3e8c7-e - Generation: 0 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 2842d50d-e - Generation: 0 Path: [29, 28, 34, 29, 28, 34, 29, 28, 34, 29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: d7419172-d - Generation: 0 Path: [27, 20, 13, 8, 3, 3] Fitness: 0.9
+INFO :: wrapper :: Brain: 6c9b6bd7-4 - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fc443c7d-3 - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: adf926d4-4 - Generation: 0 Path: [29, 23, 28, 27, 26, 27, 26, 27, 26, 27, 27] Fitness: 3.5999999999999996
+INFO :: wrapper :: Brain: 32444c5c-a - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c1a8111e-5 - Generation: 0 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 639799f5-0 - Generation: 0 Path: [27, 20, 14, 9, 3, 8, 13, 8, 13, 8, 8] Fitness: 1.05
+INFO :: wrapper :: Brain: 2d9b8dd0-8 - Generation: 0 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 92f575da-7 - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c11f4468-f - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8cc2a4a1-a - Generation: 0 Path: [29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: b5579756-a - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 12907491-2 - Generation: 0 Path: [28, 22, 16, 23, 28, 29, 34, 28, 29, 34, 34] Fitness: 3.6
+INFO :: wrapper :: Brain: d4eaa9cb-d - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 805b2faa-d - Generation: 0 Path: [29, 34, 29, 34, 29, 34, 29, 34, 29, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: cde69198-b - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 49696c93-a - Generation: 0 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 050636e7-a - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2706f669-3 - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: eaf9a18a-e - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5ea3eedf-1 - Generation: 0 Path: [28, 22, 16, 16, 16, 16, 16, 16, 16, 16, 16] Fitness: 0.6
+INFO :: wrapper :: Brain: 1cd3989e-0 - Generation: 0 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: cb18b8f1-3 - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6928eb4e-f - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 73e26b36-1 - Generation: 0 Path: [27, 32, 25, 25] Fitness: 3.4499999999999997
+INFO :: wrapper :: Brain: 8ca738cb-0 - Generation: 0 Path: [27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: f429b4c2-6 - Generation: 0 Path: [33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33] Fitness: 0.3
+INFO :: wrapper :: Brain: 792b5011-5 - Generation: 0 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 41695e61-6 - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bea636a8-7 - Generation: 0 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 9f9a5426-d - Generation: 0 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 0f8f7c77-5 - Generation: 0 Path: [33, 32, 32] Fitness: 3.3
+INFO :: wrapper :: Brain: fbddb62d-1 - Generation: 0 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4a926d41-a - Generation: 0 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 5d533ee6-d - Generation: 0 Path: [33, 32, 32] Fitness: 3.3
+INFO :: wrapper :: Brain: ff22b6fe-a - Generation: 0 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: c868ecd4-4 - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6a595b26-b - Generation: 0 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: a84867f9-b - Generation: 0 Path: [33, 26, 20, 20] Fitness: 0.6
+INFO :: wrapper :: Brain: 4be09c80-3 - Generation: 0 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 91cbd780-0 - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bf8ae5f6-7 - Generation: 0 Path: [28, 34, 28, 34, 28, 34, 28, 34, 28, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 6dea6268-f - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0d2b91e1-5 - Generation: 0 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: dddca539-a - Generation: 0 Path: [33, 32, 32] Fitness: 3.3
+INFO :: wrapper :: Brain: 59571d51-a - Generation: 0 Path: [33, 32, 32] Fitness: 3.3
+INFO :: wrapper :: Brain: 76caa38b-a - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: f10ca318-7 - Generation: 1 Path: [27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: fe8a47d9-9 - Generation: 1 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: a6d1a811-6 - Generation: 1 Path: [33, 32, 32] Fitness: 3.3
+INFO :: wrapper :: Brain: e94256eb-b - Generation: 1 Path: [33, 27, 27] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: bfca2378-e - Generation: 1 Path: [28, 29, 29] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 078ea49b-8 - Generation: 1 Path: [28, 33, 27, 28, 33, 27, 28, 33, 27, 28, 28] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: a85b6ebc-3 - Generation: 1 Path: [28, 29, 29] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 8f2d6d7c-8 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 482c70b1-0 - Generation: 1 Path: [28, 22, 29, 29] Fitness: 0.6
+INFO :: wrapper :: Brain: 1070c749-8 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 44e6be43-0 - Generation: 1 Path: [28, 34, 28, 34, 28, 34, 28, 34, 28, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: df9d161b-9 - Generation: 1 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1aad39b9-8 - Generation: 1 Path: [28, 23, 17, 11, 11] Fitness: 3.5999999999999996
+INFO :: wrapper :: Brain: 7a981ea1-2 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8776f7b7-4 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c829586f-3 - Generation: 1 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 9d3d17e5-f - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a949cae2-2 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 5c28c965-f - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5463363f-d - Generation: 1 Path: [27, 34, 27, 34, 27, 34, 27, 34, 27, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 7aa8372d-2 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d92b0f42-4 - Generation: 1 Path: [28, 23, 17, 17] Fitness: 3.4499999999999997
+INFO :: wrapper :: Brain: 21948f6e-e - Generation: 1 Path: [27, 20, 13, 20, 13, 20, 13, 20, 13, 20, 20] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 71ba2840-8 - Generation: 1 Path: [28, 34, 28, 34, 28, 34, 28, 34, 28, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 2019e32a-f - Generation: 1 Path: [28, 22, 22] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 1a35ee0c-2 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 3d6030d9-f - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 05ccef0f-5 - Generation: 1 Path: [28, 23, 17, 17] Fitness: 3.4499999999999997
+INFO :: wrapper :: Brain: d036b2bf-c - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a3c5913d-a - Generation: 1 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: e5b452ed-5 - Generation: 1 Path: [28, 27, 28, 27, 28, 27, 28, 27, 28, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: ef78c65b-3 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b0737931-c - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 06cc2a07-f - Generation: 1 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: eee1f9f8-4 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 40d25f9d-0 - Generation: 1 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: abf73bab-c - Generation: 1 Path: [28, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 0c43b24c-0 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 3b48d270-2 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 854b900c-8 - Generation: 1 Path: [29, 28, 27, 28, 27, 28, 27, 28, 27, 28, 28] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 8c55aaf3-e - Generation: 1 Path: [28, 22, 22] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: d6b270b9-a - Generation: 1 Path: [29, 23, 23] Fitness: 3.3
+INFO :: wrapper :: Brain: 1b472f67-b - Generation: 1 Path: [27, 20, 13, 20, 13, 20, 13, 20, 13, 20, 20] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 13621b18-5 - Generation: 1 Path: [28, 29, 29] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 5fb69e5c-2 - Generation: 1 Path: [27, 26, 33, 32, 32] Fitness: 3.6
+INFO :: wrapper :: Brain: 7c63ee83-2 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8c470d86-1 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ef8821e6-3 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2909b53c-f - Generation: 1 Path: [28, 22, 16, 10, 11, 11] Fitness: 3.75
+INFO :: wrapper :: Brain: 3e2b3de4-7 - Generation: 1 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5befc775-c - Generation: 1 Path: [27, 20, 13, 20, 13, 20, 13, 20, 13, 20, 20] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: dcf702a4-9 - Generation: 1 Path: [27, 34, 27, 34, 27, 34, 27, 34, 27, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 41cfff99-a - Generation: 1 Path: [28, 22, 22] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 8c80b1cb-3 - Generation: 1 Path: [28, 29, 29] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 82636cb9-5 - Generation: 1 Path: [27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: aa959a91-3 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 327de0dc-a - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 29a4b821-9 - Generation: 1 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: ea914a9e-3 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f7ac4a14-e - Generation: 1 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: c2696a8d-f - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 74f5f8de-7 - Generation: 1 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4eb44402-d - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 8c1ea548-2 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 0d3b9e72-9 - Generation: 1 Path: [28, 22, 22] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: b3d0e892-e - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 88936b10-6 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: aa13f91a-a - Generation: 1 Path: [28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 0dd9c7b8-9 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5fd9ca88-1 - Generation: 1 Path: [27, 20, 13, 6, 1, 1] Fitness: 0.9
+INFO :: wrapper :: Brain: d21f2908-f - Generation: 1 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 523debcd-4 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 54a3a7ea-1 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 44e1e3c8-c - Generation: 1 Path: [28, 29, 29] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 7553645b-a - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2a859133-b - Generation: 1 Path: [28, 34, 28, 34, 28, 34, 28, 34, 28, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 62e3124e-5 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0c139d78-5 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 47f7f753-4 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d5e853df-d - Generation: 1 Path: [28, 29, 29] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 78fed4da-5 - Generation: 1 Path: [28, 23, 23] Fitness: 3.3
+INFO :: wrapper :: Brain: 5d60a83d-b - Generation: 1 Path: [28, 23, 23] Fitness: 3.3
+INFO :: wrapper :: Brain: 2667d657-7 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c01ba393-2 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 53f0a812-2 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 85a1726c-5 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bb1a9819-2 - Generation: 1 Path: [29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 80597252-6 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 49322492-d - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5ab01b8c-1 - Generation: 1 Path: [28, 34, 28, 34, 28, 34, 28, 34, 28, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: a028d3ed-f - Generation: 1 Path: [27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: e52f5f20-c - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 1a402bf3-1 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6cb58cf8-0 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1eb65ed7-c - Generation: 1 Path: [27, 20, 13, 20, 13, 20, 13, 20, 13, 20, 20] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: bb2b7c04-1 - Generation: 1 Path: [28, 34, 28, 34, 28, 34, 28, 34, 28, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 70fff4a2-5 - Generation: 1 Path: [29, 23, 17, 17] Fitness: 3.4499999999999997
+INFO :: wrapper :: Brain: c7a83f41-8 - Generation: 1 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 61d52315-9 - Generation: 1 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2bba5643-c - Generation: 1 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: 9ae6375e-c - Generation: 1 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: f7eb59e7-d - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 539ae542-f - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: b6ecf61e-9 - Generation: 1 Path: [33, 34, 33, 34, 33, 34, 33, 34, 33, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 8e6d0b6b-2 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 96d9304f-4 - Generation: 1 Path: [29, 23, 22, 28, 34, 29, 29] Fitness: 3.4499999999999997
+INFO :: wrapper :: Brain: 8565864d-5 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4fb08e58-9 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 227f1faf-f - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 4d5fcb87-9 - Generation: 1 Path: [29, 23, 29, 23, 29, 23, 29, 23, 29, 23, 23] Fitness: 3.15
+INFO :: wrapper :: Brain: 0ef979c9-8 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1626b8c5-f - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 23b4a877-9 - Generation: 1 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 5802b104-8 - Generation: 1 Path: [28, 29, 23, 23] Fitness: 3.4499999999999997
+INFO :: wrapper :: Brain: 9258e54d-a - Generation: 1 Path: [28, 34, 28, 34, 28, 34, 28, 34, 28, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 431a0a0c-0 - Generation: 1 Path: [27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: b1c30c1c-9 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 637bfdde-6 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 21bfbf0f-4 - Generation: 1 Path: [33, 32, 32] Fitness: 3.3
+INFO :: wrapper :: Brain: 0c7541f6-e - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 48a55067-c - Generation: 1 Path: [27, 28, 28] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 1835ac91-4 - Generation: 1 Path: [33, 33] Fitness: 0.3
+INFO :: wrapper :: Brain: 42ac26ce-1 - Generation: 1 Path: [27, 28, 29, 29] Fitness: 0.6
+INFO :: wrapper :: Brain: 4086cb8d-f - Generation: 1 Path: [28, 22, 16, 10, 4, 4] Fitness: 6.6000000000000005
+INFO :: wrapper :: Brain: 75e72d8b-9 - Generation: 1 Path: [28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 41f533fe-e - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 62c81fc5-e - Generation: 1 Path: [28, 22, 16, 23, 17, 11, 11] Fitness: 3.9
+INFO :: wrapper :: Brain: 1738aef4-6 - Generation: 1 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 103887f5-8 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6fb11209-7 - Generation: 1 Path: [28, 27, 28, 27, 28, 27, 28, 27, 28, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 41cbc048-1 - Generation: 1 Path: [33, 32, 32] Fitness: 3.3
+INFO :: wrapper :: Brain: 397c161f-0 - Generation: 1 Path: [28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: ab13d77d-3 - Generation: 1 Path: [28, 22, 22] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 9cf4f35d-c - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: dcdf54e5-0 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5d8f8eae-2 - Generation: 1 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: de77ea4c-f - Generation: 1 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5e1ac9d2-8 - Generation: 1 Path: [28, 22, 22] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: f676c646-a - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 7dbabcee-2 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 82a15629-e - Generation: 1 Path: [28, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 46ff5dd9-2 - Generation: 1 Path: [28, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 9dda3eea-b - Generation: 1 Path: [33, 32, 26, 26, 26, 26, 26, 26, 26, 26, 26] Fitness: 3.4499999999999997
+INFO :: wrapper :: Brain: 9a168f3d-5 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8fe446ad-4 - Generation: 1 Path: [28, 22, 22] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 78f82b27-9 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 63e3e9a2-5 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5f2ccf2e-f - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: dd99ca3e-2 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: fcd1b8f3-c - Generation: 1 Path: [28, 34, 28, 34, 28, 34, 28, 34, 28, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 670b6e49-9 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: cbba4f43-4 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 86eb8538-1 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: c6646713-e - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: ce7e35cc-6 - Generation: 1 Path: [33, 34, 33, 34, 33, 34, 33, 34, 33, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 294994a9-0 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8620e6d2-e - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b1053e43-1 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: f5964443-9 - Generation: 1 Path: [28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: bf156fe4-4 - Generation: 1 Path: [28, 23, 17, 11, 11] Fitness: 3.5999999999999996
+INFO :: wrapper :: Brain: dd1f5b1a-2 - Generation: 1 Path: [28, 34, 28, 34, 28, 34, 28, 34, 28, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 15319466-8 - Generation: 1 Path: [29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: c58c5891-a - Generation: 1 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: 279e44cd-7 - Generation: 1 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6892d98d-3 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 50ba215d-b - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d52c449b-f - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 853415cf-9 - Generation: 1 Path: [28, 34, 28, 34, 28, 34, 28, 34, 28, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 1e0e93f1-c - Generation: 1 Path: [28, 29, 29] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 6937e8fb-e - Generation: 1 Path: [27, 20, 13, 20, 13, 20, 13, 20, 13, 20, 20] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: fdf5b6f3-e - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: fef3923b-8 - Generation: 1 Path: [33, 27, 34, 33, 27, 34, 33, 27, 34, 33, 33] Fitness: 0.3
+INFO :: wrapper :: Brain: ff85af5b-c - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 21779ed1-2 - Generation: 1 Path: [27, 22, 15, 9, 2, 9, 2, 9, 2, 9, 9] Fitness: 0.75
+INFO :: wrapper :: Brain: 3cbd290e-a - Generation: 1 Path: [28, 23, 17, 11, 11] Fitness: 3.5999999999999996
+INFO :: wrapper :: Brain: cd81dae3-2 - Generation: 1 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: a49640d6-5 - Generation: 1 Path: [28, 34, 28, 34, 28, 34, 28, 34, 28, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: d7689bf8-4 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4087711e-3 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 595172f8-8 - Generation: 1 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3149cb66-3 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9381b463-3 - Generation: 1 Path: [28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 54a3e37a-3 - Generation: 1 Path: [27, 34, 27, 34, 27, 34, 27, 34, 27, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 8cd79b74-1 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1042788a-a - Generation: 1 Path: [28, 22, 23, 23] Fitness: 3.4499999999999997
+INFO :: wrapper :: Brain: 643b5114-a - Generation: 1 Path: [27, 20, 13, 20, 13, 20, 13, 20, 13, 20, 20] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: b9156829-5 - Generation: 1 Path: [28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: f16f3dde-6 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f50ea1d7-6 - Generation: 1 Path: [28, 23, 23] Fitness: 3.3
+INFO :: wrapper :: Brain: f245c99c-d - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 29398830-9 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7f65fa3d-c - Generation: 1 Path: [33, 33] Fitness: 0.3
+INFO :: wrapper :: Brain: be8128b6-e - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7e6a63b1-4 - Generation: 1 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: ea5a17d9-9 - Generation: 1 Path: [27, 20, 13, 19, 12, 18, 18] Fitness: 1.05
+INFO :: wrapper :: Brain: 04e946a4-7 - Generation: 1 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: becc057b-6 - Generation: 1 Path: [27, 28, 22, 23, 17, 17] Fitness: 3.75
+INFO :: wrapper :: Brain: 87f8de2a-1 - Generation: 1 Path: [33, 32, 32] Fitness: 3.3
+INFO :: wrapper :: Brain: fa815473-5 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 0d0921b0-4 - Generation: 1 Path: [28, 34, 28, 34, 28, 34, 28, 34, 28, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 107fbe00-b - Generation: 1 Path: [28, 34, 28, 34, 28, 34, 28, 34, 28, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 7d6999e3-c - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7e6d7a23-0 - Generation: 1 Path: [27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 0e59dae8-3 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: fe2774b1-8 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ef8a4f9c-5 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 11d9e198-d - Generation: 1 Path: [27, 34, 27, 34, 27, 34, 27, 34, 27, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: f3902052-c - Generation: 1 Path: [29, 28, 34, 29, 28, 34, 29, 28, 34, 29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 88b30ae5-f - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 331ef5a5-0 - Generation: 1 Path: [27, 34, 27, 34, 27, 34, 27, 34, 27, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 1b778edf-9 - Generation: 1 Path: [28, 27, 28, 27, 28, 27, 28, 27, 28, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 99f3a102-9 - Generation: 1 Path: [33, 27, 27] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 1ece1e95-c - Generation: 1 Path: [27, 20, 13, 8, 15, 8, 15, 8, 15, 8, 8] Fitness: 0.75
+INFO :: wrapper :: Brain: 9f562e9b-d - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4e5cedc8-0 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 29101dd3-0 - Generation: 1 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 80c8c22b-a - Generation: 1 Path: [28, 34, 28, 34, 28, 34, 28, 34, 28, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 93782ba3-3 - Generation: 1 Path: [27, 20, 13, 20, 13, 20, 13, 20, 13, 20, 20] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 252db7aa-4 - Generation: 1 Path: [27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: a485351f-7 - Generation: 1 Path: [27, 20, 20] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: c80e4a34-d - Generation: 1 Path: [28, 27, 28, 27, 28, 27, 28, 27, 28, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: a2f3e7c7-4 - Generation: 1 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 3318cf2e-c - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4eb9d3ef-a - Generation: 1 Path: [28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: a65068d6-8 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b8167ebe-8 - Generation: 1 Path: [28, 23, 17, 17] Fitness: 3.4499999999999997
+INFO :: wrapper :: Brain: d4c42b52-6 - Generation: 1 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3c07ab73-9 - Generation: 1 Path: [28, 27, 28, 27, 28, 27, 28, 27, 28, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: c551f329-1 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0e53927e-f - Generation: 1 Path: [28, 34, 28, 34, 28, 34, 28, 34, 28, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 7cb38e8f-2 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ac98dd1d-a - Generation: 1 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6cb01f2c-b - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: dfc43879-c - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 57c346fa-5 - Generation: 1 Path: [33, 32, 32] Fitness: 3.3
+INFO :: wrapper :: Brain: 91022533-b - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 5221fa7e-1 - Generation: 1 Path: [28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 1ca18548-5 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d9ae5a42-6 - Generation: 1 Path: [29, 34, 29, 34, 29, 34, 29, 34, 29, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 9a8ab475-9 - Generation: 1 Path: [28, 23, 17, 11, 11] Fitness: 3.5999999999999996
+INFO :: wrapper :: Brain: 41cffc59-e - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d089132a-1 - Generation: 1 Path: [28, 27, 28, 27, 28, 27, 28, 27, 28, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 4ca29141-c - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7171b08d-a - Generation: 1 Path: [28, 34, 28, 34, 28, 34, 28, 34, 28, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: a0464c29-4 - Generation: 1 Path: [28, 23, 23] Fitness: 3.3
+INFO :: wrapper :: Brain: 773ad6a5-9 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6453d8d3-c - Generation: 1 Path: [27, 28, 29, 29] Fitness: 0.6
+INFO :: wrapper :: Brain: f52c41cf-6 - Generation: 1 Path: [28, 27, 28, 27, 28, 27, 28, 27, 28, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 4ef5d380-d - Generation: 1 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: 79f3cd01-3 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 89335b1c-5 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4c2d7894-a - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 58fa7d1e-6 - Generation: 1 Path: [27, 20, 13, 18, 18] Fitness: 0.75
+INFO :: wrapper :: Brain: d737d41c-6 - Generation: 1 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 6fbaaf02-c - Generation: 1 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: fd146cdd-3 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 289f0c0a-c - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 1d70cdea-3 - Generation: 1 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: f54763aa-2 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: f13855ef-6 - Generation: 1 Path: [28, 29, 29] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 9b86507b-0 - Generation: 1 Path: [28, 34, 28, 34, 28, 34, 28, 34, 28, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 232c74b7-d - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 41533f43-2 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 2ae6170f-6 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 42a3fe08-2 - Generation: 1 Path: [29, 23, 23] Fitness: 3.3
+INFO :: wrapper :: Brain: 303adeb5-6 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 41d083db-8 - Generation: 1 Path: [28, 23, 17, 11, 11] Fitness: 3.5999999999999996
+INFO :: wrapper :: Brain: a86b83a1-a - Generation: 1 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 6c99db8b-9 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c5da8d3e-d - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b2b6b531-d - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bfbbb984-9 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 1b1a5721-8 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 40494b78-4 - Generation: 1 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: 4f9ca338-8 - Generation: 1 Path: [28, 27, 28, 27, 28, 27, 28, 27, 28, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: f62acc05-9 - Generation: 1 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 0ff41e21-d - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 4bcba161-7 - Generation: 1 Path: [28, 27, 28, 27, 28, 27, 28, 27, 28, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 76b11030-b - Generation: 1 Path: [28, 29, 29] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: a2473027-d - Generation: 1 Path: [27, 20, 20] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: b5e1231c-2 - Generation: 1 Path: [28, 29, 28, 29, 28, 29, 28, 29, 28, 29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 140e23a2-8 - Generation: 1 Path: [27, 20, 13, 20, 13, 20, 13, 20, 13, 20, 20] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: d02516c0-7 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 84b0e6e8-a - Generation: 1 Path: [27, 34, 27, 34, 27, 34, 27, 34, 27, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 65a056f0-1 - Generation: 1 Path: [28, 27, 28, 27, 28, 27, 28, 27, 28, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: ee1816b3-b - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b546fd49-9 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 31053bfd-e - Generation: 1 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 4f7e2b21-8 - Generation: 1 Path: [28, 27, 28, 27, 28, 27, 28, 27, 28, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 6a490ac4-6 - Generation: 1 Path: [28, 29, 29] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 50411503-5 - Generation: 1 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 06c5a585-c - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 1d107290-c - Generation: 1 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: 74c09ad6-4 - Generation: 1 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 04cf50eb-7 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 56531524-a - Generation: 1 Path: [27, 34, 27, 34, 27, 34, 27, 34, 27, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: aabb4c37-b - Generation: 1 Path: [27, 34, 27, 34, 27, 34, 27, 34, 27, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: b7e7d9b2-4 - Generation: 1 Path: [27, 20, 27, 20, 27, 20, 27, 20, 27, 20, 20] Fitness: 0.3
+INFO :: wrapper :: Brain: 4b423c41-a - Generation: 1 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: e10cd30f-c - Generation: 1 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 71568f5c-2 - Generation: 1 Path: [28, 22, 16, 9, 3, 3] Fitness: 0.9
+INFO :: wrapper :: Brain: 52583c16-0 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d15631fe-a - Generation: 1 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0f48e50b-0 - Generation: 1 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5ec14406-0 - Generation: 1 Path: [27, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: cfb93d68-f - Generation: 1 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 291e5901-d - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 32d1aa99-5 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a8be40a6-d - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8427e9cb-7 - Generation: 1 Path: [28, 29, 29] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 9da6f421-9 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 0d6f7aa6-5 - Generation: 1 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 617303d3-4 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6ec3323c-d - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: c31bd525-8 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 1447c6c7-0 - Generation: 1 Path: [27, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 6f9d15f0-8 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 28013a0d-a - Generation: 1 Path: [27, 32, 25, 18, 18] Fitness: 3.5999999999999996
+INFO :: wrapper :: Brain: add67b4e-8 - Generation: 1 Path: [28, 22, 23, 23] Fitness: 3.4499999999999997
+INFO :: wrapper :: Brain: 0d69222d-e - Generation: 1 Path: [28, 34, 28, 34, 28, 34, 28, 34, 28, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: b4e451ed-6 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 94ae0ae1-b - Generation: 1 Path: [28, 22, 16, 10, 4, 4] Fitness: 6.6000000000000005
+INFO :: wrapper :: Brain: 0e4ec117-7 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: be8e08b5-1 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: bec9e36e-8 - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 933e8bcb-7 - Generation: 1 Path: [28, 23, 23] Fitness: 3.3
+INFO :: wrapper :: Brain: 857469eb-e - Generation: 1 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: eb9cdb44-a - Generation: 1 Path: [28, 22, 16, 23, 17, 11, 11] Fitness: 3.9
+INFO :: wrapper :: Brain: bdad0942-c - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: a86309e6-9 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 01848e31-b - Generation: 1 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: 1a0e362f-0 - Generation: 1 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 54dd9fef-b - Generation: 1 Path: [27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 3183ee66-d - Generation: 1 Path: [28, 22, 16, 10, 4, 4] Fitness: 6.6000000000000005
+INFO :: wrapper :: Brain: a7c7dcc0-2 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 43e7fc01-3 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: aa326108-6 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1d0f44e7-e - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6735e79f-1 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: dc613f06-3 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 811d1932-1 - Generation: 2 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 34691b1e-6 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fc9c6792-4 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f1b7d776-b - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b2c4fb09-d - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 358089bb-1 - Generation: 2 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: d9f0e9c6-5 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bb6b4244-4 - Generation: 2 Path: [27, 20, 14, 14, 14, 14, 14, 14, 14, 14, 14] Fitness: 0.6
+INFO :: wrapper :: Brain: aae011a1-b - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d2e35d0f-0 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4093c20d-2 - Generation: 2 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 7a482bcc-4 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: dd748428-5 - Generation: 2 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 183021fd-4 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9e946b76-4 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a8eea4b9-5 - Generation: 2 Path: [28, 34, 28, 34, 28, 34, 28, 34, 28, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 87c1af31-a - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ab2c7752-e - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ff95274d-8 - Generation: 2 Path: [27, 28, 29, 29, 29, 29, 29, 29, 29, 29, 29] Fitness: 0.6
+INFO :: wrapper :: Brain: 917db896-c - Generation: 2 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: e4c2490f-c - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 542106cf-7 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e8225ca3-6 - Generation: 2 Path: [28, 22, 16, 10, 4, 4] Fitness: 6.6000000000000005
+INFO :: wrapper :: Brain: 6fb8a1a4-9 - Generation: 2 Path: [28, 29, 29] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 42232563-9 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 352bc2e3-f - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2243504a-5 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 11b4cf48-e - Generation: 2 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: fec7e993-e - Generation: 2 Path: [27, 28, 29, 29, 29, 29, 29, 29, 29, 29, 29] Fitness: 0.6
+INFO :: wrapper :: Brain: 87b7c3a6-0 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bf942c78-4 - Generation: 2 Path: [27, 20, 27, 20, 27, 20, 27, 20, 27, 20, 20] Fitness: 0.3
+INFO :: wrapper :: Brain: 69dc68c8-f - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 329c498d-b - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: cae114bc-f - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1d6e3a42-e - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fe652860-0 - Generation: 2 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: 0ac785ad-6 - Generation: 2 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: c9f25669-1 - Generation: 2 Path: [27, 28, 29, 29, 29, 29, 29, 29, 29, 29, 29] Fitness: 0.6
+INFO :: wrapper :: Brain: df020ce9-9 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 905a46f9-1 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7e53b4d4-e - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3ff9d8c4-e - Generation: 2 Path: [28, 22, 28, 22, 28, 22, 28, 22, 28, 22, 22] Fitness: 0.3
+INFO :: wrapper :: Brain: 68f2d9eb-3 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ff186ed7-2 - Generation: 2 Path: [27, 20, 27, 20, 27, 20, 27, 20, 27, 20, 20] Fitness: 0.3
+INFO :: wrapper :: Brain: 7185b811-9 - Generation: 2 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: 19fe8a1f-c - Generation: 2 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2dfd1ee0-d - Generation: 2 Path: [28, 29, 23, 29, 29] Fitness: 3.3
+INFO :: wrapper :: Brain: 1c76d82d-7 - Generation: 2 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3e59f789-d - Generation: 2 Path: [28, 23, 23] Fitness: 3.3
+INFO :: wrapper :: Brain: cd97e612-4 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9c8c7775-d - Generation: 2 Path: [28, 22, 16, 10, 4, 4] Fitness: 6.6000000000000005
+INFO :: wrapper :: Brain: 5db7112b-2 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 302c5190-f - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 743cddfc-c - Generation: 2 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 531ed5b2-b - Generation: 2 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: dddaf7a4-1 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5b258960-4 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e9cb3907-2 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 93f84e9a-4 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b89d5fec-8 - Generation: 2 Path: [28, 23, 23] Fitness: 3.3
+INFO :: wrapper :: Brain: 4585bad3-6 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d26e18b5-f - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3e5e856f-9 - Generation: 2 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 5ce457ba-d - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 335cb680-c - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2173a112-5 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b4a9c8d8-a - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 049894d4-c - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2f975aeb-8 - Generation: 2 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 7b46ddca-7 - Generation: 2 Path: [27, 20, 27, 20, 27, 20, 27, 20, 27, 20, 20] Fitness: 0.3
+INFO :: wrapper :: Brain: 71df5e82-4 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7595b2c6-3 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 11f02ede-e - Generation: 2 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: d2f283bd-c - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3365d8dd-b - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 217647ce-4 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a99a4610-2 - Generation: 2 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: d00d5b70-1 - Generation: 2 Path: [27, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 89f69e25-e - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9210aef8-0 - Generation: 2 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 09f551ef-2 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d76d151d-7 - Generation: 2 Path: [28, 22, 15, 9, 16, 10, 4, 4] Fitness: 6.9
+INFO :: wrapper :: Brain: 1cc15925-a - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e98b5111-5 - Generation: 2 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: 576e16f7-6 - Generation: 2 Path: [28, 29, 23, 28, 34, 28, 34, 28, 34, 28, 28] Fitness: 3.3
+INFO :: wrapper :: Brain: 32c72e3f-b - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 237e13b0-a - Generation: 2 Path: [29, 29] Fitness: 0.3
+INFO :: wrapper :: Brain: f776b791-9 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ad8db2f5-d - Generation: 2 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: 6a069d88-4 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 063a0780-b - Generation: 2 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9093e2df-e - Generation: 2 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 0f8c615f-6 - Generation: 2 Path: [27, 28, 29, 29, 29, 29, 29, 29, 29, 29, 29] Fitness: 0.6
+INFO :: wrapper :: Brain: 9b671ed7-a - Generation: 2 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: 1ea01963-0 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 424e30ba-f - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ffe306cd-f - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a6d1c4e7-8 - Generation: 2 Path: [28, 27, 28, 27, 28, 27, 28, 27, 28, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: a66a6d92-d - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 550a7d56-3 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: cae96e32-c - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 67a1fb12-e - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fe56b8e8-2 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 764ed0bd-c - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 597e5b41-8 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8add65d3-c - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 15d9d6a4-9 - Generation: 2 Path: [28, 27, 28, 27, 28, 27, 28, 27, 28, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: def5b774-e - Generation: 2 Path: [28, 22, 15, 9, 16, 10, 4, 4] Fitness: 6.9
+INFO :: wrapper :: Brain: 2aa5176d-e - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 57da04bd-6 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e4940435-e - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2c950c10-e - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a8199549-6 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7da5f1ca-3 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 34ff461b-e - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f9aa6332-1 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 25cf17cd-2 - Generation: 2 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: 04b0c513-6 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a888e1f3-3 - Generation: 2 Path: [27, 28, 29, 29, 29, 29, 29, 29, 29, 29, 29] Fitness: 0.6
+INFO :: wrapper :: Brain: 0d5e49b3-0 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a86af00f-b - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: aad79db7-3 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9adb5c4c-1 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4e6fb44e-a - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9e6397f8-0 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 504c60c4-e - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2bae7b89-8 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 981fd0a9-3 - Generation: 2 Path: [28, 22, 15, 9, 16, 10, 4, 4] Fitness: 6.9
+INFO :: wrapper :: Brain: 439f1bb8-b - Generation: 2 Path: [27, 28, 29, 29, 29, 29, 29, 29, 29, 29, 29] Fitness: 0.6
+INFO :: wrapper :: Brain: 7c985833-2 - Generation: 2 Path: [28, 29, 29] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 78395726-e - Generation: 2 Path: [27, 28, 29, 29, 29, 29, 29, 29, 29, 29, 29] Fitness: 0.6
+INFO :: wrapper :: Brain: f881ea06-d - Generation: 2 Path: [28, 28] Fitness: 0.3
+INFO :: wrapper :: Brain: 9ad6885f-6 - Generation: 2 Path: [28, 34, 28, 34, 28, 34, 28, 34, 28, 34, 34] Fitness: 0.15
+INFO :: wrapper :: Brain: 7dc4c1d6-3 - Generation: 2 Path: [27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: bbc497f1-9 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 09d6f7e6-1 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 481f1a28-8 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d4df2d0b-6 - Generation: 2 Path: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34] Fitness: 3.0
+INFO :: wrapper :: Brain: 46aefbde-1 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 086645c0-c - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c86243ec-7 - Generation: 2 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 812c0057-0 - Generation: 2 Path: [27, 28, 29, 29, 29, 29, 29, 29, 29, 29, 29] Fitness: 0.6
+INFO :: wrapper :: Brain: be31aa13-f - Generation: 2 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: 1024fe57-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 84e65b93-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 908add32-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e85a6d09-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f05c5bdd-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d8e4205c-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bbf2628e-5 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 3835ab95-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0bee5933-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0ad1d7bd-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d0b4cd3f-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 170784c6-5 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 59abc466-9 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: d5b937d9-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f54c8fb9-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 72d494b2-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 665f5ca7-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 27ae6d45-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b35646b0-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3cf6b518-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 80e139b0-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: aa7d37a8-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: add65fdd-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 604db217-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 05fbe5ce-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f78b8070-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ef35ce9a-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a3b9275e-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 88c042e7-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0edd0e8c-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 33536022-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f57649c8-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e0bdc0df-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 62d5d473-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4dc6506f-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3a9569be-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: af26560f-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ab8f7792-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 40d62eae-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bcede954-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 985f915f-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 99ca5e11-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8a544b19-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7b6b5ce3-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 619afe49-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7991d254-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 48a83861-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d5446937-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 35c1c25c-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 118611fe-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1ec80690-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8c15d22b-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f039c054-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4d9da193-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f7e412ba-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0da77350-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6cba586e-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d32fe2f8-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b2621ab6-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 41cfabcd-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ba27f59f-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: eb23266a-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a867ef63-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 39b2c69a-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d4d1a78d-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0e0f4dd4-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6d21e12c-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 29ed28b6-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7884cf0b-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 55b4cdc4-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 03ba7f25-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 30e1e29d-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6145e0cd-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6e0bfad5-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ae82845a-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 01303216-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 84698a25-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f9e90f02-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2ea8ff44-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4e8810c8-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6f414ff3-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bdb6a1b3-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 117eb054-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5993f848-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: cf3073b1-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ce864edb-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8c6a9444-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3b76ff4d-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 06d16730-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f83a4cd7-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 286135df-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f1246da4-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 04cf546b-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8fe08aff-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b77b2aa2-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6d6d0ed2-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e1982e18-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 89e5513d-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 12f833e6-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 601b9ccf-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6ac9334f-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: cbb5b1e2-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 865e64ef-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c48eba7b-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2abb6c47-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ee79ecf6-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7a801897-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4d2c47d3-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d6bec399-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 367c2ea1-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0162172b-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2f01fefb-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8d0477f4-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ce9fdc72-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c583ce03-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 26ef13c9-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b3e538f9-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e5d9f5f0-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 673e96cd-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: abf671e3-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e296743a-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7947dd31-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 88781c5b-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b115e2ab-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9702cb7f-9 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 09b72f10-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 42ddfb05-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d3875297-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 004325ef-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b53a2edc-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d1a20259-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f740741a-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6a8d81f7-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1303a314-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3c9b3790-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e1da7cff-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ad2d1baa-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c532f200-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8d0e62ae-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: dfcc9b05-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 84152a94-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a5a6e42c-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2eb5a3f3-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c7fbc14f-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a23d6f7b-e - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: c24702a0-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3db28da7-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2d262d1f-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f727147e-e - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 9ccc308e-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bd644772-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1943c0a2-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 74427aba-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b8fce738-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0011728a-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 769ecc3b-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a967ad20-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 389ccf4e-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 59ec6dfd-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 05b31d16-7 - Generation: 3 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: 7f07865f-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6a2a33d8-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d8330354-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 804cffbf-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 04254fd1-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: cf49a599-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: dfc4bf0c-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 784c0c23-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4ef5f903-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4cb49e3f-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c92b3725-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a9079604-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e9e81f48-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 54b142d3-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9e76f066-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: cf18bbe9-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 57ddb038-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8a53a064-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9bc6b6e5-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 13d2d37e-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 873ba2d7-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e9f5ec27-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a6f6c743-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c39ecfbf-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 98768506-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f0f9f311-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4c5fd031-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bf83c78d-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bc158ea4-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7800492d-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7a206a65-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a1377e50-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 78fe820a-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0485a6ef-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 29946f49-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d61892c4-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: afbeaf26-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bb48b0e6-b - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 4020a747-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0fb0dd21-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bd6e75f0-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 52a9b8d1-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 621da28f-4 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: b043d4af-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f5d91cd7-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 51f36522-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c15ee0fc-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c1eead37-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0cb1a4d7-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ce6541ef-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 272e46fe-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0db0b3b7-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3a2260df-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 658100aa-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5b4f2611-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0a9177c8-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: be4b9f12-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 763583b7-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c1419fc6-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e3905c60-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fa1d0ebd-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a78c64f8-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 249d2f93-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 82cd4d2a-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2211832b-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fe7cb40c-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3143801c-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1d125f6e-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bd0f56de-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1e97d21a-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 63ff8dca-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9f43ae68-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8bd88839-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9932031c-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6579ff94-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6b33bef3-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 866a7c4f-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: da1e43aa-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9861b175-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 70da3411-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: af581771-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 22e9962e-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 88ee503e-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b527b1ff-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 843b3fd2-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9b022b6a-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9fc32f0d-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b6d957ce-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 07555ff3-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fe5ab4a1-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: dc506c11-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: dac34bd7-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: eea0fb66-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d68e43c2-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4fbf9743-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a6420f04-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 359ef794-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 438979fa-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d455ebc4-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0a7113cd-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7cb99cab-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4ba530ae-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 84e680c8-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ab80f65e-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d4d19492-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fa880bda-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a71252a1-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fb76702b-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 70fed206-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 603052be-0 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 0abd9b26-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 21f7f372-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7f64bcfd-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e512e0a2-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 29c14731-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9ba89f8a-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1ef60acd-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 06ea6273-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f4cfec11-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0acdd3be-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d32bd816-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 90b0d0df-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 52b9834c-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 45792fab-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d39dfeab-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 46fee7b4-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e05462bd-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0fdc29d4-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 340ea43b-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3b438279-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 337f97e6-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 091fa8bd-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 75aeba0c-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d4e942a9-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f1bb94e0-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d6eb0b0f-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 90222cd4-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d70ccd14-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9dd3cb90-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8402683b-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d3f96b25-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: cf6141c2-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5ff8e181-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 01267a32-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e989b1a5-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: dd6f9195-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9c17b0de-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c434cb73-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7e78b7f6-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a59bfcfa-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c652afa7-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6f1cfc52-9 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: bc0f4097-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0ac8cbd2-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 486768f6-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5d040b41-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f4fa9e37-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 998442ec-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3dec9c5f-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b8c98cc2-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0b0a6e85-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ccbf569f-e - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 5177210e-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b024d6c7-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6849d52a-6 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 2b79d3a4-e - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 09725983-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8b90b241-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 77890156-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 220845b1-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: dcd2c80f-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f8ccd23c-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 265e35c1-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 35755343-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: af717ff9-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bc60b7b0-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c0ed09d3-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 12d5d330-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7fd347c7-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a1008492-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 05b184e7-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0f53383c-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 859b812f-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 91249345-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b7afe3f6-a - Generation: 3 Path: [27, 28, 28] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: eb1b899d-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 84d215eb-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a9d1bd83-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7b5d5d86-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f538f891-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9504e36c-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f58f81de-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7a1da66e-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 908f06f3-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 54d8ab7d-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f17adc6c-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0bac0761-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 03b26a09-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2dc0f917-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 80f071af-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 473a3afc-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 84bb798c-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: eee33362-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 91512638-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0535fece-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 83206eb8-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 55036199-8 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 565ba7d3-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 320a5b78-d - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: f5207ede-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d3d8ef7d-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bde2a979-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9b0cb31a-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c8dd098b-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3cad0612-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ef7c3f31-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9cbcfb1d-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 499f6d5d-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fa91ebba-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f44044b3-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8fe2a216-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c4d89cc6-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: deffdae5-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9af5a4e1-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ca5ba682-3 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: e457aa46-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8526a254-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: dd72f6c9-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 62a3bd53-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 01d9ce91-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 54d1ae37-d - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 1a77aa32-d - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 40e386d9-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 65de07cf-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: cbbbbc13-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7aa984f8-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e7526881-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d161a4bd-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4aa04bb6-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 78f4f5a9-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9f8b0b46-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 929937c7-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ea2cc629-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a3808ded-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4ef5e4a9-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: eabe72ed-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 74948a44-a - Generation: 3 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: 1c47b4a4-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7bdc90f6-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c64ee00a-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7772238f-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 82a8d02b-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4bcfb45c-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 592a10be-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 274be6d6-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6c6db9ab-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 32c05a1e-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: eb4e000d-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 17747901-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 17a04c2c-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: cbdeb456-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 497ca641-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 23f5216b-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 44ad9f47-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ad84b0cc-c - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 8402d8f5-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 836b9165-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c1045ea3-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fa9379c9-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4e159b4b-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b390d677-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5b7b4bcb-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: be245492-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1840b868-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8748c7d0-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e295d7b9-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4122a493-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e8d85695-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 537a7fb4-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 14ebd189-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d9126448-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 24ab4909-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 939279e1-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5c74154c-a - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: f87a7410-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9e1be898-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f317d9fc-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f31d2d64-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1cd9800f-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3053cb6e-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f554e2d8-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bd2f3d1d-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6cedba28-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5c872dc0-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 38cfc64f-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6f5272d2-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1f0516c2-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fe319223-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 33f4b38a-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9905e43e-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d8c1fee0-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9ebd1894-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5698407b-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: cba8c213-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ec76d119-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4ade85c9-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3a81e528-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8b5c10e0-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c4fbd04c-e - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: b7804fd4-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b7bfd861-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 53abf1bd-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: dbafe137-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d7d39168-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d755aceb-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f661d84c-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 67987e49-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 812a7aa3-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4f75e830-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f97597c9-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d581e987-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 23ae8c33-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6c49e1cc-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 52676b80-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 39204548-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 101703e1-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 59fca663-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0074e766-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a5639763-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c2434521-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c728ad7e-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3573d70d-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 413be47c-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: add7e750-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ef6ef009-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fea4ba44-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c3332eda-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 64d49ac6-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 58a417fd-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 67464750-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3d8861ad-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 135e2805-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 911170f0-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8f6fef6c-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e8c6ae01-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1aa70759-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e7671325-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: eff6d836-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 76a181fc-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5e9178b7-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 497893ca-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a3d185e4-7 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: d204d379-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d2578dbe-8 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 4190931b-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 172fc374-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 165bec90-2 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 423677fe-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6a2f0656-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 766700b6-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9dc5ec00-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f675100b-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 03784840-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4c37074d-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b11c5ce2-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2a8df83f-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 823729ac-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1cef9d3b-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2449f4e5-9 - Generation: 3 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: 6fa2054c-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8099c185-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4e45174c-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 23de2f0a-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 609d6e2b-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8bcdf444-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9f061b56-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 80639774-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 83f0d76e-c - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 78b6d55a-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f40a172a-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 83e269cc-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1f6384e6-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9ef0c657-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c508e05a-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8be389a8-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 167b384d-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b97e8b77-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 58ba14f7-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ff2163d7-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3f31da77-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a2b8404c-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ca9231a3-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6b3a876b-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 984c518a-1 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 2456e8a2-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1559aed3-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 51a6ad44-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: db7dae2d-3 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 06c865cd-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8614cf58-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ad065180-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 13e0e2e3-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2189e1d6-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 930f79bc-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 890ac9c8-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5a5f816d-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 778005e0-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3753c96e-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 31a25fce-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0b77943f-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8f8e8aa1-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 23527aab-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ee1b94a4-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3801746f-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4f643e9a-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0bb4936e-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ced4b109-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3d7a43c9-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6165bdc7-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 30d3d90f-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f9a791e6-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 667522f2-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 91abe314-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8b0ee060-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0b069fa9-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d5fe9f5f-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 425f40d1-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b2244347-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8dc07eba-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 21973f71-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6a7ddd50-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 58353f5f-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6c8fe421-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 722a7120-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b6326e46-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 83dcfe67-f - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: eca51687-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 07fe6e26-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 31ef9f21-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f6d5f7d1-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d2e683df-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f425dd72-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e2d8c2be-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b2da5e7c-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 612ca24d-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e0f4ac92-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9e40ed05-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 169bf106-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fbfaa847-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8fc8735c-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5c79014a-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e54c7012-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 02d32890-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 41453889-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3a01df65-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 82bbec0c-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9bf8e5a7-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7bc51f38-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c9d3c6ac-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b05ba1b5-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b0a586f9-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e2dc64ae-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 26e31ed4-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d2b3696e-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8a78e1e6-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c36738c0-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0c446123-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d330d5f3-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c32b2834-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9fcf5936-4 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: ccfb6011-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: eb322bc8-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 139ab436-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c0fd66a5-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fa5ef09f-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c3da1402-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4a1426d9-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 271dfab2-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6396f52d-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c7f40226-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1d26ef2a-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d588d069-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0dee216e-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 34efde57-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a9d6ef4e-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 25d73fd3-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 53d776a8-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f8c08127-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5bfb0e26-5 - Generation: 3 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: bfcfcdaf-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 23416e48-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 18be3f7a-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f73ddea5-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1427629e-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 920dfb5b-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3e1f4955-d - Generation: 3 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: cf20f328-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d47eb430-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 32f00f5a-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e8967bef-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8c7e527a-1 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 22ec7cdb-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8b9f1f62-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 08353b6f-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4b3ec827-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 426f1774-3 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: e77dd5fa-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 87807527-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 45af9cac-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a4c600e0-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e139bb9e-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0a728db5-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 97f93b96-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: dfee5eed-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 06ac52ad-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 19dafed3-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 384eb1a8-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7cb9b1c1-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0867fcb7-a - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: cffcce40-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 88a7141a-7 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 6c3d5279-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9210eeae-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e4ec2faa-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b4175679-0 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 51b0fa1c-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 200360d5-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c5609155-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 112cad87-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4e562e3f-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6684f052-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2e2c348b-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5ddd37d3-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7f4e3e0e-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 34b152a5-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 40df0c8a-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1237adbf-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b0f34a81-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 89adda67-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b1c76144-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d0414ddb-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 271bb7a9-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8b85d497-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 99811cbd-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 03419a45-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7dc3689d-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c4547db0-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4bd8d898-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bfecdfb8-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4390cf63-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c99f8d73-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 882d1088-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c9671463-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: cef43304-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 86ed3447-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 607e42b4-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 743d7f90-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3abdefd7-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7d127beb-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: acb7ff51-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 207afbe6-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: cc05b73e-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7cafddf6-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 38fd4921-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4f626dd0-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 28d3f07a-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 73fda8b0-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6846dee6-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e15d9705-7 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 0fd64d0c-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7760f33c-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f61e916e-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4ca64fe7-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ccd0b185-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 00c49cce-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7cfc2fd1-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8a1e38fc-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: edf84c52-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 29f7c5f8-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a3f7bb49-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b5b7eb90-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 594783dd-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e5a37784-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 12afdcaa-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3babcc8b-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: af7e3b53-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f7a7e6cd-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8f44fbdc-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 55e50219-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ea5d00a3-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0bcdc0ec-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ad2ff339-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 96885712-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 81d6a315-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 53a5342b-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: cf6b7590-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1df3a889-2 - Generation: 3 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: fa83f969-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 165d2784-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0494bfa9-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6ee3959d-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5a6fd0db-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 63734372-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0c9d91ac-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7c5982be-e - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 4cd4ab36-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5424d7b5-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c5b37dea-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7e8e5d6a-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 01a9973b-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 71d53a3a-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 473f932a-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f6e01815-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 08f0ff78-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 371f1465-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ed0f3221-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 921cfc39-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 53913d9a-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0a421dc6-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 12848ac0-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e902b957-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6ff2100d-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 61e2d6d1-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6b6e47be-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 34db419a-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5180fed0-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 411c8657-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a3612efb-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 89b14d94-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a03ca1c2-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 144e21c4-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a3b57cae-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4a3993d6-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d54875c3-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8df757a4-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 19dabb15-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 824ed507-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e5b1ab74-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5a8045fb-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 257757ce-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a861d33f-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 10307d7d-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6cbaf8f4-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 38d27f34-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 893d5fd8-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b6b7c834-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e69f59fd-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fde6d4bf-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7cad6c23-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 67f13c40-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1f64b26f-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7d11c354-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8c0f972d-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1c745fc3-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7a481ef9-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: aa0a9d95-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6177c5ce-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6467d406-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3901689d-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e7293522-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4bae241f-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d58ad295-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4df7f19c-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 67df6ca5-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ce45a043-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8b0df567-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 50d334e3-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 86111f59-7 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: d97195ca-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 709e5eca-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b2085308-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fcfa4891-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3ab46a29-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2f4fb4a8-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 01e1e4cc-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3c295f47-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 941e6faf-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2c5cb718-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5abcd16f-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4ab45a5c-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7c178782-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2fde12f4-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 31bd645a-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b6899fb8-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9d60bc0c-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 35eeab7c-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b69fa101-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fde320c0-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: be6afa6b-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2896a438-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4fefce3c-9 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 43e6ff05-7 - Generation: 3 Path: [28, 22, 29, 23, 16, 10, 4, 4] Fitness: 9.75
+INFO :: wrapper :: Brain: 5a131de0-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 52f70709-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e99c7c74-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b483d5cb-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f9d287aa-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8b9acc43-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6dfdf13c-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 42c6f420-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d3c1e806-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5f259fce-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5c060424-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: efeae3f7-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 78ea6624-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: af3de508-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b7b0b92a-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 861fdcef-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3f9cd448-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8dc8d6c2-4 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 83b47d92-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 685bbb06-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0566bc34-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 828485fa-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0256f359-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a8d4bf2b-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b747e237-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7e0052ab-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2723abfc-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 64d67c36-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5c3111ad-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 84023e0f-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5f74c599-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d67cfb33-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f43a35ff-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6d30abb7-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c138cad6-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4c382b4c-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5a106292-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 746480a4-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 21b84733-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1eabcdb9-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d93add37-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 21fef840-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f81cd5c6-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b0a3e5b6-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bd3989a8-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9d3a37fe-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fd59c29c-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5e7d2813-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5e41ad74-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 201c5ed7-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1ae1c064-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 89647c6f-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7968a4b9-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 29556607-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 44d53b70-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e5fa1048-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3a6cf64d-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 98a685b4-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: fce8f36b-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d6e095a6-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 882f0c7b-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ce3f8bf5-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 234adf11-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0f849dc0-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b124128d-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8bcdb4b2-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7e58876a-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b0943d53-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1200c4cc-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5cc2bc7b-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2f889937-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 113d6410-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 443dedc6-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 27ef10d8-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5285f6f9-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1282f265-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: cc5e8e82-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5dfeac1d-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 936f0d35-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5531cff4-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 3180b165-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6e0e16b2-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8523bff4-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a6374d70-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5a0f2285-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: dac7bd6e-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4738b4e0-e - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: 3e57e29f-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bb5fc45b-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e440f915-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 813eb065-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 697dd4e6-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8ea3ff63-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ec42c001-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 73c3b54e-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c537f545-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7fb7f88b-6 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9072be87-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: b992ea82-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 840bfe32-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: bf77b295-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1ddede60-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9a68c879-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1cdc57c2-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e2bc36ce-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8b1d269c-0 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: ffeeed8d-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e28209d5-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 81c1e2f7-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: dde232ee-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7a83b182-a - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: e3c08e66-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 7ca8dfe4-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1b67d21f-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: efe59879-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 513fa2db-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 17ea00f9-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0a02a8f8-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 56b1a193-8 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 9bf6c10d-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0a2fd2a3-1 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d3a99c3d-b - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e9d31304-3 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: ac204afe-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 010d8d35-5 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: e9924e7f-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: acb98881-9 - Generation: 3 Path: [27, 28, 34, 27, 28, 34, 27, 28, 34, 27, 27] Fitness: 0.3
+INFO :: wrapper :: Brain: f006104b-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 2365dfdb-e - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 83a79b79-3 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 24e21882-2 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 77cf03e1-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 0ec9db64-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a2e1d4e3-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: d6599563-9 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1ef337b1-7 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: c2055abc-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: a3701c7c-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: cdfb5a9d-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 187c7e7e-4 - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5d9ccee5-a - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 1d127d84-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 5bf70131-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 4749b705-c - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: f42b39fd-f - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 6162ec7c-d - Generation: 3 Path: [34] Fitness: 3.0
+INFO :: wrapper :: Brain: 8c676fd9-8 - Generation: 3 Path: [34] Fitness: 3.0

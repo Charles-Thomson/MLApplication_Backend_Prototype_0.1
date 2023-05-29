@@ -5,7 +5,7 @@ from gym import Env
 from Environment.environment_sightdata import collect_observation_data
 
 
-ENV_MAP = [
+NOT_ENV_MAP = [
     [2, 2, 2, 2, 2, 2],
     [2, 1, 1, 1, 3, 2],
     [2, 1, 1, 1, 1, 2],
@@ -20,8 +20,8 @@ class MazeEnvironment(Env):
     """Generate a new environment"""
 
     def __init__(self, max_steps: int, env_map: np.array):
-        self.environment_map: np.array = env_map
-        print(env_map.shape)
+        self.environment_map: np.array = np.array(env_map)
+        self.env_map_shape = self.environment_map.shape
 
         self.nrow, self.ncol = self.environment_map.shape
 
@@ -29,9 +29,9 @@ class MazeEnvironment(Env):
         # Doesnt allow for starting on a lower num of steps and increasing
         self.max_steps = max_steps
         self.step_count = 0
-        self.environment_start_state = (
-            4  # hard coded for testing need to sort the starting node and intergrate
-        )
+        # hard coded for testing need to sort the starting node and intergrate
+        self.environment_start_state = 8
+
         self.states_visited: list[int] = []  # acts as path ?
         self.agent_state = self.environment_start_state
 
@@ -51,9 +51,15 @@ class MazeEnvironment(Env):
 
     def step(self, action: int) -> tuple[int, float, bool, list]:
         """Carray out the given action from the agent in ralition to the environment"""
+        new_state = self.agent_state
+        new_state_x, new_state_y = self.process_action(action)
+        termination: bool = self.termination_check(new_state_x, new_state_y)
 
-        new_state: int = self.process_action(action)
-        termination: bool = self.termination_check(new_state)
+        if termination:
+            new_state = self.agent_state
+        else:
+            new_state = self.to_state((new_state_x, new_state_y))
+
         reward: float = self.calculate_reward(new_state)
         l_list: list = []
 
@@ -63,13 +69,26 @@ class MazeEnvironment(Env):
 
         return new_state, termination, reward, l_list
 
-    def termination_check(self, new_state: int) -> bool:
+    def termination_check(self, new_state_x: int, new_state_y: int) -> bool:
         """Check for termination"""
+
+        # add in the boundry check here for x and y coords
+        map_shape_X, map_shape_Y = self.env_map_shape
+
+        # Can be refactored
+        if new_state_x >= map_shape_X:
+            return True
+        if new_state_y >= map_shape_Y:
+            return True
+        if new_state_x < 0:
+            return True
+        if new_state_y < 0:
+            return True
 
         if self.step_count >= self.max_steps:
             return True
 
-        if self.get_location_value(self.to_coords(new_state)) == 2:
+        if self.get_location_value((new_state_x, new_state_y)) == 2:
             return True
 
         return False
@@ -134,7 +153,8 @@ class MazeEnvironment(Env):
                 hcol += 1
                 hrow += 1
 
-        return self.to_state((hrow, hcol))
+        # need to return the coords here
+        return (hrow, hcol)
 
 
 def setup_to_coords(ncol: int) -> callable:
