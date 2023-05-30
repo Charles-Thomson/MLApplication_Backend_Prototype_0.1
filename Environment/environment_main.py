@@ -1,19 +1,11 @@
 """The environment"""
+from functools import partial
 import numpy as np
 
 from gym import Env
 from Environment.environment_sightdata import collect_observation_data
 
-
-NOT_ENV_MAP = [
-    [2, 2, 2, 2, 2, 2],
-    [2, 1, 1, 1, 3, 2],
-    [2, 1, 1, 1, 1, 2],
-    [2, 2, 1, 2, 1, 2],
-    [2, 1, 1, 1, 3, 2],
-    [2, 2, 2, 2, 2, 2],
-]
-# goals on 8, 10 , 28
+import config
 
 
 class MazeEnvironment(Env):
@@ -21,49 +13,44 @@ class MazeEnvironment(Env):
 
     def __init__(self, max_steps: int, env_map: np.array):
         self.environment_map: np.array = np.array(env_map)
-        self.env_map_shape = self.environment_map.shape
 
         self.nrow, self.ncol = self.environment_map.shape
 
-        # keep track of the max call for no of steps
-        # Doesnt allow for starting on a lower num of steps and increasing
         self.max_steps = max_steps
         self.step_count = 0
-        # hard coded for testing need to sort the starting node and intergrate
-        self.environment_start_state = 8
 
-        self.states_visited: list[int] = []  # acts as path ?
-        self.agent_state = self.environment_start_state
+        self.states_visited: list[int] = []
+        self.agent_state = config.ENVIRONMENT_START_STATE
 
-        self.to_coords = setup_to_coords(self.ncol)
-        self.to_state = setup_to_state(self.ncol)
-        self.get_location_value = setup_get_location_value(self.environment_map)
+        self.to_coords = partial(to_coords, ncol=self.ncol)
+        self.to_state = partial(to_state, self.ncol)
+        self.get_location_value = partial(get_location_value, self.environment_map)
 
     def render(self) -> None:
         pass
 
     def get_environemnt_observation(self) -> np.array:
         """Returns a sight observation from the environment beased on the agent location"""
-        observation_data = collect_observation_data(
+
+        return collect_observation_data(
             self.agent_state, self.ncol, self.environment_map
         )
-        return observation_data
 
     def step(self, action: int) -> tuple[int, float, bool, list]:
         """Carray out the given action from the agent in ralition to the environment"""
-        new_state = self.agent_state
         new_state_x, new_state_y = self.process_action(action)
         termination: bool = self.termination_check(new_state_x, new_state_y)
 
-        if termination:
-            new_state = self.agent_state
-        else:
+        if termination is False:
             new_state = self.to_state((new_state_x, new_state_y))
+            reward: float = self.calculate_reward(new_state)
+        else:
+            new_state: int = 255
+            reward: float = 0.0
 
-        reward: float = self.calculate_reward(new_state)
         l_list: list = []
 
-        self.states_visited.append(self.agent_state)
+        self.states_visited.append(new_state)
         self.agent_state = new_state
         self.step_count += 1
 
@@ -72,20 +59,15 @@ class MazeEnvironment(Env):
     def termination_check(self, new_state_x: int, new_state_y: int) -> bool:
         """Check for termination"""
 
-        # add in the boundry check here for x and y coords
-        map_shape_X, map_shape_Y = self.env_map_shape
+        termination_conditions: list = [
+            self.step_count >= self.max_steps,
+            new_state_x < 0,
+            new_state_y < 0,
+            new_state_x >= self.ncol,
+            new_state_y >= self.nrow,
+        ]
 
-        # Can be refactored
-        if new_state_x >= map_shape_X:
-            return True
-        if new_state_y >= map_shape_Y:
-            return True
-        if new_state_x < 0:
-            return True
-        if new_state_y < 0:
-            return True
-
-        if self.step_count >= self.max_steps:
+        if any(termination_conditions):
             return True
 
         if self.get_location_value((new_state_x, new_state_y)) == 2:
@@ -95,19 +77,18 @@ class MazeEnvironment(Env):
 
     def remove_goal(self, agent_state):
         """Check if agent reached goal - if True remove goal"""
-        loc_x, loc_y = self.to_coords(agent_state)
+        loc_x, loc_y = self.to_coords(state=agent_state)
         self.environment_map[loc_x, loc_y] = 1
 
     def calculate_reward(self, new_state: int):
         """Calculate the reward of the agents last action"""
-        value_at_new_state = self.get_location_value(self.to_coords(new_state))
+        value_at_new_state = self.get_location_value(self.to_coords(state=new_state))
 
         if new_state in self.states_visited:
             return 0
 
         match value_at_new_state:
             case 1:  # Open Tile
-                # return 0.1 + self.episode_length / 100
                 return 0.15
 
             case 2:  # Obstical
@@ -119,7 +100,7 @@ class MazeEnvironment(Env):
 
     def process_action(self, action: int) -> tuple[int]:
         """Apply the given action to the location of the agent in the env"""
-        hrow, hcol = self.to_coords(self.agent_state)
+        hrow, hcol = self.to_coords(state=self.agent_state)
 
         match action:
             case 0:  # Up + Left
@@ -153,32 +134,19 @@ class MazeEnvironment(Env):
                 hcol += 1
                 hrow += 1
 
-        # need to return the coords here
         return (hrow, hcol)
 
 
-def setup_to_coords(ncol: int) -> callable:
-    """Convert state to coords"""
-
-    def to_coords(state: int):
-        return divmod(state, ncol)
-
-    return to_coords
+def to_coords(ncol: int, state: int):
+    """Convert state value to map coords"""
+    return divmod(state, ncol)
 
 
-def setup_to_state(ncol: int) -> callable:
-    """Convert coords to state"""
-
-    def to_state(coords):
-        return (coords[0] * ncol) + coords[1]
-
-    return to_state
+def to_state(ncol: int, coords: tuple[int, int]):
+    """Convert map coords to state value"""
+    return (coords[0] * ncol) + coords[1]
 
 
-def setup_get_location_value(env_map: np.array) -> callable:
-    """Get the loaction on the board at a set state"""
-
-    def get_location_value(coords: tuple):
-        return env_map[coords[0]][coords[1]]
-
-    return get_location_value
+def get_location_value(env_map: np.array, coords: tuple):
+    """Get the value of a location in the env"""
+    return env_map[coords[0]][coords[1]]

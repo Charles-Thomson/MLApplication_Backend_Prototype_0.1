@@ -1,7 +1,7 @@
 """Main File"""
-import numpy as np
 from copy import deepcopy
-from typing import Generator, final
+from typing import Generator
+import numpy as np
 from Environment.environment_main import MazeEnvironment
 from Agent.maze_agent import MazeAgent
 from Brain.brain_generation import new_brain_generator
@@ -10,20 +10,18 @@ from DataBase.database_main import save_brain_instance, get_and_format_db_data
 
 from Logging.loggin_decorator import with_generation_logging
 
-
-MAX_GENERATION_SIZE: final = 1000
-MAX_EPISODE_DURATION: final = 10
+import config
 
 
 @with_generation_logging
 def new_generation(generation_num: int, env_map: np.array) -> list:
     """New generation"""
 
+    fitness_threshold: float = config.STARTING_FITNESS_THRESHOLD
+    desiered_fit_generation_size: int = config.DESIERED_FIT_GENERATION_SIZE
     generation_status: bool = True
-    fitness_threshold: float = 3.0
     current_generation_size: int = 0
     parents: list[BrainInstance] = []
-    desiered_fit_generation_size: int = 10
 
     # For logging purposes
     fit_brains: list[BrainInstance] = []
@@ -36,19 +34,19 @@ def new_generation(generation_num: int, env_map: np.array) -> list:
     brain_generator: Generator = new_brain_generator(
         parents=parents,
         generation_num=generation_num,
-        generation_size=MAX_GENERATION_SIZE,
+        generation_size=config.MAX_GENERATION_SIZE,
     )
 
     while len(fit_brains) < desiered_fit_generation_size:
         current_generation_size += 1
 
         # Basic Guard
-        if current_generation_size >= MAX_GENERATION_SIZE:
+        if current_generation_size >= config.MAX_GENERATION_SIZE:
             generation_status = False
             break
 
         agent_instance: MazeAgent = MazeAgent(
-            enviroment=MazeEnvironment(MAX_EPISODE_DURATION, env_map),
+            enviroment=MazeEnvironment(config.MAX_EPISODE_DURATION, env_map),
             agent_brain=next(brain_generator),
         )
 
@@ -104,14 +102,6 @@ def print_data(data: list[BrainInstance]):
 
 
 if __name__ == "__main__":
-    ENV_TEST_MAP = [
-        [1, 1, 1, 1, 3, 2],
-        [1, 1, 1, 1, 3, 1],
-        [1, 1, 1, 1, 1, 1],
-        [1, 1, 1, 2, 1, 3],
-        [2, 1, 1, 1, 1, 1],
-        [2, 2, 3, 1, 3, 2],
-    ]
-    main_system(10, ENV_TEST_MAP)
+    main_system(config.NUMBER_OF_GENERATIONS, config.ENV_MAP)
     # data = get_selected_generations([1])
     # print_data(data)
