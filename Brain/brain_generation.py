@@ -6,6 +6,7 @@ import numpy as np
 from numpy.random import randn, choice
 from Brain.brain_instance import BrainInstance
 from Brain.brain_crossover import weights_crossover
+import config
 
 
 INPUT_LAYER_SIZE: final = 24
@@ -20,12 +21,8 @@ def new_brain_generator(
 
     for _ in range(generation_size):
         if generation_num == 0:
-            hidden_weights: np.array = generate_rand_weights(
-                INPUT_LAYER_SIZE, INPUT_TO_HIDDEN_CONNECTIONS
-            )
-            output_weights: np.array = generate_rand_weights(
-                INPUT_LAYER_SIZE, HIDDEN_TO_OUTPUT_CONNECTIONS
-            )
+            hidden_weights: np.array = initialize_weights(INPUT_TO_HIDDEN_CONNECTIONS)
+            output_weights: np.array = initialize_weights(HIDDEN_TO_OUTPUT_CONNECTIONS)
         else:
             hidden_weights, output_weights = weights_crossover(parents)
 
@@ -34,6 +31,7 @@ def new_brain_generator(
         new_brain: BrainInstance = BrainInstance(
             brain_id, generation_num, hidden_weights, output_weights
         )
+        print(hidden_weights)
 
         yield new_brain
 
@@ -45,28 +43,14 @@ def generate_brain_id() -> str:
     return brain_id
 
 
-def generate_rand_weights(
-    input_layer_size: int, layer_connections: tuple[int, int]
-) -> np.array:
+def initialize_weights(layer_connections: tuple[int, int]) -> np.array:
     """Generate random weigths between to layers of a specified sizes"""
+
+    weights = config.WEIGHT_INITALIZATION_HEURISTIC(layer_connections)
 
     sending_layer, reciving_layer = layer_connections
     rand_weights: np.array = np.array(
-        [
-            [generate_rand_value(input_layer_size) for i in range(reciving_layer)]
-            for i in range(sending_layer)
-        ]
+        [[choice(weights) for i in range(reciving_layer)] for i in range(sending_layer)]
     )
 
     return rand_weights
-
-
-def generate_rand_value(input_layer_size: int) -> float:
-    """Generate a rnadom value based on the size of the given input layer - choice, round, randn called from np"""
-    std = sqrt(2.0 / input_layer_size)
-    numbers = randn(500)
-    scaled = numbers * std
-    value = choice(scaled)
-    value = np.round(value, decimals=3)
-
-    return value
