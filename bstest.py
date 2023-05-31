@@ -3,10 +3,10 @@ listl = [1, 2, 3]
 
 def test():
     try:
-        value = listl[2]
+        value = listl[-2]
+        return value
     except IndexError:
-        value = 0
-    return value
+        return 0
 
 
 thisvalue = test()

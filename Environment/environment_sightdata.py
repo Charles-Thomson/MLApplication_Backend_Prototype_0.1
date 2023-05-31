@@ -53,7 +53,7 @@ def check_sight_line(sight_line: list) -> list[float, float, float]:
     """Check along the given sightline and determin activation
 
     Can not see past Goal or Obstical
-    else case -> open states to the end of the map
+    case -> open states to the end of the map
     """
     rtn_data = []
     for distance, value in enumerate(sight_line):

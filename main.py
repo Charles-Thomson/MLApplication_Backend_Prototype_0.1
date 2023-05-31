@@ -14,7 +14,7 @@ import config
 
 
 @with_generation_logging
-def new_generation(generation_num: int, env_map: np.array) -> list:
+def new_generation(generation_num: int) -> list:
     """New generation"""
 
     fitness_threshold: float = config.STARTING_FITNESS_THRESHOLD
@@ -46,7 +46,7 @@ def new_generation(generation_num: int, env_map: np.array) -> list:
             break
 
         agent_instance: MazeAgent = MazeAgent(
-            enviroment=MazeEnvironment(config.MAX_EPISODE_DURATION, env_map),
+            enviroment=MazeEnvironment(),
             agent_brain=next(brain_generator),
         )
 
@@ -64,11 +64,11 @@ def new_generation(generation_num: int, env_map: np.array) -> list:
     return fit_brains, all_brains, generation_status
 
 
-def main_system(number_of_generations: int, env_map: np.array) -> None:
+def main_system() -> None:
     """Main handling"""
 
-    for gen_num in range(0, number_of_generations):
-        fit_gen, all_gen, generation_status = new_generation(gen_num, env_map)
+    for gen_num in range(0, config.NUMBER_OF_GENERATIONS):
+        fit_gen, all_gen, generation_status = new_generation(gen_num)
         if generation_status is False:  # The new generation has failed
             print(f"SYSTEM => The genration has failed {gen_num}")
             break
@@ -88,6 +88,7 @@ def get_selected_generations(selected_generations: list[int]) -> list[BrainInsta
 # Needs to be refactored out
 def calculate_new_fitnees_threshold(parents: list[BrainInstance]) -> float:
     """Return a fitness threshold 10% higher then given pervious generation threshold"""
+
     total_fitness = sum(instance.fitness for instance in parents)
     average_fitness = total_fitness / len(parents)
     new_threshold = average_fitness + ((average_fitness / 100) * 5)
@@ -102,6 +103,6 @@ def print_data(data: list[BrainInstance]):
 
 
 if __name__ == "__main__":
-    main_system(config.NUMBER_OF_GENERATIONS, config.ENV_MAP)
+    main_system()
     # data = get_selected_generations([1])
     # print_data(data)

@@ -11,12 +11,12 @@ import config
 class MazeEnvironment(Env):
     """Generate a new environment"""
 
-    def __init__(self, max_steps: int, env_map: np.array):
-        self.environment_map: np.array = np.array(env_map)
+    def __init__(self):
+        self.environment_map: np.array = np.array(config.ENV_MAP)
 
         self.nrow, self.ncol = self.environment_map.shape
 
-        self.max_steps = max_steps
+        self.max_steps = config.MAX_EPISODE_DURATION
         self.step_count = 0
 
         self.states_visited: list[int] = []
@@ -48,29 +48,26 @@ class MazeEnvironment(Env):
             new_state: int = 255
             reward: float = 0.0
 
-        l_list: list = []
+        info: list = []  # Gym requierment
 
         self.states_visited.append(new_state)
         self.agent_state = new_state
         self.step_count += 1
 
-        return new_state, termination, reward, l_list
+        return new_state, termination, reward, info
 
     def termination_check(self, new_state_x: int, new_state_y: int) -> bool:
         """Check for termination"""
 
         termination_conditions: list = [
-            self.step_count >= self.max_steps,
             new_state_x < 0,
             new_state_y < 0,
-            new_state_x >= self.ncol,
-            new_state_y >= self.nrow,
+            self.step_count >= self.max_steps,
+            self.get_location_value((new_state_x, new_state_y))
+            == 2,  # Upper Index guard
         ]
 
         if any(termination_conditions):
-            return True
-
-        if self.get_location_value((new_state_x, new_state_y)) == 2:
             return True
 
         return False
@@ -149,4 +146,8 @@ def to_state(ncol: int, coords: tuple[int, int]):
 
 def get_location_value(env_map: np.array, coords: tuple):
     """Get the value of a location in the env"""
-    return env_map[coords[0]][coords[1]]
+    try:
+        value = env_map[coords[0]][coords[1]]
+        return value
+    except IndexError:
+        return 2  # Termination condition
