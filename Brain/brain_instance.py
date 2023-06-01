@@ -1,5 +1,6 @@
 """Instance of a brain used by a agent"""
 import numpy as np
+import config
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import (
     Column,
@@ -44,14 +45,14 @@ class BrainInstance(Base):
 
     def determin_action(self, sight_data: np.array) -> int:
         """Determin best action based on given data/activation"""
+        hidden_layer_activation_function = config.HIDDEN_LAYER_ACTIVATION_FUNCTION
+        output_layer_activation_function = config.OUPUT_LAYER_ACTIVATION_FUNCTION
+
         hidden_layer_dot_product = np.dot(sight_data, self.hidden_weights)
-        hidden_layer_activation = [
-            np.maximum(0, x) for x in np.nditer(hidden_layer_dot_product)
-        ]
-        hidden_layer_result = np.array(hidden_layer_activation)
 
-        output_layer_dot_product = np.dot(hidden_layer_result, self.output_weights)
-        output_layer_activation = np.exp(output_layer_dot_product)
-        output_layer_result = output_layer_activation / output_layer_activation.sum()
+        vectorize_func = np.vectorize(hidden_layer_activation_function)
+        hidden_layer_activation = vectorize_func(hidden_layer_dot_product)
 
-        return np.argmax(output_layer_result)
+        output_layer_dot_product = np.dot(hidden_layer_activation, self.output_weights)
+
+        return output_layer_activation_function(output_layer_dot_product)

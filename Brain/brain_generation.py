@@ -31,7 +31,6 @@ def new_brain_generator(
         new_brain: BrainInstance = BrainInstance(
             brain_id, generation_num, hidden_weights, output_weights
         )
-        print(hidden_weights)
 
         yield new_brain
 
@@ -45,6 +44,8 @@ def generate_brain_id() -> str:
 
 def initialize_weights(layer_connections: tuple[int, int]) -> np.array:
     """Generate random weigths between to layers of a specified sizes"""
+
+    # may clean up to return the set weight size not 500
 
     weights = config.WEIGHT_INITALIZATION_HEURISTIC(layer_connections)
 
