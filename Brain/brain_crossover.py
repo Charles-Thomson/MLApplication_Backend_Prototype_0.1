@@ -5,6 +5,7 @@ from typing import final
 from random import randint
 from Brain.brain_instance import BrainInstance
 import numpy as np
+import config
 
 
 MUTATION_THRESHOLD: final = 50
@@ -12,6 +13,8 @@ MUTATION_THRESHOLD: final = 50
 
 def weights_crossover(parents: list[BrainInstance]) -> tuple[np.array, np.array]:
     """Select and compund two parents weight sets to"""
+    weights_crossover_function: callable = config.WEIGHTS_CROSSOVER_FUNCTION
+
     val: int = len(parents)
     weightings: list[float] = tuple(val / i for i in range(1, val + 1))
 
@@ -20,11 +23,11 @@ def weights_crossover(parents: list[BrainInstance]) -> tuple[np.array, np.array]
     parent_a: BrainInstance = deepcopy(parent_a)
     parent_b: BrainInstance = deepcopy(parent_b)
 
-    new_input_to_hidden_weight = avg_of_weights(
+    new_input_to_hidden_weight = weights_crossover_function(
         parent_a.hidden_weights, parent_b.hidden_weights
     )
 
-    new_hidden_to_output_weights = avg_of_weights(
+    new_hidden_to_output_weights = weights_crossover_function(
         parent_a.output_weights, parent_b.output_weights
     )
 
@@ -37,13 +40,6 @@ def weights_crossover(parents: list[BrainInstance]) -> tuple[np.array, np.array]
             new_hidden_to_output_weights = apply_mutation(new_hidden_to_output_weights)
 
     return (new_input_to_hidden_weight, new_hidden_to_output_weights)
-
-
-def avg_of_weights(weight_set_a: np.array, weight_set_b: np.array) -> np.array:
-    """Generate new weigts set from the avg of two given weights sets"""
-    new_weight_set_sum: np.array = np.add(weight_set_a, weight_set_b)
-    new_weight_set: np.array = np.divide(new_weight_set_sum, 2)
-    return new_weight_set
 
 
 def apply_mutation(weight_set: np.array) -> np.array:
