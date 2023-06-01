@@ -1,9 +1,8 @@
 """Core functunality and creation of the brains used by agents"""
 from typing import final
 import uuid
-from math import sqrt
 import numpy as np
-from numpy.random import randn, choice
+from numpy.random import choice
 from Brain.brain_instance import BrainInstance
 from Brain.brain_crossover import weights_crossover
 import config
@@ -47,11 +46,16 @@ def initialize_weights(layer_connections: tuple[int, int]) -> np.array:
 
     # may clean up to return the set weight size not 500
 
-    weights = config.WEIGHT_INITALIZATION_HEURISTIC(layer_connections)
+    get_weight = config.WEIGHT_INITALIZATION_HEURISTIC(layer_connections)
 
     sending_layer, reciving_layer = layer_connections
     rand_weights: np.array = np.array(
-        [[choice(weights) for i in range(reciving_layer)] for i in range(sending_layer)]
+        [
+            [next(get_weight) for i in range(reciving_layer)]
+            for i in range(sending_layer)
+        ]
     )
+
+    print(rand_weights)
 
     return rand_weights

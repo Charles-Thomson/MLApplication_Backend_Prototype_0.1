@@ -33,7 +33,7 @@ ENVIRONMENT_START_STATE: int = 8
 MAX_EPISODE_DURATION: int = 10
 
 
-WEIGHT_INITALIZATION_HEURISTIC: callable = weight_huristics.he_weight_init
+WEIGHT_INITALIZATION_HEURISTIC: callable = weight_huristics.he_weight_init_generator
 
 HIDDEN_LAYER_ACTIVATION_FUNCTION: callable = (
     activation_functions.rectified_linear_activation_activation_function

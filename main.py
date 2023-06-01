@@ -1,7 +1,7 @@
 """Main File"""
 from copy import deepcopy
 from typing import Generator
-import numpy as np
+
 from Environment.environment_main import MazeEnvironment
 from Agent.maze_agent import MazeAgent
 from Brain.brain_generation import new_brain_generator
