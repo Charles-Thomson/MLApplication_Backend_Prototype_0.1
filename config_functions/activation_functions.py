@@ -8,7 +8,7 @@ import numpy as np
 
 def linear_activation_function(value: float) -> float:
     """Returns given value - gives linear result"""
-    return np.round(value, deciamls=3)
+    return value
 
 
 # None Linear activations
@@ -50,3 +50,16 @@ def soft_argmax_activation(vector: np.array) -> int:
     vector_exp = np.exp(vector)
     vector_sum = vector_exp / vector_exp.sum()
     return np.argmax(vector_sum)
+
+
+HIDDEN_LAYER_ACTIVATION_FUNCTIONS: dict = {
+    "linear_activation_function": linear_activation_function,
+    "rectified_linear_activation_activation_function": rectified_linear_activation_activation_function,
+    "leaky_rectified_linear_activation_activation_function": leaky_rectified_linear_activation_activation_function,
+    "sigmoid_activation_fucntion": sigmoid_activation_fucntion,
+}
+
+OUTPUT_LAYER_ACTIVATION_FUNCTIONS: dict = {
+    "argmax_activation": argmax_activation,
+    "soft_argmax_activation": soft_argmax_activation,
+}

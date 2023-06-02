@@ -96,3 +96,10 @@ def normalized_xavier_weight_init_generator(
     )
     for element in scaled:
         yield element
+
+
+HURISTICS: dict = {
+    "he_weight_init": he_weight_init_generator,
+    "xavier_weight_init": xavier_weight_init_generator,
+    "normalized_xavier_weight_init": normalized_xavier_weight_init_generator,
+}

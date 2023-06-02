@@ -6,6 +6,8 @@ import json
 import numpy as np
 from flask import Flask, request
 from main import main_system
+import set_config
+import main
 
 app = Flask(__name__)
 
@@ -30,6 +32,16 @@ def testPrint() -> None:
     data["second"] = ["Hello from the api again"]
     # return json.dumps({"name": "tesing api"})
     return data
+
+
+# Taking in the payload, setting the config and running main_system
+@app.route("/PAYLOAD", methods=["GET"])
+def format_payload() -> dict:
+    """Reciving and formatting the payload from the front end"""
+    payload = request.args["query"]
+    data: dict = json.loads(payload)
+    set_config.this_set_config(data)
+    main.main_system()
 
 
 @app.route("/run_map", methods=["GET"])

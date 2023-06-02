@@ -29,3 +29,9 @@ def crossover_weights_mergining(
     new_weights = np.array(new_weights)
 
     return new_weights
+
+
+CROSSOVER_WEIGHT_FUNCTIONS: dict = {
+    "crossover_weights_average": crossover_weights_average,
+    "crossover_weights_mergining": crossover_weights_mergining,
+}
