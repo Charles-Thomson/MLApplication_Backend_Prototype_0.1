@@ -38,10 +38,14 @@ def testPrint() -> None:
 @app.route("/PAYLOAD", methods=["GET"])
 def format_payload() -> dict:
     """Reciving and formatting the payload from the front end"""
+    print("data recieved")
     payload = request.args["query"]
     data: dict = json.loads(payload)
-    set_config.this_set_config(data)
-    main.main_system()
+    print(f"SYSTEM : BACKEND -> PAYLOAD : {data}")
+    set_config.this_set_config(data["payloadBody"])
+    # main.main_system()
+    rtn_data = {"test": "test return"}
+    return rtn_data
 
 
 @app.route("/run_map", methods=["GET"])

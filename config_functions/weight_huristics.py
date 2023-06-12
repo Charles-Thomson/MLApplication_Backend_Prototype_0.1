@@ -98,8 +98,9 @@ def normalized_xavier_weight_init_generator(
         yield element
 
 
+# MUST BE MAINTINED WITH FRONTEND
 HURISTICS: dict = {
-    "he_weight_init": he_weight_init_generator,
-    "xavier_weight_init": xavier_weight_init_generator,
-    "normalized_xavier_weight_init": normalized_xavier_weight_init_generator,
+    "HE": he_weight_init_generator,
+    "xavier": xavier_weight_init_generator,
+    "normalized xavier": normalized_xavier_weight_init_generator,
 }
