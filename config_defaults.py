@@ -45,7 +45,3 @@ OUPUT_LAYER_ACTIVATION_FUNCTION_DEFAULT = activation_functions.soft_argmax_activ
 WEIGHTS_CROSSOVER_FUNCTIONS_DEFAULT: callable = (
     crossover_weight_functions.crossover_weights_average
 )
-
-
-def set_config_file(data: dict) -> None:
-    """Set the config file based on the API data"""

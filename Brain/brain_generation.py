@@ -56,6 +56,4 @@ def initialize_weights(layer_connections: tuple[int, int]) -> np.array:
         ]
     )
 
-    print(rand_weights)
-
     return rand_weights

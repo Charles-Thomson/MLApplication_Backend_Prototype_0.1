@@ -60,6 +60,39 @@ def get_and_format_db_data(generation_num: int) -> list[BrainInstance]:
     return ordered_brian_instances
 
 
+# ***** USED IN RETURN DATA *****
+
+
+def get_highest_fitness_from_gen(generation_num: int) -> list[BrainInstance]:
+    """Pull and format the relervent Brain instnce generation from the database"""
+    brain_instances: list[BrainInstance] = []
+    data = get_db_data(generation_num)
+    for instance in data:
+        instance.get_attributes_from_bytes()
+        brain_instances.append(instance)
+
+    ordered_brian_instances: list[BrainInstance] = sorted(
+        brain_instances, key=lambda x: x.fitness, reverse=True
+    )
+
+    return ordered_brian_instances[0]
+
+
+def get_lowest_fitness_from_gen(generation_num: int) -> list[BrainInstance]:
+    """Pull and format the relervent Brain instnce generation from the database"""
+    brain_instances: list[BrainInstance] = []
+    data = get_db_data(generation_num)
+    for instance in data:
+        instance.get_attributes_from_bytes()
+        brain_instances.append(instance)
+
+    ordered_brian_instances: list[BrainInstance] = sorted(
+        brain_instances, key=lambda x: x.fitness, reverse=False
+    )
+
+    return ordered_brian_instances[0]
+
+
 # this works
 def get_db_data(generation_num: int) -> object:
     """Return the data stored in the DB"""

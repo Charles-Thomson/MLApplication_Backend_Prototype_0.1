@@ -40,6 +40,7 @@ class MazeEnvironment(Env):
         """Carray out the given action from the agent in ralition to the environment"""
         new_state_x, new_state_y = self.process_action(action)
         termination: bool = self.termination_check(new_state_x, new_state_y)
+        reward: float = 0.0
 
         if termination is False:
             new_state = self.to_state((new_state_x, new_state_y))
@@ -53,7 +54,6 @@ class MazeEnvironment(Env):
         self.states_visited.append(new_state)
         self.agent_state = new_state
         self.step_count += 1
-
         return new_state, termination, reward, info
 
     def termination_check(self, new_state_x: int, new_state_y: int) -> bool:
@@ -82,18 +82,18 @@ class MazeEnvironment(Env):
         value_at_new_state = self.get_location_value(self.to_coords(state=new_state))
 
         if new_state in self.states_visited:
-            return 0
+            return 0.0
 
         match value_at_new_state:
             case 1:  # Open Tile
                 return 0.15
 
             case 2:  # Obstical
-                return 0
+                return 0.0
 
             case 3:  # goal
                 self.remove_goal(new_state)
-                return 3
+                return 3.0
 
     def process_action(self, action: int) -> tuple[int]:
         """Apply the given action to the location of the agent in the env"""

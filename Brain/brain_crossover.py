@@ -5,7 +5,7 @@ from typing import final
 from random import randint
 from Brain.brain_instance import BrainInstance
 import numpy as np
-import config_defaults
+import config
 
 
 MUTATION_THRESHOLD: final = 50
@@ -13,7 +13,7 @@ MUTATION_THRESHOLD: final = 50
 
 def weights_crossover(parents: list[BrainInstance]) -> tuple[np.array, np.array]:
     """Select and compund two parents weight sets to"""
-    weights_crossover_function: callable = config_defaults.WEIGHTS_CROSSOVER_FUNCTION
+    weights_crossover_function: callable = config.WEIGHTS_CROSSOVER_FUNCTIONS
 
     val: int = len(parents)
     weightings: list[float] = tuple(val / i for i in range(1, val + 1))

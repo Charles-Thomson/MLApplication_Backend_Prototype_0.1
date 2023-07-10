@@ -7,6 +7,7 @@ from Agent.maze_agent import MazeAgent
 from Brain.brain_generation import new_brain_generator
 from Brain.brain_instance import BrainInstance
 from DataBase.database_main import save_brain_instance, get_and_format_db_data
+from DataBase.database_all_brains import save_all_brain_instance
 
 from Logging.loggin_decorator import with_generation_logging
 
@@ -58,6 +59,8 @@ def new_generation(generation_num: int) -> list:
             save_brain_instance(ret_brain)
 
         all_brains.append(brain)
+        all_brain_instance = deepcopy(brain)
+        save_all_brain_instance(all_brain_instance)
     print(
         f"Generation Complete - Fit agents: {len(fit_brains)} - Genertion size: {current_generation_size} Generation No*: {generation_num} Fitness Threshold: {fitness_threshold}"
     )
@@ -66,13 +69,15 @@ def new_generation(generation_num: int) -> list:
 
 def main_system() -> None:
     """Main handling"""
-
+    print("SYSTEM : RUNNING MAIN SYSTEM")
     for gen_num in range(0, config.NUMBER_OF_GENERATIONS):
         fit_gen, all_gen, generation_status = new_generation(gen_num)
         if generation_status is False:  # The new generation has failed
             print(f"SYSTEM => The genration has failed {gen_num}")
             break
     print("SYSTEM => Completed Main Function ")
+    # for inst in all_gen:
+    #     print(inst.traversed_path, inst.fitness)
 
 
 def get_selected_generations(selected_generations: list[int]) -> list[BrainInstance]:

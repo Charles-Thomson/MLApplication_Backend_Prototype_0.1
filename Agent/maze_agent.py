@@ -18,11 +18,11 @@ class MazeAgent:
             observation_data = self.environment.get_environemnt_observation()
             action = self.brain.determin_action(observation_data)
 
-            n_s, ter, rew, _ = self.environment.step(action)
+            n_state, termination_status, reward, _ = self.environment.step(action)
 
-            path.append(n_s)
-            termination = ter
-            fitness += rew
+            path.append(n_state)
+            termination = termination_status
+            fitness += reward
 
         # May move fit and path inside of the brain
 
