@@ -1,4 +1,5 @@
 """Maze agent creation and action process"""
+import numpy as np
 
 
 class MazeAgent:
@@ -10,7 +11,8 @@ class MazeAgent:
 
     def run_agent(self) -> tuple:
         """Run the agent through the environment"""
-        path: list = []
+        path: list[int] = []
+        fitness_by_step: list[float] = []
         fitness: float = 0.0
         termination: bool = False
 
@@ -23,10 +25,12 @@ class MazeAgent:
             path.append(n_state)
             termination = termination_status
             fitness += reward
+            fitness_by_step.append(fitness)
 
         # May move fit and path inside of the brain
 
         self.brain.fitness = fitness
         self.brain.traversed_path = path
+        self.brain.fitness_by_step = np.array(fitness_by_step)
 
         return self.brain

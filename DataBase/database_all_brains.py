@@ -1,5 +1,5 @@
 """Main functions associated with Database creation and managment"""
-from sqlalchemy import create_engine, Column, CHAR, FLOAT, Table, MetaData, Select
+from sqlalchemy import create_engine, Column, CHAR, FLOAT, MetaData
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
@@ -22,6 +22,7 @@ class AllBrainsTable(Base):
     output_weights = Column("output_weights", CHAR)
     fitness = Column("fitness", FLOAT)
     traversed_path = Column("traversed_path", CHAR)
+    fitness_by_step = Column("fitness_by_step", CHAR)
 
 
 Base.metadata.create_all(bind=engine)
@@ -41,8 +42,11 @@ def save_all_brain_instance(brain: BrainInstance):
 
 
 # YH need to do this to clear the DB tble for each new map
-def clear_DB() -> None:
+def clear_database() -> None:
     """Clear the DB"""
+
+
+# *** USED IN THE MAIN SYSTEM ***
 
 
 def get_and_format_db_data(generation_num: int) -> list[BrainInstance]:

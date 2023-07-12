@@ -13,11 +13,6 @@ import main
 app = Flask(__name__)
 
 
-# Return Payload needs ->
-# Highest Fitness with path
-# Lowest Fitness With Path
-
-
 # Add later
 # Shortest Path
 # Longest Path
@@ -26,12 +21,16 @@ def get_payload_return_data() -> dict:
     """Testing getting the needed dat from the DB"""
     data_high = database_all_brains.get_highest_fitness_from_gen(1)
     data_low = database_all_brains.get_lowest_fitness_from_gen(1)
-    print(data_high.fitness, data_low.fitness)
+
+    print(data_high.fitness_by_step, data_low.fitness_by_step)
+
     return_payload = {
         "HIGHEST_FITNESS": data_high.fitness,
         "HIGHEST_FITNESS_PATH": data_high.traversed_path,
+        "HIGHEST_FITNESS_BY_STEP": list(data_high.fitness_by_step),
         "LOWEST_FITNESS": data_low.fitness,
         "LOWEST_FITNESS_PATH": data_low.traversed_path,
+        "LOWEST_FITNESS_BY_STEP": list(data_low.fitness_by_step),
     }
 
     return json.dumps(return_payload)
@@ -45,11 +44,6 @@ def payload_test() -> dict:
     recieved_data = request.args["query"]
     data: dict = json.loads(recieved_data)
 
-    # Testing accessing the payload data <- works
-    # payload_data: dict = data.get("payloadBody")
-    # print(payload_data.get("ENV_MAP"))
-
-    # Testing setting the config file from payload data
     set_config.this_set_config(data["payloadBody"])
 
     main.main_system()
@@ -65,13 +59,13 @@ def payload_test() -> dict:
     return json_rtn_data
 
 
-def format_data(data) -> None:
-    """Testing the formatting of the recived data"""
-    rebuilt_list = np.fromstring(data, dtype=int, sep=",")
-    rebuilt_list = np.reshape(
-        rebuilt_list, (4, -1)
-    )  # need to accomodate the hard coding of the shape in the passed data
-    return rebuilt_list
+# def format_data(data) -> None:
+#     """Testing the formatting of the recived data"""
+#     rebuilt_list = np.fromstring(data, dtype=int, sep=",")
+#     rebuilt_list = np.reshape(
+#         rebuilt_list, (4, -1)
+#     )  # need to accomodate the hard coding of the shape in the passed data
+#     return rebuilt_list
 
 
 app.run()
