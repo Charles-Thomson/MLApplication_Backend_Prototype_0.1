@@ -1,5 +1,5 @@
 """Main functions associated with Database creation and managment"""
-from sqlalchemy import create_engine, Column, CHAR, FLOAT, MetaData
+from sqlalchemy import create_engine, Column, CHAR, FLOAT, MetaData, func
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
@@ -80,6 +80,22 @@ def get_highest_fitness_from_gen(generation_num: int) -> list[BrainInstance]:
     )
 
     return ordered_brian_instances[0]
+
+
+# Works to get the generation number - not as efficient?
+def get_number_of_generations() -> int:
+    """Get the total number of generations from the Database"""
+    session = Session()
+    data = session.query(BrainInstance.generation_num)
+    items = []
+    for item in data:
+        item = list(item)
+
+        items.append(int(item[0]))
+
+    print(max(items))
+    session.expunge_all()
+    session.close()
 
 
 def get_lowest_fitness_from_gen(generation_num: int) -> list[BrainInstance]:

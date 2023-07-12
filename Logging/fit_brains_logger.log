@@ -1,18 +1,5 @@
-INFO :: wrapper :: Brain: 0cec42ce-9 - Generation: 0 Path: [1, 0, 255] Fitness: 3.15
-INFO :: wrapper :: Brain: 33331dad-7 - Generation: 0 Path: [5, 9, 6, 11, 255] Fitness: 3.4499999999999997
-INFO :: wrapper :: Brain: 89656690-4 - Generation: 0 Path: [1, 6, 1, 6, 1, 6, 1, 6, 1, 6, 255] Fitness: 3.15
-INFO :: wrapper :: Brain: f3407d89-6 - Generation: 0 Path: [1, 4, 0, 255] Fitness: 3.3
-INFO :: wrapper :: Brain: 4186b83b-f - Generation: 0 Path: [1, 4, 5, 6, 1, 4, 5, 6, 1, 4, 255] Fitness: 3.4499999999999997
-INFO :: wrapper :: Brain: 14061e6f-3 - Generation: 0 Path: [1, 5, 9, 13, 255] Fitness: 6.300000000000001
-INFO :: wrapper :: Brain: b5c9c00e-2 - Generation: 1 Path: [4, 1, 0, 4, 9, 10, 14, 15, 14, 15, 255] Fitness: 6.750000000000001
-INFO :: wrapper :: Brain: 61d33d6c-3 - Generation: 1 Path: [1, 4, 9, 6, 7, 6, 7, 6, 7, 6, 255] Fitness: 6.450000000000001
-INFO :: wrapper :: Brain: dc61415e-3 - Generation: 1 Path: [5, 6, 7, 10, 9, 12, 255] Fitness: 3.75
-INFO :: wrapper :: Brain: 3f9d3432-f - Generation: 1 Path: [1, 6, 10, 9, 10, 14, 15, 255] Fitness: 6.6000000000000005
-INFO :: wrapper :: Brain: 7a93823d-b - Generation: 1 Path: [1, 6, 10, 9, 10, 14, 15, 255] Fitness: 6.6000000000000005
-INFO :: wrapper :: Brain: ccd40937-1 - Generation: 1 Path: [1, 4, 9, 6, 7, 6, 7, 6, 7, 6, 255] Fitness: 6.450000000000001
-INFO :: wrapper :: Brain: ece5a774-4 - Generation: 2 Path: [1, 6, 10, 9, 10, 9, 10, 9, 10, 9, 255] Fitness: 6.3
-INFO :: wrapper :: Brain: e162123f-a - Generation: 2 Path: [4, 1, 0, 4, 9, 10, 14, 15, 14, 15, 255] Fitness: 6.750000000000001
-INFO :: wrapper :: Brain: 0d75372b-d - Generation: 2 Path: [1, 6, 10, 9, 10, 14, 15, 255] Fitness: 6.6000000000000005
-INFO :: wrapper :: Brain: 663b1635-1 - Generation: 2 Path: [4, 1, 0, 4, 9, 10, 14, 15, 14, 15, 255] Fitness: 6.750000000000001
-INFO :: wrapper :: Brain: 574b872e-d - Generation: 2 Path: [1, 6, 10, 9, 10, 14, 15, 255] Fitness: 6.6000000000000005
-INFO :: wrapper :: Brain: 07171345-6 - Generation: 2 Path: [1, 6, 10, 9, 10, 14, 15, 255] Fitness: 6.6000000000000005
+INFO :: wrapper :: Brain: 396895f4-d - Generation: 0 Path: [1, 6, 255] Fitness: 3.15
+INFO :: wrapper :: Brain: af6c1539-a - Generation: 0 Path: [4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 255] Fitness: 3.15
+INFO :: wrapper :: Brain: 2edcc89c-1 - Generation: 0 Path: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 3.15
+INFO :: wrapper :: Brain: e3e7aa69-4 - Generation: 0 Path: [1, 5, 0, 1, 5, 0, 1, 5, 0, 1, 255] Fitness: 3.3
+INFO :: wrapper :: Brain: de3794a6-f - Generation: 0 Path: [1, 0, 255] Fitness: 3.15

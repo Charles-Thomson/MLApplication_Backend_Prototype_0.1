@@ -19,10 +19,12 @@ app = Flask(__name__)
 # Each path as step by step fitness for graphs
 def get_payload_return_data() -> dict:
     """Testing getting the needed dat from the DB"""
+    database_all_brains.get_number_of_generations()
+
     data_high = database_all_brains.get_highest_fitness_from_gen(1)
     data_low = database_all_brains.get_lowest_fitness_from_gen(1)
 
-    print(data_high.fitness_by_step, data_low.fitness_by_step)
+    # print(data_high.fitness_by_step, data_low.fitness_by_step)
 
     return_payload = {
         "HIGHEST_FITNESS": data_high.fitness,

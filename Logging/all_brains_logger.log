@@ -1,303 +1,99 @@
-INFO :: wrapper :: Brain: 61bae784-f - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 34f2be16-c - Generation: 0 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: 0eb35ca5-f - Generation: 0 Path: [5, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: 13f0bb56-b - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: cf9a39b2-0 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: d9ba9cf2-0 - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: d054ea94-4 - Generation: 0 Path: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: 52f3853f-9 - Generation: 0 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: f2789ed5-8 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 0c2623a4-f - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: e3e4f179-6 - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: 0c69b764-e - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 664c2afd-a - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: d0380e58-5 - Generation: 0 Path: [5, 10, 5, 10, 5, 10, 5, 10, 5, 10, 255] Fitness: 0.3
-INFO :: wrapper :: Brain: da85f10f-9 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 6e3249e5-0 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 1f8a0d5f-6 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 1bf1dfd0-7 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 4dfd57d5-2 - Generation: 0 Path: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: dc0076c5-d - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 6a8d93e4-d - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 457ce1a5-e - Generation: 0 Path: [4, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: cf74607b-1 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 1998ba43-f - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 4f92dfa6-4 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: eb9911c5-d - Generation: 0 Path: [5, 4, 255] Fitness: 0.3
-INFO :: wrapper :: Brain: 3029c3f3-6 - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: c51a7573-c - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 43decf6e-4 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: d1df0564-f - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 09cfa619-1 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 2b2555c8-5 - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: 7d33dacf-4 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 5c6e35e7-a - Generation: 0 Path: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: e295cf51-a - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 29cd9966-8 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: c21d1297-2 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 9b1ad45c-c - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: d44a4365-2 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 87c88476-7 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 720c9687-a - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: 51ce8d76-2 - Generation: 0 Path: [5, 10, 15, 11, 255] Fitness: 0.6
-INFO :: wrapper :: Brain: 555be4bd-c - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: b9f3d92e-f - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 61b23359-d - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: a910913f-e - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 44d9356f-3 - Generation: 0 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: 201c656b-6 - Generation: 0 Path: [4, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: 003aef7d-3 - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: 0cec42ce-9 - Generation: 0 Path: [1, 0, 255] Fitness: 3.15
-INFO :: wrapper :: Brain: 3973970c-f - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: dbdf77a9-d - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: a15871f5-3 - Generation: 0 Path: [5, 10, 15, 15, 15, 15, 15, 15, 15, 15, 255] Fitness: 0.44999999999999996
-INFO :: wrapper :: Brain: 7fd44e46-7 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 2a9df2a2-3 - Generation: 0 Path: [5, 10, 11, 255] Fitness: 0.44999999999999996
-INFO :: wrapper :: Brain: 2bfd4408-2 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 9e1899c4-d - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: f8849b56-c - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 82e8fd32-6 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: d4d971d7-4 - Generation: 0 Path: [4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 255] Fitness: 0.3
-INFO :: wrapper :: Brain: 4bce46b8-1 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 579dc64f-4 - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: 2e435acd-4 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: f53e3a1d-a - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 4d32fed6-3 - Generation: 0 Path: [4, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: 1d4d6b27-4 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 25b844d6-7 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: ca551197-2 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: c6dd2025-b - Generation: 0 Path: [5, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: 6bff1637-9 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 33331dad-7 - Generation: 0 Path: [5, 9, 6, 11, 255] Fitness: 3.4499999999999997
-INFO :: wrapper :: Brain: 89656690-4 - Generation: 0 Path: [1, 6, 1, 6, 1, 6, 1, 6, 1, 6, 255] Fitness: 3.15
-INFO :: wrapper :: Brain: ba1fd1f7-7 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: f6faaf1b-8 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: e8b84d41-6 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: f3407d89-6 - Generation: 0 Path: [1, 4, 0, 255] Fitness: 3.3
-INFO :: wrapper :: Brain: 05d0c6b1-1 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 350928f2-4 - Generation: 0 Path: [4, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: cf4be882-1 - Generation: 0 Path: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: 9a5b876e-0 - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: 331a0c38-1 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 4186b83b-f - Generation: 0 Path: [1, 4, 5, 6, 1, 4, 5, 6, 1, 4, 255] Fitness: 3.4499999999999997
-INFO :: wrapper :: Brain: e8de9b2a-2 - Generation: 0 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 14061e6f-3 - Generation: 0 Path: [1, 5, 9, 13, 255] Fitness: 6.300000000000001
-INFO :: wrapper :: Brain: 694fc842-6 - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 1427b09e-1 - Generation: 1 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: c815d8ca-e - Generation: 1 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: 24322f1f-e - Generation: 1 Path: [4, 1, 255] Fitness: 3.15
-INFO :: wrapper :: Brain: d3bb1c39-9 - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 7b1bf7dc-d - Generation: 1 Path: [1, 6, 11, 255] Fitness: 3.3
-INFO :: wrapper :: Brain: cb44c3d0-c - Generation: 1 Path: [1, 6, 7, 255] Fitness: 3.3
-INFO :: wrapper :: Brain: b5c9c00e-2 - Generation: 1 Path: [4, 1, 0, 4, 9, 10, 14, 15, 14, 15, 255] Fitness: 6.750000000000001
-INFO :: wrapper :: Brain: 1bf9b6ed-c - Generation: 1 Path: [1, 6, 7, 255] Fitness: 3.3
-INFO :: wrapper :: Brain: 910d4160-8 - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: bdb40d52-5 - Generation: 1 Path: [1, 6, 11, 6, 11, 6, 11, 6, 11, 6, 255] Fitness: 3.3
-INFO :: wrapper :: Brain: dc936dac-5 - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 7cc81892-6 - Generation: 1 Path: [1, 4, 4, 4, 4, 4, 4, 4, 4, 4, 255] Fitness: 3.15
-INFO :: wrapper :: Brain: 216a9567-a - Generation: 1 Path: [4, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: e2ff3cd3-e - Generation: 1 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: 33a00f73-9 - Generation: 1 Path: [1, 5, 10, 7, 255] Fitness: 3.4499999999999997
-INFO :: wrapper :: Brain: ae3fc3c3-d - Generation: 1 Path: [5, 9, 4, 255] Fitness: 3.3
-INFO :: wrapper :: Brain: abe806ae-4 - Generation: 1 Path: [5, 10, 15, 11, 7, 255] Fitness: 0.75
-INFO :: wrapper :: Brain: 9b487e5e-2 - Generation: 1 Path: [1, 6, 11, 255] Fitness: 3.3
-INFO :: wrapper :: Brain: ef1f4c6a-e - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 8941f2a3-c - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: c64e88db-4 - Generation: 1 Path: [1, 6, 11, 255] Fitness: 3.3
-INFO :: wrapper :: Brain: 61d33d6c-3 - Generation: 1 Path: [1, 4, 9, 6, 7, 6, 7, 6, 7, 6, 255] Fitness: 6.450000000000001
-INFO :: wrapper :: Brain: 064b408e-6 - Generation: 1 Path: [1, 4, 255] Fitness: 3.15
-INFO :: wrapper :: Brain: 2afbfd3d-b - Generation: 1 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: 729256da-6 - Generation: 1 Path: [4, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: dc61415e-3 - Generation: 1 Path: [5, 6, 7, 10, 9, 12, 255] Fitness: 3.75
-INFO :: wrapper :: Brain: 5dbd306b-c - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 3f9d3432-f - Generation: 1 Path: [1, 6, 10, 9, 10, 14, 15, 255] Fitness: 6.6000000000000005
-INFO :: wrapper :: Brain: ea33e20b-c - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: dfebd1ea-a - Generation: 1 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: 5a3ffb66-9 - Generation: 1 Path: [4, 9, 4, 255] Fitness: 3.15
-INFO :: wrapper :: Brain: 850da0aa-0 - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: a101712d-e - Generation: 1 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: e0ddb8fd-7 - Generation: 1 Path: [5, 6, 3, 255] Fitness: 0.44999999999999996
-INFO :: wrapper :: Brain: 9a9f99f3-1 - Generation: 1 Path: [4, 5, 6, 6, 6, 6, 6, 6, 6, 6, 255] Fitness: 0.44999999999999996
-INFO :: wrapper :: Brain: 6257ad86-6 - Generation: 1 Path: [4, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: bec7a660-d - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 4f04d954-1 - Generation: 1 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: a4833c72-a - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 4f56c136-f - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 355f19a3-c - Generation: 1 Path: [1, 6, 3, 255] Fitness: 3.3
-INFO :: wrapper :: Brain: a293f5e9-0 - Generation: 1 Path: [4, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: a60da770-2 - Generation: 1 Path: [1, 5, 0, 4, 4, 4, 4, 4, 4, 4, 255] Fitness: 3.4499999999999997
-INFO :: wrapper :: Brain: 5ee3445d-4 - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 1aa4bf38-7 - Generation: 1 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: 481c1454-2 - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 3d567b9d-8 - Generation: 1 Path: [5, 1, 6, 7, 255] Fitness: 3.4499999999999997
-INFO :: wrapper :: Brain: eb686793-a - Generation: 1 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: edd382c8-2 - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: c40e9d1b-2 - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: a62bc22d-a - Generation: 1 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: 0c0ce56b-8 - Generation: 1 Path: [5, 10, 10, 10, 10, 10, 10, 10, 10, 10, 255] Fitness: 0.3
-INFO :: wrapper :: Brain: 947ff70c-4 - Generation: 1 Path: [4, 5, 0, 4, 5, 0, 4, 5, 0, 4, 255] Fitness: 0.44999999999999996
-INFO :: wrapper :: Brain: 5c8e4c35-5 - Generation: 1 Path: [1, 0, 255] Fitness: 3.15
-INFO :: wrapper :: Brain: 738c268b-9 - Generation: 1 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: b3335613-9 - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 539e63ef-c - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 302032f0-2 - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: dddc6100-0 - Generation: 1 Path: [5, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: 0c1603b9-8 - Generation: 1 Path: [4, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: 4742c19d-e - Generation: 1 Path: [1, 5, 6, 7, 255] Fitness: 3.4499999999999997
-INFO :: wrapper :: Brain: 0b337bcc-c - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 7a93823d-b - Generation: 1 Path: [1, 6, 10, 9, 10, 14, 15, 255] Fitness: 6.6000000000000005
-INFO :: wrapper :: Brain: f78f7561-e - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 25c6d963-4 - Generation: 1 Path: [1, 4, 5, 0, 1, 4, 5, 0, 1, 4, 255] Fitness: 3.4499999999999997
-INFO :: wrapper :: Brain: 3e1e9ac8-3 - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 51f254f3-9 - Generation: 1 Path: [1, 5, 0, 4, 5, 0, 4, 5, 0, 4, 255] Fitness: 3.4499999999999997
-INFO :: wrapper :: Brain: bc5eaf0f-3 - Generation: 1 Path: [4, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: ddfe3ddd-e - Generation: 1 Path: [5, 10, 15, 255] Fitness: 0.44999999999999996
-INFO :: wrapper :: Brain: 9216c837-7 - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: c002cf17-7 - Generation: 1 Path: [4, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: 9de282f0-e - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 3563c25a-d - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: e077b509-7 - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: e3194dc3-e - Generation: 1 Path: [1, 5, 10, 11, 255] Fitness: 3.4499999999999997
-INFO :: wrapper :: Brain: 1357a415-c - Generation: 1 Path: [1, 5, 6, 10, 6, 10, 6, 10, 6, 10, 255] Fitness: 3.4499999999999997
-INFO :: wrapper :: Brain: 94b69e3c-d - Generation: 1 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: ea123443-3 - Generation: 1 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: be6f5f28-d - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 1c2039ed-2 - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: b1fce14a-a - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 78335d57-7 - Generation: 1 Path: [4, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: dd64c609-3 - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 6e75e167-f - Generation: 1 Path: [1, 6, 10, 14, 255] Fitness: 3.4499999999999997
-INFO :: wrapper :: Brain: e0f162b3-d - Generation: 1 Path: [5, 6, 11, 255] Fitness: 0.44999999999999996
-INFO :: wrapper :: Brain: 65cae8f5-3 - Generation: 1 Path: [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 255] Fitness: 3.15
-INFO :: wrapper :: Brain: be1bcbc1-c - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: bafcb6e4-d - Generation: 1 Path: [1, 0, 255] Fitness: 3.15
-INFO :: wrapper :: Brain: dcbc5a8c-9 - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: c7a98149-0 - Generation: 1 Path: [4, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: f3b35e71-c - Generation: 1 Path: [4, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: 7621e247-a - Generation: 1 Path: [5, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: c47859bd-e - Generation: 1 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: c00623b7-1 - Generation: 1 Path: [1, 6, 7, 255] Fitness: 3.3
-INFO :: wrapper :: Brain: ccd40937-1 - Generation: 1 Path: [1, 4, 9, 6, 7, 6, 7, 6, 7, 6, 255] Fitness: 6.450000000000001
-INFO :: wrapper :: Brain: b409e6d7-4 - Generation: 2 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: d7ad7fdd-3 - Generation: 2 Path: [1, 6, 11, 255] Fitness: 3.3
-INFO :: wrapper :: Brain: 82796bed-7 - Generation: 2 Path: [5, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: ece5a774-4 - Generation: 2 Path: [1, 6, 10, 9, 10, 9, 10, 9, 10, 9, 255] Fitness: 6.3
-INFO :: wrapper :: Brain: 7dfe29ad-9 - Generation: 2 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 654e27fa-9 - Generation: 2 Path: [1, 5, 6, 10, 5, 6, 10, 5, 6, 10, 255] Fitness: 3.4499999999999997
-INFO :: wrapper :: Brain: 068d38d5-e - Generation: 2 Path: [4, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: a6515e82-f - Generation: 2 Path: [4, 5, 9, 10, 11, 255] Fitness: 3.5999999999999996
-INFO :: wrapper :: Brain: e7d3e5be-5 - Generation: 2 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: e162123f-a - Generation: 2 Path: [4, 1, 0, 4, 9, 10, 14, 15, 14, 15, 255] Fitness: 6.750000000000001
-INFO :: wrapper :: Brain: d2c7f8e6-7 - Generation: 2 Path: [1, 6, 6, 6, 6, 6, 6, 6, 6, 6, 255] Fitness: 3.15
-INFO :: wrapper :: Brain: 9c267242-4 - Generation: 2 Path: [1, 0, 255] Fitness: 3.15
-INFO :: wrapper :: Brain: 7e42b347-9 - Generation: 2 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: 0d75372b-d - Generation: 2 Path: [1, 6, 10, 9, 10, 14, 15, 255] Fitness: 6.6000000000000005
-INFO :: wrapper :: Brain: 0c30d869-1 - Generation: 2 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: d4491927-e - Generation: 2 Path: [4, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: b7a22d6a-4 - Generation: 2 Path: [4, 5, 6, 7, 6, 7, 6, 7, 6, 7, 255] Fitness: 0.6
-INFO :: wrapper :: Brain: 37458530-3 - Generation: 2 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: 4ba69389-e - Generation: 2 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: e9896388-5 - Generation: 2 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: 663b1635-1 - Generation: 2 Path: [4, 1, 0, 4, 9, 10, 14, 15, 14, 15, 255] Fitness: 6.750000000000001
-INFO :: wrapper :: Brain: 39b97375-4 - Generation: 2 Path: [1, 5, 6, 11, 255] Fitness: 3.4499999999999997
-INFO :: wrapper :: Brain: 574b872e-d - Generation: 2 Path: [1, 6, 10, 9, 10, 14, 15, 255] Fitness: 6.6000000000000005
-INFO :: wrapper :: Brain: 07171345-6 - Generation: 2 Path: [1, 6, 10, 9, 10, 14, 15, 255] Fitness: 6.6000000000000005
-INFO :: wrapper :: Brain: 76c57e0a-f - Generation: 3 Path: [4, 1, 0, 4, 9, 10, 14, 15, 14, 15, 255] Fitness: 6.750000000000001
-INFO :: wrapper :: Brain: 2c479422-1 - Generation: 3 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: 37133fa4-3 - Generation: 3 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 62088b79-f - Generation: 3 Path: [4, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: 16fe0b11-8 - Generation: 3 Path: [5, 9, 13, 13, 13, 13, 13, 13, 13, 13, 255] Fitness: 3.3
-INFO :: wrapper :: Brain: 508f00ad-5 - Generation: 3 Path: [5, 6, 255] Fitness: 0.3
-INFO :: wrapper :: Brain: 071edebf-a - Generation: 3 Path: [1, 5, 9, 5, 6, 7, 11, 255] Fitness: 6.600000000000001
-INFO :: wrapper :: Brain: 912a5204-f - Generation: 3 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 10054836-8 - Generation: 3 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: b02ac144-2 - Generation: 3 Path: [4, 1, 0, 4, 9, 10, 14, 15, 14, 15, 255] Fitness: 6.750000000000001
-INFO :: wrapper :: Brain: 39ab040f-c - Generation: 3 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 2a3e0a35-a - Generation: 3 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: 1fb7a161-f - Generation: 3 Path: [4, 1, 0, 4, 9, 10, 14, 15, 14, 15, 255] Fitness: 6.750000000000001
-INFO :: wrapper :: Brain: a7f5cd3a-7 - Generation: 3 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: e875f958-4 - Generation: 3 Path: [5, 6, 255] Fitness: 0.3
-INFO :: wrapper :: Brain: 8f3d091d-1 - Generation: 3 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 073ecd59-0 - Generation: 3 Path: [4, 1, 0, 4, 9, 10, 14, 15, 14, 15, 255] Fitness: 6.750000000000001
-INFO :: wrapper :: Brain: a3d66cae-8 - Generation: 3 Path: [1, 6, 6, 6, 6, 6, 6, 6, 6, 6, 255] Fitness: 3.15
-INFO :: wrapper :: Brain: c9afa106-f - Generation: 3 Path: [1, 5, 9, 5, 6, 7, 11, 255] Fitness: 6.600000000000001
-INFO :: wrapper :: Brain: 40f6668f-d - Generation: 3 Path: [5, 10, 15, 255] Fitness: 0.44999999999999996
-INFO :: wrapper :: Brain: e4108181-2 - Generation: 3 Path: [4, 9, 255] Fitness: 3.15
-INFO :: wrapper :: Brain: 36e9ad8a-e - Generation: 3 Path: [1, 5, 9, 5, 6, 7, 11, 255] Fitness: 6.600000000000001
-INFO :: wrapper :: Brain: 422c2b75-d - Generation: 3 Path: [5, 10, 14, 255] Fitness: 0.44999999999999996
-INFO :: wrapper :: Brain: 7e1feb57-c - Generation: 3 Path: [1, 5, 9, 5, 6, 7, 11, 255] Fitness: 6.600000000000001
-INFO :: wrapper :: Brain: aa13b7cf-4 - Generation: 3 Path: [1, 6, 7, 255] Fitness: 3.3
-INFO :: wrapper :: Brain: cbffd628-9 - Generation: 3 Path: [1, 5, 9, 5, 6, 7, 11, 255] Fitness: 6.600000000000001
-INFO :: wrapper :: Brain: 0d3ac444-b - Generation: 3 Path: [1, 5, 9, 5, 6, 7, 11, 255] Fitness: 6.600000000000001
-INFO :: wrapper :: Brain: 6d39479b-5 - Generation: 3 Path: [5, 9, 14, 255] Fitness: 3.3
-INFO :: wrapper :: Brain: 29e50a33-f - Generation: 3 Path: [1, 5, 9, 5, 6, 7, 11, 255] Fitness: 6.600000000000001
-INFO :: wrapper :: Brain: 193692d0-c - Generation: 3 Path: [5, 10, 15, 255] Fitness: 0.44999999999999996
-INFO :: wrapper :: Brain: e65a76f7-2 - Generation: 3 Path: [5, 9, 10, 15, 255] Fitness: 3.4499999999999997
-INFO :: wrapper :: Brain: 414cd382-f - Generation: 3 Path: [1, 6, 10, 9, 10, 14, 15, 255] Fitness: 6.6000000000000005
-INFO :: wrapper :: Brain: 9a995424-9 - Generation: 3 Path: [4, 1, 0, 4, 9, 10, 14, 15, 14, 15, 255] Fitness: 6.750000000000001
-INFO :: wrapper :: Brain: d97b1d0b-a - Generation: 3 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: ceed1762-3 - Generation: 3 Path: [5, 6, 5, 6, 5, 6, 5, 6, 5, 6, 255] Fitness: 0.3
-INFO :: wrapper :: Brain: a858069f-a - Generation: 3 Path: [1, 5, 10, 11, 255] Fitness: 3.4499999999999997
-INFO :: wrapper :: Brain: 33623deb-0 - Generation: 3 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: 58bc1faf-d - Generation: 3 Path: [5, 10, 11, 255] Fitness: 0.44999999999999996
-INFO :: wrapper :: Brain: cee97e93-4 - Generation: 3 Path: [1, 5, 9, 5, 10, 6, 7, 255] Fitness: 6.600000000000001
-INFO :: wrapper :: Brain: 36401bd1-b - Generation: 3 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 09e1cf31-b - Generation: 3 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: ff2f4783-9 - Generation: 3 Path: [5, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: bf2dfe5a-4 - Generation: 3 Path: [5, 4, 255] Fitness: 0.3
-INFO :: wrapper :: Brain: f3a55537-4 - Generation: 3 Path: [1, 5, 9, 5, 6, 7, 11, 255] Fitness: 6.600000000000001
-INFO :: wrapper :: Brain: 269a0581-2 - Generation: 3 Path: [1, 6, 11, 255] Fitness: 3.3
-INFO :: wrapper :: Brain: ef813ed5-d - Generation: 3 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: c1051cd6-a - Generation: 3 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: 454b92a7-6 - Generation: 3 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: 8a087c1c-4 - Generation: 3 Path: [4, 1, 0, 4, 9, 10, 14, 15, 14, 15, 255] Fitness: 6.750000000000001
-INFO :: wrapper :: Brain: 15883f9e-f - Generation: 3 Path: [1, 5, 9, 5, 6, 7, 11, 255] Fitness: 6.600000000000001
-INFO :: wrapper :: Brain: d0cefcb5-a - Generation: 3 Path: [1, 6, 11, 10, 11, 10, 11, 10, 11, 10, 255] Fitness: 3.4499999999999997
-INFO :: wrapper :: Brain: 4a347bd9-7 - Generation: 3 Path: [4, 5, 10, 15, 255] Fitness: 0.6
-INFO :: wrapper :: Brain: 25993619-4 - Generation: 3 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: d409d676-c - Generation: 3 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 9b3355fa-5 - Generation: 3 Path: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: 47e84db7-7 - Generation: 3 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: c854672f-f - Generation: 3 Path: [5, 1, 6, 11, 255] Fitness: 3.4499999999999997
-INFO :: wrapper :: Brain: 171b076f-6 - Generation: 3 Path: [4, 1, 0, 4, 9, 10, 14, 15, 14, 15, 255] Fitness: 6.750000000000001
-INFO :: wrapper :: Brain: 3119b844-6 - Generation: 3 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 0ff8e7de-b - Generation: 3 Path: [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 255] Fitness: 3.15
-INFO :: wrapper :: Brain: fcee5779-8 - Generation: 3 Path: [4, 1, 0, 4, 9, 10, 14, 15, 14, 15, 255] Fitness: 6.750000000000001
-INFO :: wrapper :: Brain: aa291840-6 - Generation: 3 Path: [1, 5, 9, 5, 6, 7, 11, 255] Fitness: 6.600000000000001
-INFO :: wrapper :: Brain: 63e83e6e-f - Generation: 3 Path: [1, 5, 9, 5, 6, 7, 11, 255] Fitness: 6.600000000000001
-INFO :: wrapper :: Brain: 075d3ba0-d - Generation: 3 Path: [4, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: d66e265b-7 - Generation: 3 Path: [4, 1, 0, 4, 9, 10, 14, 15, 14, 15, 255] Fitness: 6.750000000000001
-INFO :: wrapper :: Brain: f399e34f-f - Generation: 3 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 4fe46ee1-0 - Generation: 3 Path: [1, 6, 7, 10, 9, 10, 7, 10, 7, 10, 255] Fitness: 6.449999999999999
-INFO :: wrapper :: Brain: 301bb9d4-9 - Generation: 3 Path: [5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 255] Fitness: 0.3
-INFO :: wrapper :: Brain: 6bc97b4f-9 - Generation: 3 Path: [5, 6, 7, 10, 15, 11, 255] Fitness: 0.9
-INFO :: wrapper :: Brain: e166c02f-4 - Generation: 3 Path: [5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 255] Fitness: 0.3
-INFO :: wrapper :: Brain: bdcf0fa5-0 - Generation: 3 Path: [1, 4, 5, 9, 10, 11, 15, 255] Fitness: 6.750000000000001
-INFO :: wrapper :: Brain: 1c3ebf6f-f - Generation: 3 Path: [1, 5, 1, 5, 1, 5, 1, 5, 1, 5, 255] Fitness: 3.15
-INFO :: wrapper :: Brain: f5b88d44-a - Generation: 3 Path: [1, 5, 9, 5, 6, 7, 11, 255] Fitness: 6.600000000000001
-INFO :: wrapper :: Brain: 249e97cb-8 - Generation: 3 Path: [5, 6, 7, 255] Fitness: 0.44999999999999996
-INFO :: wrapper :: Brain: f623007d-1 - Generation: 3 Path: [1, 6, 9, 10, 11, 255] Fitness: 6.450000000000001
-INFO :: wrapper :: Brain: 40db46e3-e - Generation: 3 Path: [4, 1, 0, 4, 9, 10, 14, 15, 14, 15, 255] Fitness: 6.750000000000001
-INFO :: wrapper :: Brain: a896cca4-f - Generation: 3 Path: [1, 5, 9, 5, 6, 7, 11, 255] Fitness: 6.600000000000001
-INFO :: wrapper :: Brain: 9303ee79-0 - Generation: 3 Path: [4, 1, 0, 4, 9, 10, 14, 15, 14, 15, 255] Fitness: 6.750000000000001
-INFO :: wrapper :: Brain: 4076ced4-c - Generation: 3 Path: [4, 255] Fitness: 0.15
-INFO :: wrapper :: Brain: a71b76bb-9 - Generation: 3 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: bc935487-5 - Generation: 3 Path: [1, 5, 9, 5, 6, 7, 11, 255] Fitness: 6.600000000000001
-INFO :: wrapper :: Brain: e2e45d93-2 - Generation: 3 Path: [4, 1, 0, 4, 9, 10, 14, 15, 14, 15, 255] Fitness: 6.750000000000001
-INFO :: wrapper :: Brain: 936bea6a-5 - Generation: 3 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 00b5c335-4 - Generation: 3 Path: [4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 255] Fitness: 0.3
-INFO :: wrapper :: Brain: a708278c-7 - Generation: 3 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: 464c641b-f - Generation: 3 Path: [1, 5, 9, 5, 6, 7, 11, 255] Fitness: 6.600000000000001
-INFO :: wrapper :: Brain: 98784c90-6 - Generation: 3 Path: [5, 10, 9, 14, 15, 255] Fitness: 3.5999999999999996
-INFO :: wrapper :: Brain: 37a95a6a-e - Generation: 3 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: dfa2438b-f - Generation: 3 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: d8d1124a-a - Generation: 3 Path: [1, 6, 7, 10, 11, 255] Fitness: 3.5999999999999996
-INFO :: wrapper :: Brain: 6608e3f1-4 - Generation: 3 Path: [1, 6, 7, 255] Fitness: 3.3
-INFO :: wrapper :: Brain: 94fc0de6-c - Generation: 3 Path: [255] Fitness: 0.0
-INFO :: wrapper :: Brain: 1de5ea90-9 - Generation: 3 Path: [1, 255] Fitness: 3.0
-INFO :: wrapper :: Brain: 86a3cf5d-1 - Generation: 3 Path: [5, 9, 14, 10, 6, 9, 14, 10, 6, 9, 255] Fitness: 3.5999999999999996
-INFO :: wrapper :: Brain: c35b2a0f-3 - Generation: 3 Path: [1, 5, 0, 4, 255] Fitness: 3.4499999999999997
-INFO :: wrapper :: Brain: 8bc47fab-7 - Generation: 3 Path: [5, 4, 9, 4, 9, 4, 9, 4, 9, 4, 255] Fitness: 3.3
-INFO :: wrapper :: Brain: 4f832c9d-5 - Generation: 3 Path: [1, 5, 9, 5, 6, 7, 11, 255] Fitness: 6.600000000000001
-INFO :: wrapper :: Brain: 86037283-6 - Generation: 3 Path: [1, 6, 10, 9, 10, 14, 15, 255] Fitness: 6.6000000000000005
-INFO :: wrapper :: Brain: 73258c1b-a - Generation: 3 Path: [5, 10, 10, 10, 10, 10, 10, 10, 10, 10, 255] Fitness: 0.3
+INFO :: wrapper :: Brain: 6184a97e-6 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 8af54b1d-6 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 1104a427-8 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: e74ea0dc-1 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: cd348904-f - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: 49de827f-e - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: ce521f3a-7 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 160cab08-9 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 1f569377-7 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 4769541b-d - Generation: 0 Path: [5, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: 6ef61ea5-4 - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: 867a1bab-7 - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: 49400950-3 - Generation: 0 Path: [4, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: a4b3e215-4 - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: d56c835e-f - Generation: 0 Path: [5, 10, 10, 10, 10, 10, 10, 10, 10, 10, 255] Fitness: 0.3
+INFO :: wrapper :: Brain: 396895f4-d - Generation: 0 Path: [1, 6, 255] Fitness: 3.15
+INFO :: wrapper :: Brain: e1ccc32c-0 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: a0889364-4 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: d4c861ae-b - Generation: 0 Path: [4, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: b4738251-9 - Generation: 0 Path: [5, 10, 13, 255] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 2a9e9d96-e - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 602db110-8 - Generation: 0 Path: [1, 255] Fitness: 3.0
+INFO :: wrapper :: Brain: 23fdcb41-a - Generation: 0 Path: [4, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: 0a1c893a-b - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: fea8b3af-d - Generation: 0 Path: [4, 5, 6, 3, 255] Fitness: 0.6
+INFO :: wrapper :: Brain: d0700473-2 - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: 570986b6-1 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 78c79e99-4 - Generation: 0 Path: [1, 255] Fitness: 3.0
+INFO :: wrapper :: Brain: d59520bf-3 - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: b02b82f5-8 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 333d2092-8 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 8fc02524-f - Generation: 0 Path: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 255] Fitness: 3.0
+INFO :: wrapper :: Brain: 18797f96-e - Generation: 0 Path: [1, 255] Fitness: 3.0
+INFO :: wrapper :: Brain: 2749335d-6 - Generation: 0 Path: [4, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: 66bc7a8a-2 - Generation: 0 Path: [1, 255] Fitness: 3.0
+INFO :: wrapper :: Brain: b9b2aded-4 - Generation: 0 Path: [5, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: 1ceb8286-5 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: ded909a4-0 - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: 750fa6ac-2 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: af6c1539-a - Generation: 0 Path: [4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 255] Fitness: 3.15
+INFO :: wrapper :: Brain: 85f12b98-4 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 079a0ccc-d - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 92f24e8b-9 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: d824927b-5 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 1fa0a197-c - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 49f5b315-3 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 2edcc89c-1 - Generation: 0 Path: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 3.15
+INFO :: wrapper :: Brain: cc4e5a5a-e - Generation: 0 Path: [1, 255] Fitness: 3.0
+INFO :: wrapper :: Brain: bea7aa18-5 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 9f135e35-e - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 9082e86b-a - Generation: 0 Path: [4, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: 0405b50a-9 - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: 565cc96f-8 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 15b7f603-3 - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: 4b0ddab8-c - Generation: 0 Path: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 255] Fitness: 3.0
+INFO :: wrapper :: Brain: 8eea1fe9-f - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 452e0312-0 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: e538905b-3 - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: da81c567-c - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 119d42f8-4 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: b6a9ba60-2 - Generation: 0 Path: [1, 255] Fitness: 3.0
+INFO :: wrapper :: Brain: 439ac116-f - Generation: 0 Path: [1, 255] Fitness: 3.0
+INFO :: wrapper :: Brain: 6c492846-a - Generation: 0 Path: [5, 6, 10, 15, 255] Fitness: 0.6
+INFO :: wrapper :: Brain: 5873f25b-1 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: e3e7aa69-4 - Generation: 0 Path: [1, 5, 0, 1, 5, 0, 1, 5, 0, 1, 255] Fitness: 3.3
+INFO :: wrapper :: Brain: a30ff067-b - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 94555389-8 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: d8f78b80-5 - Generation: 0 Path: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: a1fbb5d4-f - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: c0ba9c08-6 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 76214f95-b - Generation: 0 Path: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 255] Fitness: 3.0
+INFO :: wrapper :: Brain: 86abffcc-a - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: 9d093949-8 - Generation: 0 Path: [5, 6, 3, 3, 3, 3, 3, 3, 3, 3, 255] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: 65f26772-0 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: fc14e15a-e - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 34e81fba-8 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: daa2a0c5-1 - Generation: 0 Path: [1, 255] Fitness: 3.0
+INFO :: wrapper :: Brain: fccac353-4 - Generation: 0 Path: [5, 4, 255] Fitness: 0.3
+INFO :: wrapper :: Brain: 6372953e-9 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: e87a0f2e-9 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 3a1271c0-f - Generation: 0 Path: [1, 255] Fitness: 3.0
+INFO :: wrapper :: Brain: 609c3e4a-1 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: e79391e4-d - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: e5d93a86-0 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 843fc4a7-f - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: cd70905f-d - Generation: 0 Path: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: bafa2669-a - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: b53944c3-e - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: c8087d93-3 - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: b5b4bd4a-a - Generation: 0 Path: [5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 255] Fitness: 0.3
+INFO :: wrapper :: Brain: 0b235584-b - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: adc5fccc-d - Generation: 0 Path: [5, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: 4031e3a5-6 - Generation: 0 Path: [5, 10, 14, 10, 14, 10, 14, 10, 14, 10, 255] Fitness: 0.44999999999999996
+INFO :: wrapper :: Brain: fe219a17-f - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: e892245d-3 - Generation: 0 Path: [4, 255] Fitness: 0.15
+INFO :: wrapper :: Brain: a143cf56-0 - Generation: 0 Path: [1, 255] Fitness: 3.0
+INFO :: wrapper :: Brain: de3794a6-f - Generation: 0 Path: [1, 0, 255] Fitness: 3.15
+INFO :: wrapper :: Brain: 2de89292-e - Generation: 0 Path: [255] Fitness: 0.0
+INFO :: wrapper :: Brain: 123af81f-2 - Generation: 0 Path: [255] Fitness: 0.0
