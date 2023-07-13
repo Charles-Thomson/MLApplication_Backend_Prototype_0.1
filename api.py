@@ -17,25 +17,27 @@ app = Flask(__name__)
 # Shortest Path
 # Longest Path
 # Each path as step by step fitness for graphs
-def get_payload_return_data() -> dict:
+def get_payload_return_data(total_generations: int) -> dict:
     """Testing getting the needed dat from the DB"""
-    database_all_brains.get_number_of_generations()
+    payload_data: dict = {}
+    for gen_val in range(total_generations + 1):
+        (
+            high_fitness_instance,
+            low_fitness_instance,
+        ) = database_all_brains.get_generation_data(gen_val)
 
-    data_high = database_all_brains.get_highest_fitness_from_gen(1)
-    data_low = database_all_brains.get_lowest_fitness_from_gen(1)
+        payload_data[f"gen_{gen_val}"] = {
+            "HIGHEST_FITNESS": high_fitness_instance.fitness,
+            "HIGHEST_FITNESS_PATH": high_fitness_instance.traversed_path,
+            "HIGHEST_FITNESS_BY_STEP": list(high_fitness_instance.fitness_by_step),
+            "LOWEST_FITNESS": low_fitness_instance.fitness,
+            "LOWEST_FITNESS_PATH": low_fitness_instance.traversed_path,
+            "LOWEST_FITNESS_BY_STEP": list(low_fitness_instance.fitness_by_step),
+        }
 
-    # print(data_high.fitness_by_step, data_low.fitness_by_step)
+    print(payload_data)
 
-    return_payload = {
-        "HIGHEST_FITNESS": data_high.fitness,
-        "HIGHEST_FITNESS_PATH": data_high.traversed_path,
-        "HIGHEST_FITNESS_BY_STEP": list(data_high.fitness_by_step),
-        "LOWEST_FITNESS": data_low.fitness,
-        "LOWEST_FITNESS_PATH": data_low.traversed_path,
-        "LOWEST_FITNESS_BY_STEP": list(data_low.fitness_by_step),
-    }
-
-    return json.dumps(return_payload)
+    return json.dumps(payload_data)
 
 
 # Test route for payload
@@ -48,16 +50,12 @@ def payload_test() -> dict:
 
     set_config.this_set_config(data["payloadBody"])
 
-    main.main_system()
+    total_generations: int = main.main_system()
 
     print("SYSTEM: MAIN SYSTEM RUN COMPLETE")
 
-    get_payload_return_data()
-
-    # Place Holder return data <- working
-
-    json_rtn_data = get_payload_return_data()
-    print(json_rtn_data)
+    json_rtn_data = get_payload_return_data(total_generations)
+    # print(json_rtn_data)
     return json_rtn_data
 
 

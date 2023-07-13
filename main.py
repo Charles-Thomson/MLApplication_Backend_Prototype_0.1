@@ -67,17 +67,21 @@ def new_generation(generation_num: int) -> list:
     return fit_brains, all_brains, generation_status
 
 
-def main_system() -> None:
+def main_system() -> int:
     """Main handling"""
     print("SYSTEM : RUNNING MAIN SYSTEM")
+    total_generations: int = 0
+
     for gen_num in range(0, config.NUMBER_OF_GENERATIONS):
+        # can order here based on all vs fit gens
         fit_gen, all_gen, generation_status = new_generation(gen_num)
+        total_generations = gen_num
         if generation_status is False:  # The new generation has failed
             print(f"SYSTEM => The genration has failed {gen_num}")
             break
+
     print("SYSTEM => Completed Main Function ")
-    # for inst in all_gen:
-    #     print(inst.traversed_path, inst.fitness)
+    return total_generations
 
 
 def get_selected_generations(selected_generations: list[int]) -> list[BrainInstance]:
