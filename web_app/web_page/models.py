@@ -1,9 +1,10 @@
+"""The Model for the DB"""
 from django.db import models
 
 
 # Create your models here.
-class BrainInstance(models.Model):
-    """Insatnce of a brain"""
+class BrainInstanceModel(models.Model):
+    """Model for the Brain Instances"""
 
     title = models.CharField(max_length=350)
     brain_id = models.CharField(max_length=350)
@@ -15,4 +16,4 @@ class BrainInstance(models.Model):
     fitness_by_step = models.CharField(max_length=350)
 
     def __str__(self):
-        return self.title
+        return str(self.title)

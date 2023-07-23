@@ -8,41 +8,133 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        /* Create two equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+           /* Should be removed. Only for demonstration */
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        </style>
 </head>
 
 <body>
-    <div style="margin-top: 50px;" class="ui container">
-        <h1 class="ui center aligned header">Brain Instance Data</h1>
+    <div style="max-width: 900;" class = "container">
+    <div    class="row">
+            <div style="margin-top: 50px;" class="column">
 
-        <form class="ui form" action="/add" method="post">
-            {% csrf_token %}
-            <div class="field">
-                <label>Todo Title</label>
-                <input type="text" name="title" placeholder="Enter Todo..."><br>
+            <h1 class="ui center aligned header">Brain Instance Data</h1>
+
+            <form class="ui form" action="/add" method="post">
+                {% csrf_token %}
+                <div class="field">
+                    <label>Brain Title</label>
+                    <input type="text" name="title" placeholder="Enter title..."><br>
+                </div>
+                <div class="field">
+                    <label>Brain Instance id</label>
+                    <input type="text" name="brain_instance_id" placeholder="Enter Id..."><br>
+                </div>
+                <div class="field">
+                    <label>Brain Generation Number</label>
+                    <input type="text" name="generation_number" placeholder="Enter Generation Number..."><br>
+                </div>
+                <div class="field">
+                    <label>Brain hidden weights</label>
+                    <input type="text" name="hidden_weights" placeholder="Enter hidden weights..."><br>
+                </div>
+                <button class="ui blue button" type="submit">Add New Brain</button>
+            </form>
+
+            <hr>
+
+            {% for BrainInstance in BrainInstance_list %}
+            <div class="ui segment">
+                <p class="ui big header">{{ BrainInstance.id }}</p>
+                <p class="ui big header">{{ BrainInstance.title }}</p>
+                <p class="ui big header">{{ BrainInstance.brain_id }}</p>
+                <p class="ui big header">{{ BrainInstance.generation_num }}</p>
+                <p class="ui big header">{{ BrainInstance.hidden_weights }}</p>
+
+
+                {% if BrainInstance.complete == False %}
+                <span class="ui gray label">Not Complete</span>
+                {% else %}
+                <span class="ui green label">Completed</span>
+                {% endif %}
+
+                <!-- <a class="ui blue button" href="/update/{{ todo.id }}">Update</a> -->
+                <a class="ui red button" href="/delete/{{ BrainInstance.id }}">Delete</a>
+                
             </div>
-            <button class="ui blue button" type="submit">Add</button>
-        </form>
+            {% endfor %}
+            </div>
+        
 
-        <hr>
+        
+            <div style="margin-top: 50px;" class="column"">
+                <h1 class="ui center aligned header">Brain Instance Data</h1>
 
-        {% for todo in todo_list %}
-        <div class="ui segment">
-            <p class="ui big header">{{ todo.id }}</p>
-            <p class="ui big header">{{ todo.id }}</p>
+                <form class="ui form" action="/add" method="post">
+                    {% csrf_token %}
+                    <div class="field">
+                        <label>Brain Title</label>
+                        <input type="text" name="title" placeholder="Enter title..."><br>
+                    </div>
+                    <div class="field">
+                        <label>Brain Instance id</label>
+                        <input type="text" name="brain_instance_id" placeholder="Enter Id..."><br>
+                    </div>
+                    <div class="field">
+                        <label>Brain Generation Number</label>
+                        <input type="text" name="generation_number" placeholder="Enter Generation Number..."><br>
+                    </div>
+                    <div class="field">
+                        <label>Brain hidden weights</label>
+                        <input type="text" name="hidden_weights" placeholder="Enter hidden weights..."><br>
+                    </div>
+                    <button class="ui blue button" type="submit">Add New Brain</button>
+                </form>
+
+                <hr>
+
+                {% for BrainInstance in BrainInstance_list %}
+                <div class="ui segment">
+                    <p class="ui big header">{{ BrainInstance.id }}</p>
+                    <p class="ui big header">{{ BrainInstance.title }}</p>
+                    <p class="ui big header">{{ BrainInstance.brain_id }}</p>
+                    <p class="ui big header">{{ BrainInstance.generation_num }}</p>
+                    <p class="ui big header">{{ BrainInstance.hidden_weights }}</p>
 
 
-            {% if todo.complete == False %}
-            <span class="ui gray label">Not Complete</span>
-            {% else %}
-            <span class="ui green label">Completed</span>
-            {% endif %}
+                    {% if BrainInstance.complete == False %}
+                    <span class="ui gray label">Not Complete</span>
+                    {% else %}
+                    <span class="ui green label">Completed</span>
+                    {% endif %}
 
-            <!-- <a class="ui blue button" href="/update/{{ todo.id }}">Update</a>
-            <a class="ui red button" href="/delete/{{ todo.id }}">Delete</a>
-            <a class="ui red button" href="/delete/{{ todo.id }}">Extra Button</a> -->
-        </div>
-        {% endfor %}
-    </div>
+                    <!-- <a class="ui blue button" href="/update/{{ todo.id }}">Update</a> -->
+                    <a class="ui red button" href="/delete/{{ BrainInstance.id }}">Delete</a>
+                    
+                </div>
+                {% endfor %}
+            </div>
+        
+
+    </div> <!-- End of Row -->
+    </div><!-- end of container-->>
 </body>
 
 </html>
