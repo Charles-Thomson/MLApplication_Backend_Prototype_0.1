@@ -35,9 +35,9 @@
     <div    class="row">
             <div style="margin-top: 50px;" class="column">
 
-            <h1 class="ui center aligned header">Brain Instance Data</h1>
+            <h1 class="ui center aligned header">Fit Brain Instance Data</h1>
 
-            <form class="ui form" action="/add" method="post">
+            <form class="ui form" action="/addfit" method="post">
                 {% csrf_token %}
                 <div class="field">
                     <label>Brain Title</label>
@@ -55,15 +55,15 @@
                     <label>Brain hidden weights</label>
                     <input type="text" name="hidden_weights" placeholder="Enter hidden weights..."><br>
                 </div>
-                <button class="ui blue button" type="submit">Add New Brain</button>
+                <button class="ui blue button" type="submit">Add New Fit Brain</button>
             </form>
 
             <hr>
 
-            {% for BrainInstance in BrainInstance_list %}
+            {% for BrainInstance in Fit_BrainInstance_list %}
             <div class="ui segment">
+                <p class="ui big header">Fit Brain</p>
                 <p class="ui big header">{{ BrainInstance.id }}</p>
-                <p class="ui big header">{{ BrainInstance.title }}</p>
                 <p class="ui big header">{{ BrainInstance.brain_id }}</p>
                 <p class="ui big header">{{ BrainInstance.generation_num }}</p>
                 <p class="ui big header">{{ BrainInstance.hidden_weights }}</p>
@@ -87,46 +87,46 @@
             <div style="margin-top: 50px;" class="column"">
                 <h1 class="ui center aligned header">Brain Instance Data</h1>
 
-                <form class="ui form" action="/add" method="post">
+                <form class="ui form" action="/addall" method="post">
                     {% csrf_token %}
                     <div class="field">
                         <label>Brain Title</label>
-                        <input type="text" name="title" placeholder="Enter title..."><br>
+                        <input type="text" name="title_a" placeholder="Enter title..."><br>
                     </div>
                     <div class="field">
                         <label>Brain Instance id</label>
-                        <input type="text" name="brain_instance_id" placeholder="Enter Id..."><br>
+                        <input type="text" name="brain_instance_id_a" placeholder="Enter Id..."><br>
                     </div>
                     <div class="field">
                         <label>Brain Generation Number</label>
-                        <input type="text" name="generation_number" placeholder="Enter Generation Number..."><br>
+                        <input type="text" name="generation_number_a" placeholder="Enter Generation Number..."><br>
                     </div>
                     <div class="field">
                         <label>Brain hidden weights</label>
-                        <input type="text" name="hidden_weights" placeholder="Enter hidden weights..."><br>
+                        <input type="text" name="hidden_weights_a" placeholder="Enter hidden weights..."><br>
                     </div>
                     <button class="ui blue button" type="submit">Add New Brain</button>
                 </form>
 
                 <hr>
 
-                {% for BrainInstance in BrainInstance_list %}
+                {% for BrainInstance_a in All_BrainInstance_list %}
                 <div class="ui segment">
-                    <p class="ui big header">{{ BrainInstance.id }}</p>
-                    <p class="ui big header">{{ BrainInstance.title }}</p>
-                    <p class="ui big header">{{ BrainInstance.brain_id }}</p>
-                    <p class="ui big header">{{ BrainInstance.generation_num }}</p>
-                    <p class="ui big header">{{ BrainInstance.hidden_weights }}</p>
+                    <p class="ui big header">General Brain</p>
+                    <p class="ui big header">{{ BrainInstance_a.id }}</p>
+                    <p class="ui big header">{{ BrainInstance_a.brain_id }}</p>
+                    <p class="ui big header">{{ BrainInstance_a.generation_num }}</p>
+                    <p class="ui big header">{{ BrainInstance_a.hidden_weights }}</p>
 
 
-                    {% if BrainInstance.complete == False %}
+                    {% if BrainInstance_a.complete == False %}
                     <span class="ui gray label">Not Complete</span>
                     {% else %}
                     <span class="ui green label">Completed</span>
                     {% endif %}
 
                     <!-- <a class="ui blue button" href="/update/{{ todo.id }}">Update</a> -->
-                    <a class="ui red button" href="/delete/{{ BrainInstance.id }}">Delete</a>
+                    <a class="ui red button" href="/delete/{{ BrainInstance_a.id }}">Delete</a>
                     
                 </div>
                 {% endfor %}

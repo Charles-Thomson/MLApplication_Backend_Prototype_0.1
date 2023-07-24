@@ -5,7 +5,8 @@ from . import views
 urlpatterns = [
     path("", views.index, name="index"),
     # Method call name from views - name used on the HTML side
-    path("add", views.add, name="add"),
+    path("addfit", views.add_fit, name="addfit"),
+    path("addall", views.add_all, name="add"),
     path("delete/<int:todo_id>", views.delete, name="delete"),
     path("update/<int:todo_id>", views.update, name="update"),
 ]

@@ -1,28 +1,30 @@
 """Instance of a brain used by a agent"""
 import numpy as np
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import (
-    Column,
-    CHAR,
-    FLOAT,
-)
-import config
-import struct
 
-Base = declarative_base()
+# from sqlalchemy.ext.declarative import declarative_base
+# from sqlalchemy import (
+#     Column,
+#     CHAR,
+#     FLOAT,
+# )
+
+from ANN.config import config
+
+# Base = declarative_base()
 
 
-class BrainInstance(Base):
+# Had Base as a inherited class
+class BrainInstance:
     """Instance of agent brian"""
 
-    __tablename__ = "generations"
-    brain_id = Column("brain_id", CHAR, primary_key=True)
-    generation_num = Column("generation_num", CHAR)
-    hidden_weights = Column("hidden_weights", CHAR)
-    output_weights = Column("output_weights", CHAR)
-    fitness = Column("fitness", FLOAT)
-    traversed_path = Column("traversed_path", CHAR)
-    fitness_by_step = Column("fitness_by_step", CHAR)
+    # __tablename__ = "generations"
+    # brain_id = Column("brain_id", CHAR, primary_key=True)
+    # generation_num = Column("generation_num", CHAR)
+    # hidden_weights = Column("hidden_weights", CHAR)
+    # output_weights = Column("output_weights", CHAR)
+    # fitness = Column("fitness", FLOAT)
+    # traversed_path = Column("traversed_path", CHAR)
+    # fitness_by_step = Column("fitness_by_step", CHAR)
 
     def __init__(self, brain_id, generation_num, hidden_weights, output_weights):
         self.brain_id: str = brain_id
@@ -50,6 +52,8 @@ class BrainInstance(Base):
 
     def determin_action(self, sight_data: np.array) -> int:
         """Determin best action based on given data/activation"""
+
+        # This needs refactoring to be taken in at the build of the instance, not ref to config
         hidden_layer_activation_function = config.HIDDEN_LAYER_ACTIVATION_FUNCTION
         output_layer_activation_function = config.OUPUT_LAYER_ACTIVATION_FUNCTION
 
