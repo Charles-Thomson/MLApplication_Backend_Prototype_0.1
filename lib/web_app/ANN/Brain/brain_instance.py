@@ -1,42 +1,34 @@
 """Instance of a brain used by a agent"""
+import base64
 import numpy as np
-
-# from sqlalchemy.ext.declarative import declarative_base
-# from sqlalchemy import (
-#     Column,
-#     CHAR,
-#     FLOAT,
-# )
-
 from ANN.config import config
+import pickle
 
-# Base = declarative_base()
 
-
-# Had Base as a inherited class
 class BrainInstance:
     """Instance of agent brian"""
 
-    # __tablename__ = "generations"
-    # brain_id = Column("brain_id", CHAR, primary_key=True)
-    # generation_num = Column("generation_num", CHAR)
-    # hidden_weights = Column("hidden_weights", CHAR)
-    # output_weights = Column("output_weights", CHAR)
-    # fitness = Column("fitness", FLOAT)
-    # traversed_path = Column("traversed_path", CHAR)
-    # fitness_by_step = Column("fitness_by_step", CHAR)
-
-    def __init__(self, brain_id, generation_num, hidden_weights, output_weights):
+    def __init__(
+        self,
+        brain_id,
+        generation_num,
+        hidden_weights,
+        output_weights,
+        fitness,
+        traversed_path,
+        fitness_by_step,
+    ):
         self.brain_id: str = brain_id
         self.generation_num: int = generation_num
         self.hidden_weights: np.array = hidden_weights
         self.output_weights: np.array = output_weights
-        self.fitness: float = 0.0
-        self.traversed_path: list[int] = []
-        self.fitness_by_step: np.array = np.array([])
+        self.fitness: float = fitness
+        self.traversed_path: list[int] = traversed_path
+        self.fitness_by_step: np.array = fitness_by_step
 
     def set_attributes_to_bytes(self) -> None:
         """Covert the np.arrays to bytes for DB storage"""
+
         self.hidden_weights = self.hidden_weights.tobytes()
         self.output_weights = self.output_weights.tobytes()
         self.traversed_path = bytes(self.traversed_path)
@@ -44,9 +36,10 @@ class BrainInstance:
 
     def get_attributes_from_bytes(self) -> None:
         """Convert the weights from bytes to np.arrays"""
-        # Reshape needed - from bytes flatens np.array
-        self.hidden_weights = np.frombuffer(self.hidden_weights).reshape(24, -1)
-        self.output_weights = np.frombuffer(self.output_weights).reshape(9, -1)
+
+        # THIS WORKS YOU IDIOT
+        self.hidden_weights = np.frombuffer(self.hidden_weights).reshape(9, 3)
+        self.output_weights = np.frombuffer(self.output_weights)
         self.traversed_path = list(self.traversed_path)
         self.fitness_by_step = np.frombuffer(self.fitness_by_step)
 
