@@ -7,10 +7,7 @@ from ANN.Brain.brain_instance import BrainInstance
 
 import numpy as np
 
-from web_page.models import (
-    FitBrainInstanceModel,
-    AllBrainInstanceModel,
-)
+from web_page.models import AllBrainInstanceModel, FitBrainInstanceModel
 
 
 # Create your views here.
@@ -29,7 +26,7 @@ def index(request):
     )
 
 
-def instance_to_model(brain_instance: object) -> FitBrainInstanceModel:
+def instance_to_model(brain_instance: object) -> BrainInstance:
     """Save the brain instance as a fit instance"""
     brain_instance.set_attributes_to_bytes()
 
@@ -46,7 +43,7 @@ def instance_to_model(brain_instance: object) -> FitBrainInstanceModel:
     return new_db_brain_model
 
 
-def model_to_instance(brain_model: FitBrainInstanceModel) -> BrainInstance:
+def model_to_instance(brain_model: BrainInstance) -> BrainInstance:
     """Convert a brain_model used by the DB to a Brain Instance"""
 
     new_brain_instace: BrainInstance = BrainInstance(
@@ -99,15 +96,17 @@ def get_instances() -> None:
     """Get a brain Instance back from the model"""
 
     brain_model_1: FitBrainInstanceModel = FitBrainInstanceModel.objects.get(id=1)
+    print(brain_model_1)
 
     brain_instance_1: BrainInstance = model_to_instance(brain_model_1)
+
+    # passing it's self into it to see what it does tbh
+    # brain_instance = brain_model_1.rebuild_brain_instance(brain_model_1)
+    # brain_instance.get_attributes_from_bytes()
 
     brain_instance_1.get_attributes_from_bytes()
 
     print(brain_instance_1.hidden_weights)
-    print(brain_instance_1.output_weights)
-    print(brain_instance_1.traversed_path)
-    print(brain_instance_1.fitness_by_step)
 
 
 @require_http_methods(["POST"])

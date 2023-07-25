@@ -37,7 +37,7 @@ class BrainInstance:
     def get_attributes_from_bytes(self) -> None:
         """Convert the weights from bytes to np.arrays"""
 
-        # THIS WORKS YOU IDIOT
+        # reshape would be 24, -1 i think ?
         self.hidden_weights = np.frombuffer(self.hidden_weights).reshape(9, 3)
         self.output_weights = np.frombuffer(self.output_weights)
         self.traversed_path = list(self.traversed_path)
