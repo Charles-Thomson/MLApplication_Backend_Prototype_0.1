@@ -31,6 +31,6 @@ class MazeAgent:
 
         self.brain.fitness = fitness
         self.brain.traversed_path = path
-        self.brain.fitness_by_step = np.array(fitness_by_step)
+        self.brain.fitness_by_step = fitness_by_step
 
         return self.brain

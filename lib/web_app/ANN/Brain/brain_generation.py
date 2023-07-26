@@ -35,7 +35,7 @@ def new_brain_generator(
             output_weights=output_weights,
             fitness=0.0,
             traversed_path=[],
-            fitness_by_step=np.array([]),
+            fitness_by_step=[],
         )
 
         yield new_brain

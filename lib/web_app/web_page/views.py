@@ -54,7 +54,7 @@ def add_fit(request):
         ),
         fitness=20.1,
         traversed_path=[2, 4, 5, 6, 7],
-        fitness_by_step=np.array([2.3, 4.5, 6.7, 8.9]),
+        fitness_by_step=[2.3, 4.5, 6.7, 8.9],
     )
 
     new_brain_instance = brain_instance_handling.brain_instance_to_model(

@@ -13,6 +13,7 @@ class AllBrainInstanceModel(models.Model):
     hidden_weights = models.BinaryField()
     output_weights = models.CharField(max_length=350)
     fitness = models.CharField(max_length=350)
+
     traversed_path = models.CharField(max_length=350)
     fitness_by_step = models.CharField(max_length=350)
 
@@ -30,8 +31,9 @@ class FitBrainInstanceModel(models.Model):
     fitness = models.CharField(max_length=350)
     hidden_weights = models.BinaryField()
     output_weights = models.BinaryField()
-    traversed_path = models.BinaryField()
-    fitness_by_step = models.BinaryField()
+
+    traversed_path = models.CharField(max_length=350)
+    fitness_by_step = models.CharField(max_length=350)
 
     def __str__(self):
         return str(self.title)
@@ -47,8 +49,9 @@ class TrainedBrainInstanceModel(models.Model):
     fitness = models.CharField(max_length=350)
     hidden_weights = models.BinaryField()
     output_weights = models.BinaryField()
-    traversed_path = models.BinaryField()
-    fitness_by_step = models.BinaryField()
+
+    traversed_path = models.CharField(max_length=350)
+    fitness_by_step = models.CharField(max_length=350)
 
     def __str__(self):
         return str(self.title)
