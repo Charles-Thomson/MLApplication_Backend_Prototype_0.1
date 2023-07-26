@@ -2,16 +2,19 @@
 from copy import deepcopy
 from typing import Generator
 
-from Environment.environment_main import MazeEnvironment
-from Agent.maze_agent import MazeAgent
-from Brain.brain_generation import new_brain_generator
-from Brain.brain_instance import BrainInstance
-from DataBase.database_main import save_brain_instance, get_and_format_db_data
-from DataBase.database_all_brains import save_all_brain_instance
+from ANN.Environment.environment_main import MazeEnvironment
+from ANN.Agent.maze_agent import MazeAgent
+from ANN.Brain.brain_generation import new_brain_generator
+from ANN.Brain.brain_instance import BrainInstance
 
-from Logging.loggin_decorator import with_generation_logging
+# from ANN.DataBase.database_main import save_brain_instance, get_and_format_db_data
+from ANN.DataBase.database_all_brains import save_all_brain_instance
 
-import config
+from ANN.Logging.loggin_decorator import with_generation_logging
+
+from web_app.web_page import db_functions
+
+from ANN.config import config
 
 
 @with_generation_logging
@@ -29,7 +32,10 @@ def new_generation(generation_num: int) -> list:
     all_brains: list[BrainInstance] = []
 
     if generation_num > 0:
-        parents: list[BrainInstance] = get_and_format_db_data(generation_num - 1)
+        # Getting from the Fit Brains Model
+        parents: list[BrainInstance] = db_functions.get_and_format_db_data(
+            generation_num=(generation_num - 1), model_type="fit"
+        )
         fitness_threshold: float = calculate_new_fitnees_threshold(parents)
 
     brain_generator: Generator = new_brain_generator(
@@ -56,11 +62,14 @@ def new_generation(generation_num: int) -> list:
         if brain.fitness > fitness_threshold:
             ret_brain = deepcopy(brain)
             fit_brains.append(brain)
-            save_brain_instance(ret_brain)
+            db_functions.save_brain_instance(brain_instance=ret_brain, model_type="fit")
 
         all_brains.append(brain)
         all_brain_instance = deepcopy(brain)
-        save_all_brain_instance(all_brain_instance)
+
+        db_functions.save_brain_instance(
+            brain_instance=all_brain_instance, model_type="general"
+        )
     print(
         f"Generation Complete - Fit agents: {len(fit_brains)} - Genertion size: {current_generation_size} Generation No*: {generation_num} Fitness Threshold: {fitness_threshold}"
     )

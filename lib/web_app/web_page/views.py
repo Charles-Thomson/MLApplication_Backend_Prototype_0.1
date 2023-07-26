@@ -9,6 +9,8 @@ import numpy as np
 
 from web_page.models import AllBrainInstanceModel, FitBrainInstanceModel
 
+from web_page import brain_instance_handling
+
 
 # Create your views here.
 def index(request):
@@ -26,44 +28,12 @@ def index(request):
     )
 
 
-def instance_to_model(brain_instance: object) -> BrainInstance:
-    """Save the brain instance as a fit instance"""
-    brain_instance.set_attributes_to_bytes()
-
-    new_db_brain_model = FitBrainInstanceModel(
-        brain_id=brain_instance.brain_id,
-        generation_num=brain_instance.generation_num,
-        hidden_weights=brain_instance.hidden_weights,
-        output_weights=brain_instance.output_weights,
-        fitness=brain_instance.fitness,
-        traversed_path=brain_instance.traversed_path,
-        fitness_by_step=brain_instance.fitness_by_step,
-    )
-
-    return new_db_brain_model
-
-
-def model_to_instance(brain_model: BrainInstance) -> BrainInstance:
-    """Convert a brain_model used by the DB to a Brain Instance"""
-
-    new_brain_instace: BrainInstance = BrainInstance(
-        brain_id=brain_model.brain_id,
-        generation_num=brain_model.generation_num,
-        hidden_weights=brain_model.hidden_weights,
-        output_weights=brain_model.output_weights,
-        fitness=brain_model.fitness,
-        traversed_path=brain_model.traversed_path,
-        fitness_by_step=brain_model.fitness_by_step,
-    )
-
-    return new_brain_instace
-
-
 @require_http_methods(["POST"])
 def add_fit(request):
     """Add a new Brain Instance"""
 
     test_brain = BrainInstance(
+        brain_type="fit",
         brain_id=1,
         generation_num=2,
         hidden_weights=np.array(
@@ -86,7 +56,10 @@ def add_fit(request):
         traversed_path=[2, 4, 5, 6, 7],
         fitness_by_step=np.array([2.3, 4.5, 6.7, 8.9]),
     )
-    new_brain_instance = instance_to_model(test_brain)
+
+    new_brain_instance = brain_instance_handling.brain_instance_to_model(
+        brain_instance=test_brain, model_type="fit"
+    )
     new_brain_instance.save()
     get_instances()
     return redirect("index")
@@ -95,24 +68,24 @@ def add_fit(request):
 def get_instances() -> None:
     """Get a brain Instance back from the model"""
 
-    brain_model_1: FitBrainInstanceModel = FitBrainInstanceModel.objects.get(id=1)
+    brain_model_1: FitBrainInstanceModel = FitBrainInstanceModel.objects.get(id=2)
     print(brain_model_1)
 
-    brain_instance_1: BrainInstance = model_to_instance(brain_model_1)
-
-    # passing it's self into it to see what it does tbh
-    # brain_instance = brain_model_1.rebuild_brain_instance(brain_model_1)
-    # brain_instance.get_attributes_from_bytes()
+    brain_instance_1: BrainInstance = brain_instance_handling.model_to_brain_instance(
+        brain_model_1
+    )
 
     brain_instance_1.get_attributes_from_bytes()
 
     print(brain_instance_1.hidden_weights)
+    print(brain_instance_1.brain_type)
 
 
 @require_http_methods(["POST"])
 def add_all(request):
     """Add a new Brain Instance"""
     title = request.POST["title_a"]
+    brain_type = "general"
     brain_id = request.POST["brain_instance_id_a"]
     generation_num = request.POST["generation_number_a"]
     hidden_weights = "[5,6,7,8]"
@@ -123,6 +96,7 @@ def add_all(request):
 
     new_brain_instance = AllBrainInstanceModel(
         title=title,
+        brain_type=brain_type,
         brain_id=brain_id,
         generation_num=generation_num,
         hidden_weights=hidden_weights,

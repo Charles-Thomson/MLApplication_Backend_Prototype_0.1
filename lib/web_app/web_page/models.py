@@ -7,11 +7,10 @@ class AllBrainInstanceModel(models.Model):
     """Model for the Brain Instances"""
 
     title = models.CharField(max_length=350)
+    brain_type = models.CharField(max_length=100, default="general")
     brain_id = models.CharField(max_length=350)
     generation_num = models.CharField(max_length=350)
-
     hidden_weights = models.BinaryField()
-
     output_weights = models.CharField(max_length=350)
     fitness = models.CharField(max_length=350)
     traversed_path = models.CharField(max_length=350)
@@ -25,10 +24,10 @@ class FitBrainInstanceModel(models.Model):
     """Model for the Brain Instances"""
 
     title = models.CharField(max_length=350)
+    brain_type = models.CharField(max_length=100, default="fit")
     brain_id = models.CharField(max_length=350)
     generation_num = models.CharField(max_length=350)
     fitness = models.CharField(max_length=350)
-
     hidden_weights = models.BinaryField()
     output_weights = models.BinaryField()
     traversed_path = models.BinaryField()
@@ -36,3 +35,27 @@ class FitBrainInstanceModel(models.Model):
 
     def __str__(self):
         return str(self.title)
+
+
+class TrainedBrainInstanceModel(models.Model):
+    """Model for the Brain Instances"""
+
+    title = models.CharField(max_length=350)
+    brain_type = models.CharField(max_length=100, default="trained")
+    brain_id = models.CharField(max_length=350)
+    generation_num = models.CharField(max_length=350)
+    fitness = models.CharField(max_length=350)
+    hidden_weights = models.BinaryField()
+    output_weights = models.BinaryField()
+    traversed_path = models.BinaryField()
+    fitness_by_step = models.BinaryField()
+
+    def __str__(self):
+        return str(self.title)
+
+
+AVAILABLE_MODELS: dict[str, models.Model] = {
+    "general": AllBrainInstanceModel,
+    "fit": FitBrainInstanceModel,
+    "trained": TrainedBrainInstanceModel,
+}

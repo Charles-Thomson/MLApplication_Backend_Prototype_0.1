@@ -28,7 +28,14 @@ def new_brain_generator(
         brain_id: str = generate_brain_id()
 
         new_brain: BrainInstance = BrainInstance(
-            brain_id, generation_num, hidden_weights, output_weights
+            brain_type="",
+            brain_id=brain_id,
+            generation_num=generation_num,
+            hidden_weights=hidden_weights,
+            output_weights=output_weights,
+            fitness=0.0,
+            traversed_path=[],
+            fitness_by_step=np.array([]),
         )
 
         yield new_brain

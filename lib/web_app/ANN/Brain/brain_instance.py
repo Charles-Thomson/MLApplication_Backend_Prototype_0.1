@@ -1,8 +1,6 @@
 """Instance of a brain used by a agent"""
-import base64
 import numpy as np
 from ANN.config import config
-import pickle
 
 
 class BrainInstance:
@@ -11,6 +9,7 @@ class BrainInstance:
     def __init__(
         self,
         brain_id,
+        brain_type,
         generation_num,
         hidden_weights,
         output_weights,
@@ -18,6 +17,7 @@ class BrainInstance:
         traversed_path,
         fitness_by_step,
     ):
+        self.brain_type = brain_type  # May rename to Model type ?
         self.brain_id: str = brain_id
         self.generation_num: int = generation_num
         self.hidden_weights: np.array = hidden_weights
