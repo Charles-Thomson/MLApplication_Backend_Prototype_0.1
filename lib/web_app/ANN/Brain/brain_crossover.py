@@ -3,9 +3,9 @@ from copy import deepcopy
 import random
 from typing import final
 from random import randint
-from Brain.brain_instance import BrainInstance
+from ANN.Brain.brain_instance import BrainInstance
 import numpy as np
-import config
+from ANN.config import config
 
 
 MUTATION_THRESHOLD: final = 50

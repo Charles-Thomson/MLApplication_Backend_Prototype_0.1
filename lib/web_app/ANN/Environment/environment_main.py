@@ -3,9 +3,9 @@ from functools import partial
 import numpy as np
 
 from gym import Env
-from Environment.environment_sightdata import collect_observation_data
+from ANN.Environment.environment_sightdata import collect_observation_data
 
-import config
+from ANN.config import config
 
 
 class MazeEnvironment(Env):

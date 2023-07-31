@@ -40,10 +40,6 @@
             <form class="ui form" action="/addfit" method="post">
                 {% csrf_token %}
                 <div class="field">
-                    <label>Brain Title</label>
-                    <input type="text" name="title" placeholder="Enter title..."><br>
-                </div>
-                <div class="field">
                     <label>Brain Instance id</label>
                     <input type="text" name="brain_instance_id" placeholder="Enter Id..."><br>
                 </div>
@@ -89,10 +85,7 @@
 
                 <form class="ui form" action="/addall" method="post">
                     {% csrf_token %}
-                    <div class="field">
-                        <label>Brain Title</label>
-                        <input type="text" name="title_a" placeholder="Enter title..."><br>
-                    </div>
+                    
                     <div class="field">
                         <label>Brain Instance id</label>
                         <input type="text" name="brain_instance_id_a" placeholder="Enter Id..."><br>

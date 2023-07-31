@@ -7,12 +7,11 @@ from ANN.Agent.maze_agent import MazeAgent
 from ANN.Brain.brain_generation import new_brain_generator
 from ANN.Brain.brain_instance import BrainInstance
 
-# from ANN.DataBase.database_main import save_brain_instance, get_and_format_db_data
 from ANN.DataBase.database_all_brains import save_all_brain_instance
 
 from ANN.Logging.loggin_decorator import with_generation_logging
 
-from web_app.web_page import db_functions
+from web_page import db_functions
 
 from ANN.config import config
 
@@ -107,7 +106,7 @@ def get_selected_generations(selected_generations: list[int]) -> list[BrainInsta
 def calculate_new_fitnees_threshold(parents: list[BrainInstance]) -> float:
     """Return a fitness threshold 10% higher then given pervious generation threshold"""
 
-    total_fitness = sum(instance.fitness for instance in parents)
+    total_fitness = sum(float(instance.fitness) for instance in parents)
     average_fitness = total_fitness / len(parents)
     new_threshold = average_fitness + ((average_fitness / 100) * 5)
 

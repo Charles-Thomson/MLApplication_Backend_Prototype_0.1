@@ -2,10 +2,9 @@
 from typing import final
 import uuid
 import numpy as np
-from numpy.random import choice
-from Brain.brain_instance import BrainInstance
-from Brain.brain_crossover import weights_crossover
-import config
+from ANN.Brain.brain_instance import BrainInstance
+from ANN.Brain.brain_crossover import weights_crossover
+from ANN.config import config
 
 
 INPUT_LAYER_SIZE: final = 24

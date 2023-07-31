@@ -1,7 +1,7 @@
 """setting of the config file"""
 import numpy as np
-import config
-from config_functions import (
+from ANN.config import config
+from ANN.config_functions import (
     activation_functions,
     crossover_weight_functions,
     weight_huristics,
@@ -12,6 +12,8 @@ def this_set_config(data: dict) -> None:
     """Set the config file based on the API data"""
 
     print("SYSTEM: IN SET CONFIG")
+    print(type(data))
+    print(str(data["NUMBER_OF_GENERATIONS"]))
 
     config.NUMBER_OF_GENERATIONS = int(data["NUMBER_OF_GENERATIONS"])
     config.MAX_GENERATION_SIZE = int(data["MAX_GENERATION_SIZE"])
@@ -51,3 +53,5 @@ def this_set_config(data: dict) -> None:
             weight_crossover_function_name
         ]
     )
+
+    print(config.ENV_MAP, config.STARTING_FITNESS_THRESHOLD)

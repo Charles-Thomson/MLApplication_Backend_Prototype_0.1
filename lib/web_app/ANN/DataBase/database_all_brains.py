@@ -3,7 +3,7 @@ from sqlalchemy import create_engine, Column, CHAR, FLOAT, MetaData
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-from Brain.brain_instance import BrainInstance
+from ANN.Brain.brain_instance import BrainInstance
 
 Base = declarative_base()
 

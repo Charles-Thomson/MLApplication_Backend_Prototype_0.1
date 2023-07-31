@@ -38,8 +38,8 @@ class BrainInstance:
         """Convert the weights from bytes to np.arrays"""
 
         # reshape would be 24, -1 i think ?
-        self.hidden_weights = np.frombuffer(self.hidden_weights).reshape(9, 3)
-        self.output_weights = np.frombuffer(self.output_weights)
+        self.hidden_weights = np.frombuffer(self.hidden_weights).reshape(24, -1)
+        self.output_weights = np.frombuffer(self.output_weights).reshape(9, -1)
         self.traversed_path = self.traversed_path.split(",")
         self.fitness_by_step = self.fitness_by_step.split(",")
 
