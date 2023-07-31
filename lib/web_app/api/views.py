@@ -75,12 +75,6 @@ def set_new_config(data) -> None:
 def generate_return_payload(number_of_generations):
     """Get the fittest brain from each generation"""
 
-    # Working from here
-    # Need to get the highest and lowest from each gen
-    # along with the paths anf fitness by path for each
-    # use an update to "tag" which is which and read on the reciving end ?
-    # => Will need another field in the brain instance model
-
     return_models: FitBrainInstanceModel = []
     brain_instance_models: list[
         FitBrainInstanceModel
@@ -88,9 +82,11 @@ def generate_return_payload(number_of_generations):
 
     for gen in range(0, number_of_generations + 1):
         this_gen_models = brain_instance_models.filter(generation_num=gen)
-        fitest_model = this_gen_models.order_by("-fitness").first()
-        if fitest_model is not None:
-            return_models.append(fitest_model)
+        highest_fit_model = this_gen_models.order_by("-fitness").first()
+        lowest_fitest_model = this_gen_models.order_by("-fitness").last()
+        if highest_fit_model is not None and lowest_fitest_model is not None:
+            return_models.append(highest_fit_model)
+            return_models.append(lowest_fitest_model)
 
     ser_data = BrainSerializer(return_models, many=True)
     return ser_data.data

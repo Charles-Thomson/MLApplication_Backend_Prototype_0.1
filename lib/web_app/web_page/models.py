@@ -16,9 +16,6 @@ class AllBrainInstanceModel(models.Model):
     traversed_path = models.CharField(max_length=350)
     fitness_by_step = models.CharField(max_length=350)
 
-    def __str__(self):
-        return str(self.title)
-
 
 class FitBrainInstanceModel(models.Model):
     """Model for the Brain Instances"""
@@ -45,9 +42,6 @@ class TrainedBrainInstanceModel(models.Model):
 
     traversed_path = models.CharField(max_length=350)
     fitness_by_step = models.CharField(max_length=350)
-
-    def __str__(self):
-        return str(self.title)
 
 
 AVAILABLE_MODELS: dict[str, models.Model] = {

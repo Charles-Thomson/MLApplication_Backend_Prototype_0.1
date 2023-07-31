@@ -7,4 +7,4 @@ class BrainSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = FitBrainInstanceModel
-        fields = "__all__"
+        fields = ["generation_num", "fitness", "traversed_path", "fitness_by_step"]
