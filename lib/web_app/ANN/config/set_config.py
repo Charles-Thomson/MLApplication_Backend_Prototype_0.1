@@ -11,10 +11,6 @@ from ANN.config_functions import (
 def this_set_config(data: dict) -> None:
     """Set the config file based on the API data"""
 
-    print("SYSTEM: IN SET CONFIG")
-    print(type(data))
-    print(str(data["NUMBER_OF_GENERATIONS"]))
-
     config.NUMBER_OF_GENERATIONS = int(data["NUMBER_OF_GENERATIONS"])
     config.MAX_GENERATION_SIZE = int(data["MAX_GENERATION_SIZE"])
 
@@ -30,28 +26,26 @@ def this_set_config(data: dict) -> None:
     config.ENVIRONMENT_START_STATE = int(data["ENVIRONMENT_START_STATE"])
     config.MAX_EPISODE_DURATION = int(data["MAX_EPISODE_DURATION"])
 
-    hurisitcs_name: str = data["WEIGHT_INITIALIZATION_HEURISTIC"]
-    config.WEIGHT_INITALIZATION_HEURISTIC = weight_huristics.HURISTICS[hurisitcs_name]
+    config.WEIGHT_INITALIZATION_HEURISTIC = weight_huristics.get_weight_huristics(
+        huristics_name=data["WEIGHT_INITIALIZATION_HEURISTIC"]
+    )
 
-    hidden_layer_activation_func_name: str = data["HIDDEN_LAYER_ACTIVATION_FUNCTION"]
     config.HIDDEN_LAYER_ACTIVATION_FUNCTION = (
-        activation_functions.HIDDEN_LAYER_ACTIVATION_FUNCTIONS[
-            hidden_layer_activation_func_name
-        ]
+        activation_functions.get_hidden_activation_func(
+            func_name=data["HIDDEN_LAYER_ACTIVATION_FUNCTION"]
+        )
     )
 
-    output_layer_activation_func_name: str = data["OUTPUT_LAYER_ACTIVATION_FUNCTION"]
     config.OUPUT_LAYER_ACTIVATION_FUNCTION = (
-        activation_functions.OUTPUT_LAYER_ACTIVATION_FUNCTIONS[
-            output_layer_activation_func_name
-        ]
+        activation_functions.get_output_activation_func(
+            func_name=data["OUTPUT_LAYER_ACTIVATION_FUNCTION"]
+        )
     )
 
-    weight_crossover_function_name: str = data["WEIGHTS_CONCATENATION_FUNCTION"]
     config.WEIGHTS_CROSSOVER_FUNCTIONS = (
-        crossover_weight_functions.CROSSOVER_WEIGHT_FUNCTIONS[
-            weight_crossover_function_name
-        ]
+        crossover_weight_functions.get_crossover_weight_func(
+            func_name=data["WEIGHTS_CONCATENATION_FUNCTION"]
+        )
     )
 
     print(config.ENV_MAP, config.STARTING_FITNESS_THRESHOLD)

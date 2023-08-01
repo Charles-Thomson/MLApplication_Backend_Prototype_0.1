@@ -98,9 +98,17 @@ def normalized_xavier_weight_init_generator(
         yield element
 
 
-# MUST BE MAINTINED WITH FRONTEND
-HURISTICS: dict = {
-    "HE": he_weight_init_generator,
-    "xavier": xavier_weight_init_generator,
-    "normalized xavier": normalized_xavier_weight_init_generator,
-}
+def get_weight_huristics(huristics_name: str) -> function:
+    """Returns a weight initialization huristic
+    Available:
+    "HE"
+    "xavier"
+    "normalized xavier"
+    """
+
+    huristics: dict = {
+        "HE": he_weight_init_generator,
+        "xavier": xavier_weight_init_generator,
+        "normalized xavier": normalized_xavier_weight_init_generator,
+    }
+    return huristics[huristics_name]

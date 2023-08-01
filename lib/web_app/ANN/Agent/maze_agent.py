@@ -1,5 +1,4 @@
 """Maze agent creation and action process"""
-import numpy as np
 
 
 class MazeAgent:

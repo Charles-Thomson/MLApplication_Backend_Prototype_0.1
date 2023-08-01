@@ -52,15 +52,33 @@ def soft_argmax_activation(vector: np.array) -> int:
     return np.argmax(vector_sum)
 
 
-# MUST BE MAINTINED WITH FRONTEND
-HIDDEN_LAYER_ACTIVATION_FUNCTIONS: dict = {
-    "linear": linear_activation_function,
-    "Relu": rectified_linear_activation_activation_function,
-    "Leaky Relu": leaky_rectified_linear_activation_activation_function,
-    "Sigmoid": sigmoid_activation_fucntion,
-}
+def get_hidden_activation_func(func_name: str) -> function:
+    """Returns a hidden layer activation function -
+    Available:
+    "Linear"
+    "Relu"
+    "Leaky Relu"
+    "Sigmoid"
+    """
+    functions: dict = {
+        "linear": linear_activation_function,
+        "Relu": rectified_linear_activation_activation_function,
+        "Leaky Relu": leaky_rectified_linear_activation_activation_function,
+        "Sigmoid": sigmoid_activation_fucntion,
+    }
+    return functions[func_name]
 
-OUTPUT_LAYER_ACTIVATION_FUNCTIONS: dict = {
-    "Arg max": argmax_activation,
-    "Soft max": soft_argmax_activation,
-}
+
+def get_output_activation_func(func_name: str) -> function:
+    """Returns a output layer activation function
+    Available:
+    "Arg max"
+    "Soft max"
+    """
+
+    functions: dict = {
+        "Arg max": argmax_activation,
+        "Soft max": soft_argmax_activation,
+    }
+
+    return functions["func_name"]

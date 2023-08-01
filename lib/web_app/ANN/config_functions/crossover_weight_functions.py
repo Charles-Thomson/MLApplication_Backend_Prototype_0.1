@@ -31,8 +31,16 @@ def crossover_weights_mergining(
     return new_weights
 
 
-# MUST BE MAINTINED WITH FRONTEND
-CROSSOVER_WEIGHT_FUNCTIONS: dict = {
-    "Avg": crossover_weights_average,
-    "Merging": crossover_weights_mergining,
-}
+def get_crossover_weight_func(func_name: str) -> function:
+    """Returns a weight crossover function
+    Available:
+    "Avg"
+    "Merging"
+    """
+
+    functions: dict = {
+        "Avg": crossover_weights_average,
+        "Merging": crossover_weights_mergining,
+    }
+
+    return functions[func_name]
