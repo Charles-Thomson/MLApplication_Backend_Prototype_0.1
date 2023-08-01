@@ -1,11 +1,11 @@
 from ANN.Brain.brain_instance import BrainInstance
-from web_page.models import AVAILABLE_MODELS
+from web_page.models import get_model
 
 
 def brain_instance_to_model(brain_instance: object, model_type: str) -> BrainInstance:
     """Save the brain instance as a fit instance"""
 
-    model = AVAILABLE_MODELS.get(model_type)
+    model = get_model(model_type=model_type)
 
     brain_instance.set_attributes_to_bytes()
 

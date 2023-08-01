@@ -44,8 +44,17 @@ class TrainedBrainInstanceModel(models.Model):
     fitness_by_step = models.CharField(max_length=350)
 
 
-AVAILABLE_MODELS: dict[str, models.Model] = {
-    "general": AllBrainInstanceModel,
-    "fit": FitBrainInstanceModel,
-    "trained": TrainedBrainInstanceModel,
-}
+def get_model(model_type: str) -> models.Model:
+    """Return a given model -
+    Available:
+    "general"
+    "fit"
+    "trained"
+    """
+
+    models: dict[str, models.Model] = {
+        "general": AllBrainInstanceModel,
+        "fit": FitBrainInstanceModel,
+        "trained": TrainedBrainInstanceModel,
+    }
+    return models[model_type]
