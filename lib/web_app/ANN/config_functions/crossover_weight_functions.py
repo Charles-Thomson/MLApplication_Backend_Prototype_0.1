@@ -31,7 +31,7 @@ def crossover_weights_mergining(
     return new_weights
 
 
-def get_crossover_weight_func(func_name: str) -> function:
+def get_crossover_weight_func(func_name: str) -> callable:
     """Returns a weight crossover function
     Available:
     "Avg"

@@ -52,7 +52,7 @@ def soft_argmax_activation(vector: np.array) -> int:
     return np.argmax(vector_sum)
 
 
-def get_hidden_activation_func(func_name: str) -> function:
+def get_hidden_activation_func(func_name: str) -> callable:
     """Returns a hidden layer activation function -
     Available:
     "Linear"
@@ -69,7 +69,7 @@ def get_hidden_activation_func(func_name: str) -> function:
     return functions[func_name]
 
 
-def get_output_activation_func(func_name: str) -> function:
+def get_output_activation_func(func_name: str) -> callable:
     """Returns a output layer activation function
     Available:
     "Arg max"

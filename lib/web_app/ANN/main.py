@@ -7,8 +7,6 @@ from ANN.Agent.maze_agent import MazeAgent
 from ANN.Brain.brain_generation import new_brain_generator
 from ANN.Brain.brain_instance import BrainInstance
 
-from ANN.DataBase.database_all_brains import save_all_brain_instance
-
 from ANN.Logging.loggin_decorator import with_generation_logging
 
 from web_page import db_functions

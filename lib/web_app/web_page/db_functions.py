@@ -5,7 +5,7 @@ from ANN.Brain.brain_instance import BrainInstance
 from web_page.models import (
     AllBrainInstanceModel,
     FitBrainInstanceModel,
-    AVAILABLE_MODELS,
+    get_model,
 )
 
 from web_page import brain_instance_handling
@@ -29,7 +29,7 @@ def get_and_format_db_data(generation_num: int, model_type: str) -> list[BrainIn
 
     # Need to define which Model to get from
 
-    selected_model: models.Model = AVAILABLE_MODELS.get(model_type)
+    selected_model: models.Model = get_model(model_type=model_type)
 
     db_models: list[models.Model] = selected_model.objects.filter(
         generation_num=generation_num

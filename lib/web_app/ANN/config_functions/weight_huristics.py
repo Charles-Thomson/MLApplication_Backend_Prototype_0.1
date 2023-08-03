@@ -98,7 +98,7 @@ def normalized_xavier_weight_init_generator(
         yield element
 
 
-def get_weight_huristics(huristics_name: str) -> function:
+def get_weight_huristics(huristics_name: str) -> callable:
     """Returns a weight initialization huristic
     Available:
     "HE"

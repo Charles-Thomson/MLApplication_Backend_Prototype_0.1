@@ -18,9 +18,11 @@ def index(request):
 
     all_fit_brain_instances = FitBrainInstanceModel.objects.all()
     all_brain_instances = AllBrainInstanceModel.objects.all()
+
+    # This is how to return the page
     return render(
         request,
-        "base.html",
+        "flex_base.html",
         {
             "All_BrainInstance_list": all_brain_instances,
             "Fit_BrainInstance_list": all_fit_brain_instances,
