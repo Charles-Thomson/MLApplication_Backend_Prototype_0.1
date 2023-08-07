@@ -35,6 +35,7 @@ def new_brain_generator(
             fitness=0.0,
             traversed_path=[],
             fitness_by_step=[],
+            svg_path="",
         )
 
         yield new_brain

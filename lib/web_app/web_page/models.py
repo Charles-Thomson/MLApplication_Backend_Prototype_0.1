@@ -15,6 +15,7 @@ class AllBrainInstanceModel(models.Model):
 
     traversed_path = models.CharField(max_length=350)
     fitness_by_step = models.CharField(max_length=350)
+    svg_path = models.CharField(max_length=350, default="")
 
 
 class FitBrainInstanceModel(models.Model):
@@ -28,6 +29,7 @@ class FitBrainInstanceModel(models.Model):
     output_weights = models.BinaryField()
     traversed_path = models.CharField(max_length=350)
     fitness_by_step = models.CharField(max_length=350)
+    svg_path = models.CharField(max_length=350, default="")
 
 
 class TrainedBrainInstanceModel(models.Model):
@@ -42,6 +44,7 @@ class TrainedBrainInstanceModel(models.Model):
 
     traversed_path = models.CharField(max_length=350)
     fitness_by_step = models.CharField(max_length=350)
+    svg_path = models.CharField(max_length=350, default="")
 
 
 def get_model(model_type: str) -> models.Model:
