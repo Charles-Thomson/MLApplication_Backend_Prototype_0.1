@@ -9,14 +9,13 @@ MAX_GENERATION_SIZE: int = None
 STARTING_FITNESS_THRESHOLD: float = None
 DESIERED_FIT_GENERATION_SIZE: int = None
 
-
 # Used in: environment_main .py
 
 ENV_MAP: np.array = None
+ENV_MAP_DIMENSIONS: int = None
 
 ENVIRONMENT_START_STATE: int = None
 MAX_EPISODE_DURATION: int = None
-
 
 WEIGHT_INITALIZATION_HEURISTIC: callable = None
 

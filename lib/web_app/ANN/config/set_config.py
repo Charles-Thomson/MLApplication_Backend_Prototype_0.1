@@ -20,8 +20,10 @@ def this_set_config(data: dict) -> None:
     env_map_string: str = data["ENV_MAP"]
     env_map_unshaped: np.array = np.fromstring(env_map_string, dtype=int, sep=",")
     reshape_val: int = int(data["ENV_MAP_DIMENSIONS"])
+
     env_map_shaped: np.array = env_map_unshaped.reshape(reshape_val, -1)
     config.ENV_MAP = env_map_shaped
+    config.ENV_MAP_DIMENSIONS = reshape_val
 
     config.ENVIRONMENT_START_STATE = int(data["ENVIRONMENT_START_STATE"])
     config.MAX_EPISODE_DURATION = int(data["MAX_EPISODE_DURATION"])

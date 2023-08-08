@@ -17,6 +17,8 @@ class BrainInstance:
         traversed_path,
         fitness_by_step,
         svg_path,
+        svg_start,
+        svg_end,
     ):
         self.brain_type = brain_type  # May rename to Model type ?
         self.brain_id: str = brain_id
@@ -27,6 +29,8 @@ class BrainInstance:
         self.traversed_path: list[int] = traversed_path
         self.fitness_by_step: list[float] = fitness_by_step
         self.svg_path: str = svg_path
+        self.svg_start: str = svg_start
+        self.svg_end: str = svg_end
 
     def set_attributes_to_bytes(self) -> None:
         """Covert the np.arrays to bytes for DB storage"""

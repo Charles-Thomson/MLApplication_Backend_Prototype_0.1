@@ -116,6 +116,7 @@
                   <p style="color: black;" class="ui big header black ">Fitness: {{ BrainInstance.fitness }}</p>
                   <p style="color: black;" class="ui big header black ">Generation: {{ BrainInstance.generation_num }}</p>
                   <p style="color: black;" class="ui big header black ">SVG-Path: {{ BrainInstance.svg_path }}</p>
+                  <p style="color: black;" class="ui big header black ">SVG-Path-end: {{ BrainInstance.svg_end }}</p>
                   <a style="color: black;" class="ui red button" href="/delete/{{ BrainInstance.id }}">Delete</a>
               </section>
 
@@ -129,12 +130,28 @@
                                 <rect width="20" height="20" style="fill:white; stroke:black; stroke-width:2; fill-opacity:0.1; stroke-opacity:0.9" />
                             </pattern>
                             </defs>
+
+                            <!-- The start point of the path marked as a circle-->>
+                            <circle cx={{ BrainInstance.svg_start.0 }} cy={{ BrainInstance.svg_start.1 }} r="5" stroke="black" stroke-width="3" fill="black" />
+
+                            <!-- The end point of the path marked by a cross -->>
+                            <line x1={{ BrainInstance.svg_end.0 }} y1={{ BrainInstance.svg_end.1 }} x2={{ BrainInstance.svg_end.2 }} y2={{ BrainInstance.svg_end.3 }} stroke="black" stroke-width="4" />
+                            <line x1={{ BrainInstance.svg_end.4 }} y1={{ BrainInstance.svg_end.5 }} x2={{ BrainInstance.svg_end.6 }} y2={{ BrainInstance.svg_end.7 }} stroke="black" stroke-width="4" />
+
                                 
+                            <!-- Draw the grid based on  pattern -->>
                             <rect width="200px" height="200px" fill="url(#grid)" />
                             
+                            <!-- the main path-->>
                             <path d= {{BrainInstance.svg_path}} style="stroke: black; stroke-width: 4; fill-opacity: 0;">
                               
+                                
+                              
                             </svg>
+
+                
+
+                            
                     
 
                   

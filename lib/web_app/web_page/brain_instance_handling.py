@@ -19,6 +19,8 @@ def brain_instance_to_model(brain_instance: object, model_type: str) -> BrainIns
         traversed_path=brain_instance.traversed_path,
         fitness_by_step=brain_instance.fitness_by_step,
         svg_path=brain_instance.svg_path,
+        svg_start=brain_instance.svg_start,
+        svg_end=brain_instance.svg_end,
     )
 
     return new_db_brain_model
@@ -37,6 +39,8 @@ def model_to_brain_instance(brain_model: BrainInstance) -> BrainInstance:
         traversed_path=brain_model.traversed_path,
         fitness_by_step=brain_model.fitness_by_step,
         svg_path=brain_model.svg_path,
+        svg_start=brain_model.svg_start,
+        svg_end=brain_model.svg_end,
     )
 
     return new_brain_instace
